@@ -1,0 +1,46 @@
+dn: cn=UHAccount,cn=schema,cn=config
+objectClass: olcSchemaConfig
+cn: UHAccount
+olcAttributeTypes: ( 1.3.6.1.4.1.8000.1.1 NAME 'assets'
+  DESC 'assets'
+  EQUALITY integerMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.27 )
+olcAttributeTypes: ( 1.3.6.1.4.1.8000.1.2 NAME 'isAdmin'
+  DESC 'isAdmin'
+  EQUALITY booleanMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.7 )
+olcAttributeTypes: ( 1.3.6.1.4.1.8000.1.3 NAME 'NoCI'
+  DESC 'No. de Identidad del usuario' 
+  SUP serialNumber )
+olcAttributeTypes: ( 1.3.6.1.4.1.8000.1.4 NAME 'openDate'
+  DESC 'openDate' 
+  EQUALITY generalizedTimeMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.24 )
+olcAttributeTypes: ( 1.3.6.1.4.1.8000.1.5 NAME 'closeDate'
+  DESC 'closeDate' 
+  EQUALITY generalizedTimeMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.24 )
+olcAttributeTypes: ( 1.3.6.1.4.1.8000.1.6 NAME 'connectionCharge'
+  DESC 'connectionCharge'
+  EQUALITY integerMatch
+  ORDERING integerOrderingMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.27 )
+olcAttributeTypes: ( 1.3.6.1.4.1.8000.1.7 NAME 'emailCharge'
+  DESC 'emailCharge' 
+  SUP connectionCharge )
+olcAttributeTypes: ( 1.3.6.1.4.1.8000.1.8 NAME 'internetCharge'
+  DESC 'internetCharge' 
+  SUP connectionCharge )
+olcAttributeTypes: ( 1.3.6.1.4.1.8000.1.9 NAME 'chatCharge'
+  DESC 'chatCharge' 
+  SUP connectionCharge )
+olcObjectClasses: ( 1.3.6.1.4.1.8000.2.1 NAME 'UHAccount'
+  DESC 'Base user account for UH`s authentication system'
+  SUP person
+  MUST (userPassword $ email )
+  MAY (givenName $ NoCI $ assets $ isAdmin ))
+olcObjectClasses: ( 1.3.6.1.4.1.8000.2.2 NAME 'UHAccountAttribute'
+  DESC 'Charge Attribute for UHAccount'
+  SUP top
+  MUST ( openDate $ closeDate )
+  MAY ( emailCharge $  internetCharge $ chatCharge ))

@@ -1,0 +1,15 @@
+dn: cn=user2,ou=usuarios,dc=ldap,dc=local,dc=uh,dc=cu
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: user2
+cn: user2
+givenname: user2
+sn: user2
+uidNumber: 5002
+gidNumber: 10000
+userPassword: user2
+loginshell: /bin/bash
+homeDirectory: /home/nfs/user2
+mail: user2@ldap.local.uh.cu
+

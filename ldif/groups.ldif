@@ -1,0 +1,5 @@
+dn: cn=groupIX,ou=grupos,dc=ldap,dc=local,dc=uh,dc=cu
+objectClass: posixGroup
+cn: groupIX
+gidNumber: 10000
+

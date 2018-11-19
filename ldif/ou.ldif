@@ -1,0 +1,7 @@
+dn: ou=usuarios,dc=ldap,dc=uh,dc=cu
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: ou=grupos,dc=ldap,dc=uh,dc=cu
+objectClass: organizationalUnit
+ou: grupos
