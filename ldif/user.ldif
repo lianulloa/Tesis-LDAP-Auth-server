@@ -1,0 +1,15 @@
+dn: cn=user1,ou=usuarios,dc=ldap,dc=uh,dc=cu
+objectClass: UHAccount
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: user1
+cn: user1
+givenname: user1
+sn: user
+uidNumber: 5001
+gidNumber: 10000
+userPassword: user1
+loginshell: /bin/bash
+homeDirectory: /home/nfs/user1
+email: user1@ldap.uh.cu
+
