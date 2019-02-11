@@ -1,0 +1,5 @@
+version: '3'
+services:
+  main:
+    build: ../dockerfiles/LDAP-Dockerfile
+    container_name: ldap_main
