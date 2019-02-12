@@ -1,2 +1,4 @@
 Notes.md
 tmp/*
+__pycache__/
+*.py[cod]
