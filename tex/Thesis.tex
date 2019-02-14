@@ -1,0 +1,87 @@
+\documentclass[11pt, oneside]{uhthesis}
+
+\usepackage{authblk}
+\usepackage{subfigure}
+\usepackage{csquotes}
+\usepackage{listings}
+\lstset{
+    numbers=left,
+    basicstyle=\small,
+    numbersep=-0.5em,
+    tabsize=3,
+    breaklines=true
+}
+\usepackage[toc]{glossaries}
+\makeglossaries
+
+\title{Implementación de un sistema de autenticación de usuarios basado en LDAP}
+\author {Eric Nordelo Galiano \authorcr Lian Ulloa Mc-kion }
+
+
+\advisor{Lic. Gilberto Garcia}
+\coadvisor{Lic. Darío Álvarez Arteaga}
+\degree{Licenciado en Ciencias de la Computación}
+\faculty{Facultad de Matemática y Computación}
+
+\date{Junio de 2019}
+
+\logo{Graphics/uhlogo}
+
+\qr{Graphics/qr}%TODO generate actual qr
+
+\makenomenclature
+
+
+
+\begin{document}
+
+
+
+\frontmatter
+
+\maketitle
+
+\include{FrontMatter/Dedication}
+
+\include{FrontMatter/Acknowledgements}
+
+\include{FrontMatter/SupervisorOpinion}
+
+\include{FrontMatter/Abstract}
+
+\include{FrontMatter/EnglishAbstract}
+
+\include{FrontMatter/Contents}
+
+
+
+\mainmatter
+
+\include{MainMatter/Introduction}
+
+\include{MainMatter/Background}
+
+\include{MainMatter/StateOfTheArt}
+
+\include{MainMatter/SystemImplementation}
+
+%\include{MainMatter/SystemConfiguration}
+
+\include{MainMatter/ExperimentationAndResults}
+
+
+
+\backmatter
+
+\include{BackMatter/Recommendations}
+
+\include{BackMatter/Conclusions}
+
+\include{BackMatter/Bibliography}
+
+\include{BackMatter/Glossary}
+
+
+
+\end{document}
+
