@@ -1,46 +1,112 @@
 dn: cn=UHAccount,cn=schema,cn=config
 objectClass: olcSchemaConfig
 cn: UHAccount
-olcAttributeTypes: ( 1.3.6.1.4.1.8000.1.1 NAME 'assets'
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.1 NAME 'assets'
   DESC 'assets'
   EQUALITY integerMatch
   SYNTAX 1.3.6.1.4.1.1466.115.121.1.27 )
-olcAttributeTypes: ( 1.3.6.1.4.1.8000.1.2 NAME 'isAdmin'
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.2 NAME 'isAdmin'
   DESC 'isAdmin'
   EQUALITY booleanMatch
   SYNTAX 1.3.6.1.4.1.1466.115.121.1.7 )
-olcAttributeTypes: ( 1.3.6.1.4.1.8000.1.3 NAME 'NoCI'
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.3 NAME 'NoCI'
   DESC 'No. de Identidad del usuario' 
   SUP serialNumber )
-olcAttributeTypes: ( 1.3.6.1.4.1.8000.1.4 NAME 'openDate'
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.4 NAME 'datetime'
+  DESC 'datetime' 
+  EQUALITY generalizedTimeMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.24 )
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.5 NAME 'openDate'
   DESC 'openDate' 
-  EQUALITY generalizedTimeMatch
-  SYNTAX 1.3.6.1.4.1.1466.115.121.1.24 )
-olcAttributeTypes: ( 1.3.6.1.4.1.8000.1.5 NAME 'closeDate'
+  SUP datetime )
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.6 NAME 'closeDate'
   DESC 'closeDate' 
-  EQUALITY generalizedTimeMatch
-  SYNTAX 1.3.6.1.4.1.1466.115.121.1.24 )
-olcAttributeTypes: ( 1.3.6.1.4.1.8000.1.6 NAME 'connectionCharge'
+  SUP datetime )
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.7 NAME 'connectionCharge'
   DESC 'connectionCharge'
   EQUALITY integerMatch
   ORDERING integerOrderingMatch
   SYNTAX 1.3.6.1.4.1.1466.115.121.1.27 )
-olcAttributeTypes: ( 1.3.6.1.4.1.8000.1.7 NAME 'emailCharge'
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.8 NAME 'emailCharge'
   DESC 'emailCharge' 
   SUP connectionCharge )
-olcAttributeTypes: ( 1.3.6.1.4.1.8000.1.8 NAME 'internetCharge'
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.9 NAME 'internetCharge'
   DESC 'internetCharge' 
   SUP connectionCharge )
-olcAttributeTypes: ( 1.3.6.1.4.1.8000.1.9 NAME 'chatCharge'
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.10 NAME 'chatCharge'
   DESC 'chatCharge' 
   SUP connectionCharge )
-olcObjectClasses: ( 1.3.6.1.4.1.8000.2.1 NAME 'UHAccount'
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.11 NAME 'guid'
+  DESC 'guid' 
+  EQUALITY caseExactMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.44 )
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.12 NAME 'CISerial'
+  DESC 'CISerial'
+  SUP serialNumber )
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.13 NAME 'genericVarChar'
+  DESC 'genericVarChar from which other fields like this' 
+  EQUALITY caseIgnoreMatch
+  SUBSTR caseIgnoreSubstringsMatch 
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.44 )
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.14 NAME 'comment'
+  DESC 'Comment' 
+  SUP genericVarChar )
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.15 NAME 'question'
+  DESC 'Security question' 
+  SUP genericVarChar )
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.16 NAME 'answer'
+  DESC 'Security answer' 
+  SUP genericVarChar )
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.17 NAME 'system'
+  DESC 'User access system' 
+  SUP genericVarChar )
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.18 NAME 'authentication'
+  DESC 'if user authenticated when accessing' 
+  EQUALITY booleanMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.7 )
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.19 NAME 'token'
+  DESC 'User login token' 
+  SUP genericVarChar )
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.20 NAME 'url'
+  DESC 'Web service url' 
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+olcAttributeTypes: ( 1.3.6.1.4.1.53027.1.21 NAME 'method'
+  DESC 'Web service method' 
+  SUP genericVarChar )
+olcObjectClasses: ( 1.3.6.1.4.1.53027.2.1 NAME 'UHAccount'
   DESC 'Base user account for UH`s authentication system'
   SUP person
   MUST (userPassword $ email )
   MAY (givenName $ NoCI $ assets $ isAdmin ))
-olcObjectClasses: ( 1.3.6.1.4.1.8000.2.2 NAME 'UHAccountAttribute'
+olcObjectClasses: ( 1.3.6.1.4.1.53027.2.2 NAME 'UHAccountAttribute'
   DESC 'Charge Attribute for UHAccount'
   SUP top
   MUST ( openDate $ closeDate )
   MAY ( emailCharge $  internetCharge $ chatCharge ))
+olcObjectClasses: ( 1.3.6.1.4.1.53027.2.3 NAME 'UHAccountDirtyUser'
+  DESC 'Information about dirty users'
+  SUP top
+  MUST ( guid $ datetime $ assets ) )
+olcObjectClasses: ( 1.3.6.1.4.1.53027.2.4 NAME 'UHAccountExtern'
+  DESC 'Information about extern users'
+  SUP top
+  MUST ( CISerial )
+  MAY  ( comment ) )
+olcObjectClasses: ( 1.3.6.1.4.1.53027.2.5 NAME 'UHAccountSecurity'
+  DESC 'User security Q&A'
+  SUP top
+  MUST ( question $ answer ) )
+olcObjectClasses: ( 1.3.6.1.4.1.53027.2.6 NAME 'UHAccountUserHistory'
+  DESC 'Access user history'
+  SUP top
+  MUST ( 1.3.6.1.1.1.1.19 $ datetime $ system )
+  MAY  ( authentication ) )
+olcObjectClasses: ( 1.3.6.1.4.1.53027.2.7 NAME 'UHAccountUserLogin'
+  DESC 'User Login Tokens'
+  SUP top
+  MUST ( token $ datetime ) )
+olcObjectClasses: ( 1.3.6.1.4.1.53027.2.8 NAME 'UHAccountWebServices'
+  DESC 'Web Services'
+  SUP top
+  MUST ( url $ method ) )
+
