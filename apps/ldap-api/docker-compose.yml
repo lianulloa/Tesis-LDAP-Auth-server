@@ -5,6 +5,8 @@ services:
     build: .
     image: flask_restful
     container_name: ldap_api
+    environment: 
+            - LDAP_SERVER_URI=''
     expose: 
       - 5000
     ports:
