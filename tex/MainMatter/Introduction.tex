@@ -1,0 +1,13 @@
+\begin{introduction}
+Actualmente la red de la Universidad de La Habana, cuenta con un gran número de servicios, de los cuales la gran mayoría requiere que el usuario este autenticado para poder hacer uso de dichos servicios. De estos servicios se benefician no solo las facultades pertenecientes a la Universidad, sino que también son utilizados por otras instituciones asociadas a la misma. Debido a esto, existen varias fuentes que proveen tanto credenciales como información detallada de los usuarios que pretenden utilizar esto servicios. Con el objetivo de centralizar el control de acceso, se han ido acumulando, sobre el sitio de Directorio Único (directorio.uh.cu), actualizaciones aisladas para poder integrar y administrar varias fuentes y servicios. Esto provoca que sea muy complicado realizar una administración eficiente de la información almacenada, así como proveer servicio de autenticación para los nuevos servicios que van surgiendo.
+
+\textbf{El protocolo LDAP ( Lightweight Directory Access Protocol ).}
+
+Este protocolo  brinda un esquema similar al de una guía telefónica, implementando un enfoque jerárquico para el almacenamiento de la información. Además existe una interfaz de autenticación para la mayoría de los servicios que administran usuarios y permisos, que utiliza como fuente de información a servidores que implementen este protocolo. 
+Partiendo de la problemática existente la autenticación de los servicios que se brindan en el recinto universitario, se ha formulado la siguiente hipótesis de investigación: mediante el sistema de autenticación basado en protocolo LDAP se solucionará la administración eficiente de la información y los servicios en la Universidad de La Habana 
+
+El objetivo de esta tesis, es comprobar si se puede sustituir el actual sistema por un sistema de autenticación basado en el protocolo LDAP ( Lightweight Directory Access Protocol )
+
+Para esto es necesario investigar sobre el estado del arte de los sistemas que implementan este protocolo, así como la disponibilidad que brindan. Además es necesario automatizar el proceso de recopilar la información provista por estas fuentes, para lo cual se diseñará una esquema de base de datos, guiado por el protocolo LDAP, que se adapte a la estructura de los datos almacenados actualmente. Como último objetivo, se plantea implementar una \textit{API} acorde con el protocolo OpenId para facilitar la autenticación para futuros servicios.
+
+\end{introduction} 
