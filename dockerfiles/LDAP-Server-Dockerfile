@@ -16,18 +16,3 @@ RUN sed -i -re "s/'server','name','My LDAP Server'/'server','name','MATCOM LDAP'
 RUN sed -i -re "s/'dc=example,dc=com'/'${SERVER_DN}'/" /etc/phpldapadmin/config.php
 RUN sed -i -re "s/$servers->setValue\('login','bind_id','cn=admin,dc=example,dc=com'\);/$servers->setValue\('login','bind_id','cn=admin,dc=ldap,dc=uh,dc=cu'\);/" /etc/phpldapadmin/config.php
 RUN sed -i -re "s/\/\* Hide the warnings for invalid objectClasses\/attributes in templates. \*\//\$config->custom->appearance\['hide_template_warning'\] = true;/" /etc/phpldapadmin/config.php
-
-#VOLUME [ "/root/ldap/schema" ]
-#COPY ldif /root/ldap/schema
-
-# CMD /bin/bash
-
-#COPY /scripts/start-service.sh /root/ldap/
-#RUN chmod +x /root/ldap/start-service.sh
-
-#COPY /scripts/configure-ldap-client-using-expect.sh /root/ldap/
-#RUN chmod +x /root/ldap/configure-ldap-client-using-expect.sh
-
-#ENTRYPOINT [ "/root/ldap/start-service.sh" ]
-
-# EXPOSE 80 443
