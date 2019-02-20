@@ -99,7 +99,7 @@ olcObjectClasses: ( 1.3.6.1.4.1.53027.2.5 NAME 'UHAccountSecurity'
 olcObjectClasses: ( 1.3.6.1.4.1.53027.2.6 NAME 'UHAccountUserHistory'
   DESC 'Access user history'
   SUP top
-  MUST ( 1.3.6.1.1.1.1.19 $ datetime $ system )
+  MUST ( ipHostNumber $ datetime $ system )
   MAY  ( authentication ) )
 olcObjectClasses: ( 1.3.6.1.4.1.53027.2.7 NAME 'UHAccountUserLogin'
   DESC 'User Login Tokens'
