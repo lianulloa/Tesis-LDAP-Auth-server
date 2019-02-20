@@ -1,0 +1,33 @@
+FROM ubuntu:16.04 
+MAINTAINER Lian Ulloa l.ulloa@estudiantes.matcom.uh.cu
+
+COPY resources/uh.list /etc/apt/sources.list.d/
+COPY scripts/configure-ldap-installation.sh /root/
+RUN chmod +x /root/configure-ldap-installation.sh
+RUN mv /etc/apt/sources.list /etc/apt/sources.list.disabled
+
+ENV SERVER_DOMAIN="ldap.uh.cu" SERVER_PASSWORD="insecurepassword" SERVER_DN="dc=ldap,dc=uh,dc=cu"
+RUN apt-get update && apt-get -y install apache2 expect vim
+
+RUN expect /root/configure-ldap-installation.sh
+RUN apt-get install -y phpldapadmin
+
+RUN sed -i -re "s/'server','name','My LDAP Server'/'server','name','MATCOM LDAP'/" /etc/phpldapadmin/config.php
+RUN sed -i -re "s/'dc=example,dc=com'/'${SERVER_DN}'/" /etc/phpldapadmin/config.php
+RUN sed -i -re "s/$servers->setValue\('login','bind_id','cn=admin,dc=example,dc=com'\);/$servers->setValue\('login','bind_id','cn=admin,dc=ldap,dc=uh,dc=cu'\);/" /etc/phpldapadmin/config.php
+RUN sed -i -re "s/\/\* Hide the warnings for invalid objectClasses\/attributes in templates. \*\//\$config->custom->appearance\['hide_template_warning'\] = true;/" /etc/phpldapadmin/config.php
+
+#VOLUME [ "/root/ldap/schema" ]
+#COPY ldif /root/ldap/schema
+
+# CMD /bin/bash
+
+#COPY /scripts/start-service.sh /root/ldap/
+#RUN chmod +x /root/ldap/start-service.sh
+
+#COPY /scripts/configure-ldap-client-using-expect.sh /root/ldap/
+#RUN chmod +x /root/ldap/configure-ldap-client-using-expect.sh
+
+#ENTRYPOINT [ "/root/ldap/start-service.sh" ]
+
+# EXPOSE 80 443
