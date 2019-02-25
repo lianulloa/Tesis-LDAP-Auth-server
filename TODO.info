@@ -1,17 +1,6 @@
-Buscar las implementaciones de LDAP: con ventajas y desventajas de cada una,
-conocer a fondo que es LDAP(OpenLDAP)
-instalar OpenLDAP, poblarlo con datos de ejemplo y jugar con eso, hacer queries elementales de un CRUD
-
-Tarea para el jueves:
-    Hacer una propuesta de estructura de directorio para representar el problema de la universidad
-
-
-Preguntas:
-    porque ldaps es considerado obsoleto
-    es necesario implementar mas de un servidor de ldap
-
-
 18/11/2018
 Debido a que heredo de person:ObjectClass, los datos de la tabla Datos Generales
 los subí a la tabla user, porque person provee un campo sn el cual es el campo destinado para los apellidos los cuales forman la mitad de los datos
 de la tabla Datos Generales y el resto de los campos de esta tabla caben en la tabla User
+
+TODO: check why docker container only stays up if I run it with -it option
