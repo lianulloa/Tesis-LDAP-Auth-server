@@ -13,5 +13,6 @@ send "no\r"
 expect "LDAP account for root: "
 send "cn=admin,dc=ldap,dc=uh,dc=cu\r"
 expect "LDAP root account password: "
+send "insecurepassword\r"
 interact 
 
