@@ -2,14 +2,14 @@ FROM matcom-lian/ubuntu-ldap-phpldapadmin:latest
 MAINTAINER Lian Ulloa l.ulloa@estudiantes.matcom.uh.cu
 
 VOLUME [ "/root/ldap/schema" ]
-COPY ../ldif /root/ldap/schema
+COPY ldif /root/ldap/schema
 
 # CMD /bin/bash
 
-COPY ../scripts/start-service.sh /root/ldap/
+COPY /scripts/start-service.sh /root/ldap/
 RUN chmod +x /root/ldap/start-service.sh
 
-COPY ../scripts/configure-ldap-client-using-expect.sh /root/ldap/
+COPY /scripts/configure-ldap-client-using-expect.sh /root/ldap/
 RUN chmod +x /root/ldap/configure-ldap-client-using-expect.sh
 
 ENTRYPOINT [ "/root/ldap/start-service.sh" ]
