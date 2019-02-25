@@ -6,17 +6,26 @@ import ldap
 import parser
 import utils
 
+# Inicializando la aplicación de flask en modo API
 app = Flask(__name__)
 api = Api(app)
 
-ldap.initialize(os.getenv('LDAP_SERVER_URI'))
+# Inicializando la estructura pero sin conectarse aún (lazy connect)
+ldap_server = ldap.initialize(os.getenv('LDAP_SERVER_URI'), 
+                             trace_level=utils.DEBUG_LEVEL[os.getenv('PYTHON_LDAP_DEBUG_LVL')],
+                             trace_file=open('/api/log/python_ldap.log','w+'))
 
 class Users(Resource):
     def get(self):
-        return {'users': []}
+        users_accounts = ldap_server.search_s('cn=UHAccount,cn=schema,cn=config', ldap.SCOPE_SUBTREE)
+        return jsonify({'users': users_accounts})
 
 class User(Resource):
     def get(self, user_id):
+        result = {'user_data': []}
+        return jsonify(result)
+    
+    def post(self, user_id):
         result = {'user_data': []}
         return jsonify(result)
 
