@@ -1,6 +1,6 @@
 
 ##################################################################
-# Variables de propósito general para uso del API
+# Variables y constantes de propósito general para uso del API
 ##################################################################
 
 """

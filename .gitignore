@@ -2,3 +2,4 @@ Notes.md
 tmp/*
 __pycache__/
 *.py[cod]
+apps/ldap-api/log/*

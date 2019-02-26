@@ -6,8 +6,8 @@ services:
     image: flask_restful
     container_name: ldap_api
     environment: 
-            - LDAP_SERVER_URI="${LDAP_SERVER_URI}"
-            - PYTHON_LDAP_DEBUG_LVL="${PYTHON_LDAP_DEBUG_LVL}""
+            - LDAP_API_ENVIRONMENT=${LDAP_API_ENVIRONMENT}
+            - FLASK_ENV=${LDAP_API_ENVIRONMENT}
     expose: 
       - 5000
     ports:
@@ -21,4 +21,4 @@ services:
 networks: 
   default:
     external:
-      - tesis
+      name: tesis
