@@ -5,7 +5,7 @@ expect "Administrator password: "
 send "$env(SERVER_PASSWORD)\r"
 expect "Confirm password: "
 send "$env(SERVER_PASSWORD)\r"
-sleep 10
+sleep 15
 
 spawn dpkg-reconfigure slapd
 expect "Omit OpenLDAP server configuration?"
