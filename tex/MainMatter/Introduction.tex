@@ -1,13 +1,36 @@
 \begin{introduction}
-Actualmente la red de la Universidad de La Habana, cuenta con un gran número de servicios, de los cuales la gran mayoría requiere que el usuario este autenticado para poder hacer uso de dichos servicios. De estos servicios se benefician no solo las facultades pertenecientes a la Universidad, sino que también son utilizados por otras instituciones asociadas a la misma. Debido a esto, existen varias fuentes que proveen tanto credenciales como información detallada de los usuarios que pretenden utilizar esto servicios. Con el objetivo de centralizar el control de acceso, se han ido acumulando, sobre el sitio de Directorio Único (directorio.uh.cu), actualizaciones aisladas para poder integrar y administrar varias fuentes y servicios. Esto provoca que sea muy complicado realizar una administración eficiente de la información almacenada, así como proveer servicio de autenticación para los nuevos servicios que van surgiendo.
+Desde la propuesta de Leonard Kleinrock en el año 1961 en un artículo titulado \verb@"Information Flow in Large Communication Nets"@ (traducido ha
+\verb@"Flujo de Información en Grandes Redes de Comunicación"@), y el uso del término
+\verb@"paquete"@ en 1965 por Donald Davies para describir datos enviados entre computadoras
+en una red, que impulsarían el desarrollo de ARPANET entre 1966 y 1969, el planeta
+entró en una nueva etapa que revolucionó el desarrollo en todos los campos 
+tecnológicos: la \verb@"Era Digital"@ o \verb@"Era de la Información"@. Esta era gira
+en torno a las nuevas tecnologías e Internet y está llevando a cabo cambios profundos y
+transformaciones en una sociedad donde la automatización de los procesos mejora
+considerablemente la calidad, rapidez y robustez de los mismos, y donde la conectividad
+mediante las redes de dispositivos (no puede hablarse solo de computadoras) facilitan 
+la comunicación y la organización tanto de personas como de empresas y organismos. 
 
-\textbf{El protocolo LDAP ( Lightweight Directory Access Protocol ).}
+Una de las ventajas que trae consigo el establecimiento de redes de dispositivos es
+la posibilidad de descentralizar el almacenamiento de información manteniendo un adecuado acceso a la misma. Actualmente la red de la Universidad de La Habana cuenta con un gran número de servicios consumidores o fuentes de diferentes tipos de información, pero carece de un servicio que \verb@"administre"@ el flujo de comunicación con los mismos. De estos servicios se benefician no solo las facultades pertenecientes a la Universidad, también se benefician otras instituciones asociadas a la misma como el Instituto Superior de Diseño (ISDI) y el Instituto Superior de Ciencias y Tecnologías Aplicadas (InSTEC). La gran mayoría  de estos servicios requiere que el la verificación previa del usuario que solicita acceder o agregar información a los mismos, por lo que con el objetivo de centralizar el proceso de verificación se han ido acumulando sobre un dominio web (directorio.uh.cu) varias actualizaciones  aisladas que conforman lo que se conoce como "Directorio Único de la Universidad de La Habana" para poder integrar y administrar servicios que funcionan sobre diferentes tecnologías. Esto  trae consigo dificultad a la hora de integrar nuevos servicios al directorio, así como inestabilidad y falta de robustez en el servicio de verificación y solicitud de información almacenada.
+
+Dicho esto, el objetivo de este proyecto es proveer a la Universidad de La Habana de un
+servicio que se encargue de administrar estos procesos de manera confiable y eficiente,
+que además sea fácil de integrar y fácil de modificar (implementar mejoras).
+
+Para lograr esto surgen varias preguntas a responder como por ejemplo: ¿qué método 
+se debería utilizar para almacenar la información?, ¿qué método se debería utilizar 
+para acceder a la misma?, ¿qué método usar para mantener la informacón actualizada?... 
+
+Como respuesta a la primera pregunta, después de analizar distintos métodos para gestionar información, debido a las características del problema que enfrentamos llegamos a la conclusión que lo mejor es almacenarla en una estructura de directorios. La principal ventaja de esto sobre las bases de datos relacionales (y no relacionales) es la velocidad para realizar consultas sobre grandes volúmenes de datos (perdiendo en velocidad de modificación de los mismos, tanto en actualizaciones, como en inserciones y eliminaciones).
+
+Decidido esto y después de analizar diversas maneras de manejar una estructura de directorios optamos por el LDAP (Lightweight Directory Access Protocol o Protocolo Ligero de Acceso a Directorios) como protocolo de acceso y OpenLDAP como implementación del mismo.
 
 Este protocolo  brinda un esquema similar al de una guía telefónica, implementando un enfoque jerárquico para el almacenamiento de la información. Además existe una interfaz de autenticación para la mayoría de los servicios que administran usuarios y permisos, que utiliza como fuente de información a servidores que implementen este protocolo. 
-Partiendo de la problemática existente la autenticación de los servicios que se brindan en el recinto universitario, se ha formulado la siguiente hipótesis de investigación: mediante el sistema de autenticación basado en protocolo LDAP se solucionará la administración eficiente de la información y los servicios en la Universidad de La Habana 
+Partiendo de la problemática existente la autenticación de los servicios que se brindan en el recinto universitario, se ha formulado la siguiente hipótesis de investigación: mediante el sistema de autenticación basado en protocolo LDAP se solucionará la administración eficiente de la información y los servicios en la Universidad de La Habana.
 
-El objetivo de esta tesis, es comprobar si se puede sustituir el actual sistema por un sistema de autenticación basado en el protocolo LDAP ( Lightweight Directory Access Protocol )
+Con esta tesis queremos sustituir el actual sistema de directorio único por un sistema de autenticación basado en el protocolo LDAP.
 
-Para esto es necesario investigar sobre el estado del arte de los sistemas que implementan este protocolo, así como la disponibilidad que brindan. Además es necesario automatizar el proceso de recopilar la información provista por estas fuentes, para lo cual se diseñará una esquema de base de datos, guiado por el protocolo LDAP, que se adapte a la estructura de los datos almacenados actualmente. Como último objetivo, se plantea implementar una \textit{API} acorde con el protocolo OpenId para facilitar la autenticación para futuros servicios.
+Para esto es necesario investigar sobre el estado del arte de los sistemas que implementan este protocolo, así como la disponibilidad que brindan. Además es necesario automatizar el proceso de recopilar la información provista por estas fuentes, para lo cual se diseñará una esquema de base de datos, guiado por el protocolo LDAP, que se adapte a la estructura de los datos almacenados actualmente. Por último, se plantea implementar una \textit{API} acorde con el protocolo OpenId para facilitar la autenticación para futuros servicios.
 
 \end{introduction} 

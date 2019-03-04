@@ -20,11 +20,14 @@ def abort_if_todo_doesnt_exist(todo_id):
     if todo_id not in TODOS:
         abort(404, message="Todo {} doesn't exist".format(todo_id))
 
+##################################################################
+# Clases auxiliares para el API
+##################################################################
 
 import json
 
 class MyEncoder(json.JSONEncoder):
-	'''Pass this class to "cls" kwarg of json.dumps method'''
+    '''Pass this class to "cls" kwarg of json.dumps method'''
     def default(self,o):
         if type(o) is bytes:
             return o.decode('utf-8')

@@ -23,14 +23,17 @@ class Users(Resource):
     def get(self):
         unparsed_args = request.args
         parsed_args = unparsed_args
-        args = [ "%s=%s" % (key, parsed_args[key]) for key in parsed_args]
+        args = [ "(%s=%s)" % (key, parsed_args[key]) for key in parsed_args]
         ldap_search_filter_string = ""
         users_accounts = ldap_server.search_s("ou=usuarios,dc=ldap,dc=uh,dc=cu", ldap.SCOPE_ONELEVEL)
+
         # TODO: Arreglar este parche para llevar a JSON con las tuplas y los bytes
         users_accounts = str({x[0] : x[1] for x in users_accounts})
-        users_accounts = users_accounts.replace("'", '"').replace('b"', '"').replace(' b"', '"').replace(',b"', '"').replace('[b"', '"').replace('\"', '"')
-        users_accounts = json.loads(users_accounts)
-        return jsonify({'users': users_accounts})
+        
+        # users_accounts = users_accounts.replace("'", '"').replace('b"', '"').replace(' b"', '"').replace(',b"', '"').replace('[b"', '"').replace('\"', '"')
+        users_accounts_json = json.dumps(users_accounts, cls=utils.MyEncoder)
+
+        return jsonify({'users': users_accounts_json})
 
 class User(Resource):
     def get(self, user_id):
