@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.2.14)  7 MAR 2019 11:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.2.14)  12 MAR 2019 03:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1271,27 +1271,9 @@ Package: glossary-tree 2017/01/19 v4.29 (NLCT)
 \openout5 = `Thesis.glo'.
 
 Package glossaries Info: Writing glossary file Thesis.glo on input line 16.
-
-
-! LaTeX Error: Option clash for package inputenc.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 
-     
-The package inputenc has already been loaded with options:
-  [utf8]
-There has now been an attempt to load it with options
-  [latin1]
-Adding the global options:
-  utf8,latin1
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
-
 \@nomenclaturefile=\write6
 \openout6 = `Thesis.nlo'.
+
 
 Writing nomenclature file Thesis.nlo
 Package csquotes Info: Checking for multilingual support...
@@ -1312,26 +1294,26 @@ LaTeX Info: Redefining \% on input line 29.
 (./BackMatter/Glossary.aux))
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 37.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
 
 babelbib: Set bibliography fall-back language to spanish
 (/usr/share/texlive/texmf-dist/tex/latex/babelbib/spanish.bdf
@@ -1372,7 +1354,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box47
-Package hyperref Info: Link coloring ON on input line 38.
+Package hyperref Info: Link coloring ON on input line 37.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1382,9 +1364,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count195
 )
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
 
 (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write7
@@ -1394,278 +1376,278 @@ LaTeX Info: Redefining \nameref on input line 38.
 babelbib: Add a command to \bibsspanish
 babelbib: Set language for keywords in the bibliography fixed to spanish
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 37.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 38.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@A' on input line 38.
+(hyperref)                removing `\<let>-command' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@Askip' on input line 38.
+(hyperref)                removing `\calc@A' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 38.
+(hyperref)                removing `\calc@Askip' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@B' on input line 38.
+(hyperref)                removing `\<let>-command' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@Bskip' on input line 38.
+(hyperref)                removing `\calc@B' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 38.
+(hyperref)                removing `\calc@Bskip' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\aftergroup' on input line 38.
+(hyperref)                removing `\begingroup' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@B' on input line 38.
+(hyperref)                removing `\aftergroup' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@A' on input line 38.
+(hyperref)                removing `\calc@B' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 38.
+(hyperref)                removing `\calc@A' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\aftergroup' on input line 38.
+(hyperref)                removing `\begingroup' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@B' on input line 38.
+(hyperref)                removing `\aftergroup' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@A' on input line 38.
+(hyperref)                removing `\calc@B' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\afterassignment' on input line 38.
+(hyperref)                removing `\calc@A' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 38.
+(hyperref)                removing `\afterassignment' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@next' on input line 38.
+(hyperref)                removing `\<def>-command' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@next' on input line 38.
+(hyperref)                removing `\calc@next' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@A' on input line 38.
+(hyperref)                removing `\calc@next' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\affilsep' on input line 38.
+(hyperref)                removing `\calc@A' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\global' on input line 38.
+(hyperref)                removing `\affilsep' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@A' on input line 38.
+(hyperref)                removing `\global' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@B' on input line 38.
+(hyperref)                removing `\calc@A' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\endgroup' on input line 38.
+(hyperref)                removing `\calc@B' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@affilsep' on input line 38.
+(hyperref)                removing `\endgroup' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@B' on input line 38.
+(hyperref)                removing `\@affilsep' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 38.
+(hyperref)                removing `\calc@B' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 38.
+(hyperref)                removing `\\' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@A' on input line 38.
+(hyperref)                removing `\<let>-command' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@Askip' on input line 38.
+(hyperref)                removing `\calc@A' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 38.
+(hyperref)                removing `\calc@Askip' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@B' on input line 38.
+(hyperref)                removing `\<let>-command' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@Bskip' on input line 38.
+(hyperref)                removing `\calc@B' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 38.
+(hyperref)                removing `\calc@Bskip' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\aftergroup' on input line 38.
+(hyperref)                removing `\begingroup' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@B' on input line 38.
+(hyperref)                removing `\aftergroup' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@A' on input line 38.
+(hyperref)                removing `\calc@B' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 38.
+(hyperref)                removing `\calc@A' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\aftergroup' on input line 38.
+(hyperref)                removing `\begingroup' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@B' on input line 38.
+(hyperref)                removing `\aftergroup' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@A' on input line 38.
+(hyperref)                removing `\calc@B' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\afterassignment' on input line 38.
+(hyperref)                removing `\calc@A' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 38.
+(hyperref)                removing `\afterassignment' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@next' on input line 38.
+(hyperref)                removing `\<def>-command' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@next' on input line 38.
+(hyperref)                removing `\calc@next' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@A' on input line 38.
+(hyperref)                removing `\calc@next' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\affilsep' on input line 38.
+(hyperref)                removing `\calc@A' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\global' on input line 38.
+(hyperref)                removing `\affilsep' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@A' on input line 38.
+(hyperref)                removing `\global' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@B' on input line 38.
+(hyperref)                removing `\calc@A' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\endgroup' on input line 38.
+(hyperref)                removing `\calc@B' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@affilsep' on input line 38.
+(hyperref)                removing `\endgroup' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\calc@B' on input line 38.
+(hyperref)                removing `\@affilsep' on input line 37.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\calc@B' on input line 37.
 
 \c@lstlisting=\count196
 ABD: EveryShipout initializing macros (./Thesis.glsdefs)
 <Graphics/uhlogo.pdf, id=123, 401.5pt x 513.92pt>
 File: Graphics/uhlogo.pdf Graphic file (type pdf)
  <use Graphics/uhlogo.pdf>
-Package pdftex.def Info: Graphics/uhlogo.pdf used on input line 44.
+Package pdftex.def Info: Graphics/uhlogo.pdf used on input line 43.
 (pdftex.def)             Requested size: 49.79231pt x 63.73012pt.
 
 <Graphics/qr.png, id=124, 200.75pt x 200.75pt>
 File: Graphics/qr.png Graphic file (type png)
  <use Graphics/qr.png>
-Package pdftex.def Info: Graphics/qr.png used on input line 44.
+Package pdftex.def Info: Graphics/qr.png used on input line 43.
 (pdftex.def)             Requested size: 85.35826pt x 85.35896pt.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 44.
  [1
 
 \openout4 = `Thesis.ist'.
@@ -1676,6 +1658,46 @@ Graphics/qr.png>]
 
  (./FrontMatter/Dedication.tex)
 Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 44.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 44.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 44.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 44.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 44.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 44.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 44.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 44.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 44.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 44.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 44.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 44.
+ [2
+
+
+]
+\openout2 = `FrontMatter/Acknowledgements.aux'.
+
+
+(./FrontMatter/Acknowledgements.tex)
+
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 46.
+
+
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 46.
+
+Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 46.
 Package babel Info: Redefining spanish shorthand >>
 (babel)             in language  on input line 46.
@@ -1699,18 +1721,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 46.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 46.
- [2
+[3
+
 
 
 ]
-\openout2 = `FrontMatter/Acknowledgements.aux'.
+\openout2 = `FrontMatter/SupervisorOpinion.aux'.
 
-
-(./FrontMatter/Acknowledgements.tex)
-
-LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 48.
-
+ (./FrontMatter/SupervisorOpinion.tex)
 
 Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
 (spanish)                faked small caps on input line 48.
@@ -1739,14 +1757,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 48.
-[3
+[4
 
 
 
 ]
-\openout2 = `FrontMatter/SupervisorOpinion.aux'.
+\openout2 = `FrontMatter/Abstract.aux'.
 
- (./FrontMatter/SupervisorOpinion.tex)
+ (./FrontMatter/Abstract.tex)
 
 Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
 (spanish)                faked small caps on input line 50.
@@ -1775,14 +1793,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 50.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 50.
-[4
+[5
 
 
 
 ]
-\openout2 = `FrontMatter/Abstract.aux'.
+\openout2 = `FrontMatter/EnglishAbstract.aux'.
 
- (./FrontMatter/Abstract.tex)
+ (./FrontMatter/EnglishAbstract.tex)
 
 Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
 (spanish)                faked small caps on input line 52.
@@ -1811,42 +1829,6 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 52.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 52.
-[5
-
-
-
-]
-\openout2 = `FrontMatter/EnglishAbstract.aux'.
-
- (./FrontMatter/EnglishAbstract.tex)
-
-Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
-(spanish)                faked small caps on input line 54.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 54.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 54.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 54.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 54.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 54.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 54.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 54.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 54.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 54.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 54.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 54.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 54.
 [6
 
 
@@ -1941,32 +1923,32 @@ LaTeX Info: Redefining \% on input line 1.
 )
 
 Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
-(spanish)                faked small caps on input line 56.
+(spanish)                faked small caps on input line 54.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 54.
 [8
 
 ]
@@ -2066,192 +2048,72 @@ LaTeX Warning: Marginpar on page 1 moved.
 LaTeX Warning: Marginpar on page 1 moved.
 
 
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 ...ambiar por: ´sin comprometer el acceso´}
-                                                   manteniendo un adecuado a...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 ...ambiar por: ´sin comprometer el acceso´}
-                                                   manteniendo un adecuado a...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (9.58093pt too wide) in paragraph at lines 16--16
+Overfull \hbox (9.58093pt too wide) in paragraph at lines 15--15
 [][][][]\T1/lmr/m/n/10.95 Recomiendo 
  []
 
 
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 ...ambiar por: ´sin comprometer el acceso´}
-                                                   manteniendo un adecuado a...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 ...ambiar por: ´sin comprometer el acceso´}
-                                                   manteniendo un adecuado a...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (9.58093pt too wide) in paragraph at lines 16--16
+Overfull \hbox (9.58093pt too wide) in paragraph at lines 15--15
 [][][][]\T1/lmr/m/n/10.95 Recomiendo 
  []
 
 
-Overfull \hbox (16.40549pt too wide) in paragraph at lines 16--16
+Overfull \hbox (16.40549pt too wide) in paragraph at lines 15--15
 [][][] 
  []
 
 
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 ...ambiar por: ´sin comprometer el acceso´}
-                                                   manteniendo un adecuado a...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 ...ambiar por: ´sin comprometer el acceso´}
-                                                   manteniendo un adecuado a...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (9.58093pt too wide) in paragraph at lines 16--16
+Overfull \hbox (9.58093pt too wide) in paragraph at lines 15--15
 [][][][]\T1/lmr/m/n/10.95 Recomiendo 
  []
 
 
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 ...ambiar por: ´sin comprometer el acceso´}
-                                                   manteniendo un adecuado a...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 ...ambiar por: ´sin comprometer el acceso´}
-                                                   manteniendo un adecuado a...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (9.58093pt too wide) in paragraph at lines 16--16
+Overfull \hbox (9.58093pt too wide) in paragraph at lines 15--15
 [][][][]\T1/lmr/m/n/10.95 Recomiendo 
  []
 
 
-Overfull \hbox (16.40549pt too wide) in paragraph at lines 16--16
+Overfull \hbox (16.40549pt too wide) in paragraph at lines 15--15
 [][][] 
  []
 
 
-Overfull \hbox (16.40549pt too wide) in paragraph at lines 16--16
+Overfull \hbox (16.40549pt too wide) in paragraph at lines 15--15
 [][][] 
  []
 
 
-Overfull \hbox (16.40549pt too wide) in paragraph at lines 16--16
+Overfull \hbox (16.40549pt too wide) in paragraph at lines 15--15
 [][][] 
  []
 
 
-Overfull \hbox (16.40549pt too wide) in paragraph at lines 16--16
+Overfull \hbox (16.40549pt too wide) in paragraph at lines 15--15
 [][][] 
  []
 
 
-Overfull \hbox (16.40549pt too wide) in paragraph at lines 16--16
+Overfull \hbox (16.40549pt too wide) in paragraph at lines 15--15
 [][][] 
  []
 
 
-Overfull \hbox (16.40549pt too wide) in paragraph at lines 16--16
+Overfull \hbox (16.40549pt too wide) in paragraph at lines 15--15
 [][][] 
  []
 
 
-Overfull \hbox (16.40549pt too wide) in paragraph at lines 16--16
+Overfull \hbox (16.40549pt too wide) in paragraph at lines 15--15
 [][][] 
  []
 
 
-Overfull \hbox (16.40549pt too wide) in paragraph at lines 16--16
+Overfull \hbox (16.40549pt too wide) in paragraph at lines 15--15
 [][][] 
  []
 
 
-Overfull \hbox (16.40549pt too wide) in paragraph at lines 16--16
+Overfull \hbox (16.40549pt too wide) in paragraph at lines 15--15
 [][][] 
  []
 
@@ -2268,29 +2130,29 @@ LaTeX Warning: Marginpar on page 1 moved.
 LaTeX Warning: Marginpar on page 1 moved.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 16.
 [1
 
 
@@ -2298,130 +2160,9 @@ Package babel Info: Redefining spanish shorthand "?
 
 
 ]
-
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 ...amente definido. Cuales son los procesos?}
-                                                  estos procesos de manera c...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 ...amente definido. Cuales son los procesos?}
-                                                  estos procesos de manera c...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 ...amente definido. Cuales son los procesos?}
-                                                  estos procesos de manera c...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 ...amente definido. Cuales son los procesos?}
-                                                  estos procesos de manera c...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Overfull \hbox (16.40549pt too wide) in paragraph at lines 21--21
 [][][] 
  []
-
-
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 ...amente definido. Cuales son los procesos?}
-                                                  estos procesos de manera c...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 ...amente definido. Cuales son los procesos?}
-                                                  estos procesos de manera c...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 ...amente definido. Cuales son los procesos?}
-                                                  estos procesos de manera c...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 ...amente definido. Cuales son los procesos?}
-                                                  estos procesos de manera c...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 
 Overfull \hbox (16.40549pt too wide) in paragraph at lines 21--21
@@ -2452,69 +2193,9 @@ Overfull \hbox (16.40549pt too wide) in paragraph at lines 28--28
  []
 
 
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 ...a referencias a cualquier otro documento.}
-                                                  mejor es almacenarla en un...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 ...a referencias a cualquier otro documento.}
-                                                  mejor es almacenarla en un...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Overfull \hbox (16.40549pt too wide) in paragraph at lines 28--28
 [][][] 
  []
-
-
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 ...a referencias a cualquier otro documento.}
-                                                  mejor es almacenarla en un...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 ...a referencias a cualquier otro documento.}
-                                                  mejor es almacenarla en un...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 
 Overfull \hbox (16.40549pt too wide) in paragraph at lines 28--28
@@ -2641,101 +2322,6 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 41.
 [3] (./Thesis.tdo
-
-! Package inputenc Error: Unicode char \GenericError {(inputenc)               
- }{Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc) not set up for use with LaTeX}{See the inputenc package documentatio
-n for explanation.}{Your command was ignored.
-(inputenc) Type  I <command> <return>  to replace it with another command,
-(inputenc) or  <return>  to continue without it.} (U+B4)
-(inputenc) not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...> to continue without it.}}{1}{section*.16}
-                                                  
-Your command was ignored.
-Type I <command><return>to replace it with another command,
-or <return>to continue without it.
-
-
-! Package inputenc Error: Unicode char \GenericError {(inputenc)               
- }{Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc) not set up for use with LaTeX}{See the inputenc package documentatio
-n for explanation.}{Your command was ignored.
-(inputenc) Type  I <command> <return>  to replace it with another command,
-(inputenc) or  <return>  to continue without it.} (U+B4)
-(inputenc) not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...> to continue without it.}}{1}{section*.16}
-                                                  
-Your command was ignored.
-Type I <command><return>to replace it with another command,
-or <return>to continue without it.
-
-
-! Package inputenc Error: Unicode char \GenericError {(inputenc)               
- }{Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc) not set up for use with LaTeX}{See the inputenc package documentatio
-n for explanation.}{Your command was ignored.
-(inputenc) Type  I <command> <return>  to replace it with another command,
-(inputenc) or  <return>  to continue without it.} (U+B4)
-(inputenc) not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 ... Cuales son los procesos?}{2}{section*.22}
-                                                  
-Your command was ignored.
-Type I <command><return>to replace it with another command,
-or <return>to continue without it.
-
-
-! Package inputenc Error: Unicode char \GenericError {(inputenc)               
- }{Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc) not set up for use with LaTeX}{See the inputenc package documentatio
-n for explanation.}{Your command was ignored.
-(inputenc) Type  I <command> <return>  to replace it with another command,
-(inputenc) or  <return>  to continue without it.} (U+B4)
-(inputenc) not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 ... Cuales son los procesos?}{2}{section*.22}
-                                                  
-Your command was ignored.
-Type I <command><return>to replace it with another command,
-or <return>to continue without it.
-
-
-! Package inputenc Error: Unicode char \GenericError {(inputenc)               
- }{Package inputenc Error: Unicode char ´ (U+B4)
-(inputenc) not set up for use with LaTeX}{See the inputenc package documentatio
-n for explanation.}{Your command was ignored.
-(inputenc) Type  I <command> <return>  to replace it with another command,
-(inputenc) or  <return>  to continue without it.} (U+B4)
-(inputenc) not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 ...cualquier otro documento.}{2}{section*.25}
-                                                  
-Your command was ignored.
-Type I <command><return>to replace it with another command,
-or <return>to continue without it.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 18.
 Package babel Info: Redefining spanish shorthand >>
@@ -2760,7 +2346,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 18.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 18.
-[4
+ [4
 
 ])
 \tf@tdo=\write10
@@ -2768,29 +2354,29 @@ Package babel Info: Redefining spanish shorthand "?
 
 )
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 60.
  [5]
 \openout2 = `MainMatter/Background.aux'.
 
@@ -2820,36 +2406,82 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
-)
+
+Overfull \hbox (16.40549pt too wide) in paragraph at lines 5--5
+[][][] 
+ []
+
+
+Overfull \hbox (16.40549pt too wide) in paragraph at lines 5--5
+[][][] 
+ []
+
+
+Overfull \hbox (16.40549pt too wide) in paragraph at lines 9--9
+[][][] 
+ []
+
+
+Overfull \hbox (16.40549pt too wide) in paragraph at lines 9--9
+[][][] 
+ []
+
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 64.
- [6
+(babel)             in language  on input line 11.
+[6
 
 
 
-]
+])
+LaTeX Info: Redefining \. on input line 62.
+LaTeX Info: Redefining \% on input line 62.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 62.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 62.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 62.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 62.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 62.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 62.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 62.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 62.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 62.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 62.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 62.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 62.
+ [7]
 \openout2 = `MainMatter/StateOfTheArt.aux'.
 
  (./MainMatter/StateOfTheArt.tex
@@ -2928,30 +2560,30 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 7.
 )
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 66.
- [7
+(babel)             in language  on input line 64.
+ [8
 
 
 
@@ -3058,30 +2690,30 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 8.
 )
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 68.
- [8
+(babel)             in language  on input line 66.
+ [9
 
 
 
@@ -3145,30 +2777,30 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 5.
 )
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 72.
- [9
+(babel)             in language  on input line 70.
+ [10
 
 
 
@@ -3190,30 +2822,30 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
 )
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 78.
- [10
+(babel)             in language  on input line 76.
+ [11
 
 
 
@@ -3236,31 +2868,31 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
 )
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 78.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 78.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 78.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 78.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 78.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 78.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 78.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 78.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 78.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 78.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 78.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 78.
 
-[11
+[12
 
 
 
@@ -3281,37 +2913,37 @@ No file Thesis.bbl.
 No file Thesis.gls.
 )
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 84.
- [12
+(babel)             in language  on input line 82.
+ [13
 
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
  (./Thesis.aux
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
@@ -3324,37 +2956,34 @@ LaTeX Info: Redefining \% on input line 29.
 (./MainMatter/ExperimentationAndResults.aux) (./BackMatter/Recommendations.aux)
 (./BackMatter/Conclusions.aux) (./BackMatter/Bibliography.aux)
 (./BackMatter/Glossary.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 99F74027A0259D0347BEA7516C7655C3;1324.
+(rerunfilecheck)             Checksum: 53ACD4BA71E730BBF9BB0BC9B0C33E58;1359.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 26747 strings out of 493013
- 484789 string characters out of 6135682
- 715383 words of memory out of 5000000
- 29570 multiletter control sequences out of 15000+600000
- 65551 words of font info for 48 fonts, out of 8000000 for 9000
+ 26767 strings out of 493013
+ 485204 string characters out of 6135682
+ 716688 words of memory out of 5000000
+ 29585 multiletter control sequences out of 15000+600000
+ 68576 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,12n,104p,1934b,1259s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmt
-t10.pfb>
-Output written on Thesis.pdf (20 pages, 260889 bytes).
+mf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
+o10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on Thesis.pdf (21 pages, 292180 bytes).
 PDF statistics:
- 343 PDF objects out of 1000 (max. 8388607)
- 292 compressed objects within 3 object streams
- 76 named destinations out of 1000 (max. 500000)
+ 359 PDF objects out of 1000 (max. 8388607)
+ 305 compressed objects within 4 object streams
+ 81 named destinations out of 1000 (max. 500000)
  303 words of extra memory for PDF output out of 10000 (max. 10000000)
 
