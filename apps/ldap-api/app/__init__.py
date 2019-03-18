@@ -21,26 +21,30 @@ ldap_server = ldap.initialize(configuration.LDAP_SERVER_URI,
 
 class Users(Resource):
     def get(self):
+        # Parseando los argumentos de la url para filtrar
         unparsed_args = request.args
         parsed_args = unparsed_args
         args = [ "(%s=%s)" % (key, parsed_args[key]) for key in parsed_args]
-        ldap_search_filter_string = ""
-        users_accounts = ldap_server.search_s("ou=usuarios,dc=ldap,dc=uh,dc=cu", ldap.SCOPE_ONELEVEL)
+        if len(args) == 0:
+            ldap_search_filter_string = None
+        elif len(args) == 1:
+            ldap_search_filter_string = args[0]
+        else:
+            ldap_search_filter_string = "(&%s)" % "".join(args)
 
-        # TODO: Arreglar este parche para llevar a JSON con las tuplas y los bytes
-        users_accounts = str({x[0] : x[1] for x in users_accounts})
+        users_accounts = ldap_server.search_s("ou=usuarios,dc=ldap,dc=uh,dc=cu", ldap.SCOPE_ONELEVEL, ldap_search_filter_string)
+
+        users_accounts = {x[0] : x[1] for x in users_accounts}
         
-        # users_accounts = users_accounts.replace("'", '"').replace('b"', '"').replace(' b"', '"').replace(',b"', '"').replace('[b"', '"').replace('\"', '"')
         users_accounts_json = json.dumps(users_accounts, cls=utils.MyEncoder)
-
-        return jsonify({'users': users_accounts_json})
+        return jsonify({'users': json.loads(users_accounts_json)})
 
 class User(Resource):
     def get(self, user_id):
         users_account = ldap_server.search_s("ou=usuarios,dc=ldap,dc=uh,dc=cu", ldap.SCOPE_ONELEVEL, "(cn=%s*)" % user_id)
-        users_account = str({x[0] : x[1] for x in users_account})
-        users_account = users_account.replace("'", '"').replace('b"', '"').replace(' b"', '"').replace(',b"', '"').replace('[b"', '"').replace('\"', '"')
-        users_account = json.loads(users_account)
+        users_account = {x[0] : x[1] for x in users_account}
+        users_account_json = json.dumps(users_account, cls=utils.MyEncoder)
+        users_account = json.loads(users_account_json)
         return jsonify({'user': users_account})
     
     def post(self, user_id):
