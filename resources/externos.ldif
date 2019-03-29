@@ -1,0 +1,6800 @@
+
+# Entry: 1 uid=margarita.guzman@estudiantes.psico.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=margarita.guzman@estudiantes.psico.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: F21551252
+ciudadania: N/D
+cn: Margarita
+correo: margarita.guzman@estudiantes.psico.uh.cu
+cuotainternet: 6750
+description: Claudia: estudiante extranjero
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1543813200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Guzman Aedo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: margarita.guzman.aedo_1833-1
+ujc: TRUE
+userpassword: {SSHA}oOitkztxEIbyckOoi/O2/m2/gEFoQVlY
+id: 1833-1
+
+# Entry: 2 uid=amed.gata@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=amed.gata@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 90052346022
+ciudadania: N/D
+cn: Amed
+correo: amed.gata@estudiantes.matcom.uh.cu
+cuotainternet: 6000
+description: Maryany:Estudiante de Maestria
+direccion: N/D
+edad: 28
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1543467600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Gata Molina
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: amed.gata.molina_1831-1
+ujc: TRUE
+userpassword: {SSHA}PWj6RwNNwAQ95GE7VMK15QK/dvNCWm9K
+id: 1831-1
+
+# Entry: 3 uid=javiera.bustos@estudiantes.psico.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=javiera.bustos@estudiantes.psico.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: F24899010
+ciudadania: N/D
+cn: Javiera
+correo: javiera.bustos@estudiantes.psico.uh.cu
+cuotainternet: 6750
+description: Claudia: estudiantes extrangero
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1543899600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Bustos Gomez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: javiera.bustos.gomez_1834-1
+ujc: TRUE
+userpassword: {SSHA}x36e+SUD2sHzQIAijMUSln+NdKVhU0dQ
+id: 1834-1
+
+# Entry: 4 uid=miriam.renkert1@estudiantes.ffh.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=miriam.renkert1@estudiantes.ffh.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 87092700813
+ciudadania: N/D
+cn: Miriam
+correo: miriam.renkert1@estudiantes.ffh.uh.cu
+cuotainternet: 6750
+description: Claudia: estudiante extrangero
+direccion: N/D
+edad: 31
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542776400
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Renkert
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: miriam.renkert_1828-1
+ujc: TRUE
+userpassword: {SSHA}tV9p4ODVGbVymTc7k0yhrHBBfH1UbkxM
+id: 1828-1
+
+# Entry: 5 uid=mmderos@matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=mmderos@matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 35102200517
+ciudadania: N/D
+cn: mmderos
+correo: mmderos@matcom.uh.cu
+cuotainternet: 22500
+description: Claudia: profesora titular
+direccion: N/D
+edad: 83
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1543208400
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Mederos Bru
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: mmderos.mederos.bru_1830-1
+ujc: TRUE
+userpassword: {SSHA}vtzqHWIUKk4ZfhV4jX6tRR1d6PRrQ0hp
+id: 1830-1
+
+# Entry: 6 uid=acordova@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=acordova@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: acordova
+correo: acordova@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Susy: Estudiante del Instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542949200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Cordova Beltran
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: acordova.cordova.beltran_1829-1
+ujc: TRUE
+userpassword: {SSHA}SHye7O7XqEBdljDNCIHlPMKz/LE1WVE0
+id: 1829-1
+
+# Entry: 7 uid=rosa.pallarosog@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=rosa.pallarosog@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 0909991119
+ciudadania: N/D
+cn: Rosa 
+correo: rosa.pallarosog@estudiantes.fec.uh.cu
+cuotainternet: 6750
+description: Claudia: estudiante doctorante
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Pallaroso Granizo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: rosa.pallaroso.granizo_1827-1
+ujc: TRUE
+userpassword: {SSHA}kfNEJzeTyxfE0HpWa/hamdJZck15Mm04
+id: 1827-1
+
+# Entry: 8 uid=rosa.pallaroso@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=rosa.pallaroso@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 0909991119
+ciudadania: N/D
+cn: Rosa 
+correo: rosa.pallaroso@estudiantes.fec.uh.cu
+cuotainternet: 6750
+description: Claudia: estudiante doctorante
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Pallaroso Granizo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: rosa.pallaroso.granizo_1826-1
+ujc: TRUE
+userpassword: {SSHA}sqio1M4lRE9GroLRRrzPk+pJpD0wOXJN
+id: 1826-1
+
+# Entry: 9 uid=daner@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=daner@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Daner Luis
+correo: daner@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Susy: estudiante del INSTEC
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Tamayo Castillo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: FALSE
+tiempodeactividad: 0
+uid: daner.luis.tamayo.castillo_1824-1
+ujc: TRUE
+userpassword: {SSHA}kYgbRwhuBUgfkAVwcn3apx9JiUtYOThU
+id: 1824-1
+
+# Entry: 10 uid=amado@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=amado@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Amado
+correo: amado@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Susy: Estudiante del INSTEC
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Beltran Ramos
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: amado.beltran.ramos_1825-1
+ujc: TRUE
+userpassword: {SSHA}cda6BtjZkzg6h6r0662AZapn6FRneVIx
+id: 1825-1
+
+# Entry: 11 uid=dairon@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=dairon@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Dairon Michel
+correo: dairon@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Susy: Estudiante del INSTEC
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Rojas Corria
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: dairon.michel.rojas.corria_1822-1
+ujc: TRUE
+userpassword: {SSHA}tJVA2xNn4c+w7E2qPpugi5qv36pYQWp3
+id: 1822-1
+
+# Entry: 12 uid=danielp@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=danielp@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Daniel
+correo: danielp@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Susy: Estudiante del INSTEC
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Perdigon Cuellar
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: daniel.perdigon.cuellar_1820-1
+ujc: TRUE
+userpassword: {SSHA}5EoOjZK4ldYEGm646jdsGCFR/Vc2TUF3
+id: 1820-1
+
+# Entry: 13 uid=damian@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=damian@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Damian
+correo: damian@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: De La Paz Rodriguez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: damian.de.la.paz.rodriguez_1821-1
+ujc: TRUE
+userpassword: {SSHA}WWsJem4CvP/sI36qKYsQWrjLunN0bzR3
+id: 1821-1
+
+# Entry: 14 uid=norge@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=norge@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Norge
+correo: norge@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Ranero Alvarez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: norge.ranero.alvarez_1823-1
+ujc: TRUE
+userpassword: {SSHA}lX00DcvgPo4Irju0DBQgsblFxVluVHFo
+id: 1823-1
+
+# Entry: 15 uid=javierespinosa@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=javierespinosa@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Javier
+correo: javierespinosa@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Espinosa Naranjo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: javier.espinosa.naranjo_1817-1
+ujc: TRUE
+userpassword: {SSHA}qLmXGJZ8SQmbtQXaUsi0Iy18PiRTRko2
+id: 1817-1
+
+# Entry: 16 uid=vallat@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=vallat@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Jose 
+correo: vallat@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Vallat Figueredo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: jose.vallat.figueredo_1816-1
+ujc: TRUE
+userpassword: {SSHA}P2zIlpCLjJlWZAE+UXe5hhgZTRJQQWE2
+id: 1816-1
+
+# Entry: 17 uid=serguei@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=serguei@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Serguei
+correo: serguei@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Susy: Estudiante del INSTEC
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Meneses Lopez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: serguei.meneses.lopez_1818-1
+ujc: TRUE
+userpassword: {SSHA}ViBp+gL9aVHUg0h1jE+kxHUluAdzOW1H
+id: 1818-1
+
+# Entry: 18 uid=pmoreno@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=pmoreno@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Pedro 
+correo: pmoreno@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Moreno De La Cruz
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: pedro.moreno.de.la.cruz_1819-1
+ujc: TRUE
+userpassword: {SSHA}FCkFkwDltehKsfGPm5GAVpPD0X9LMVRX
+id: 1819-1
+
+# Entry: 19 uid=andres@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=andres@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Alex Andrés
+correo: andres@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Susy: Estudiante del INSTEC
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Acosta Betancourt
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: alex.andres.acosta.betancourt_1815-1
+ujc: TRUE
+userpassword: {SSHA}Seyc76HQE8PhmQ3OV3+6qMxuLZhGd1JE
+id: 1815-1
+
+# Entry: 20 uid=neyra99@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=neyra99@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Alejandro
+correo: neyra99@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Neyra Suarez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: alejandro.neyra.suarez_1814-1
+ujc: TRUE
+userpassword: {SSHA}R1oXIzSESe52AyuDRG174XXXq01pdmJF
+id: 1814-1
+
+# Entry: 21 uid=manuel@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=manuel@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Manuel Alejandro
+correo: manuel@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Susy: Estudiante del INSTEC
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Santos Jorge
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: manuel.alejandro.santos.jorge_1813-1
+ujc: TRUE
+userpassword: {SSHA}t2FhvDk18Uq5iZrpU/JFVpQX0RU1dks3
+id: 1813-1
+
+# Entry: 22 uid=noel@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=noel@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Noel Alejandro
+correo: noel@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Susy: Estudiante del INSTEC
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Maza Marrero
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: noel.alejandro.maza.marrero_1811-1
+ujc: TRUE
+userpassword: {SSHA}42LtatXwiMNUWpsH6IsJ2dR03mdFdlB4
+id: 1811-1
+
+# Entry: 23 uid=maricel@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=maricel@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Maricel
+correo: maricel@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Carrion Delgado
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: maricel.carrion.delgado_1810-1
+ujc: TRUE
+userpassword: {SSHA}5AVJutEa8EqdNdBQLwyuWxneU2JrWmdp
+id: 1810-1
+
+# Entry: 24 uid=yuliet@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=yuliet@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Yuliet 
+correo: yuliet@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Puentes Salcedo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: yuliet.puentes.salcedo_1809-1
+ujc: TRUE
+userpassword: {SSHA}4u531ZqN1evtW/+2yTVpG9ov6edQcWla
+id: 1809-1
+
+# Entry: 25 uid=celena@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=celena@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Celena
+correo: celena@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Fernandez Castillo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: celena.fernandez.castillo_1812-1
+ujc: TRUE
+userpassword: {SSHA}GaCp1Ao7zWLNY/nAsUn8EQbgaHx4dEpV
+id: 1812-1
+
+# Entry: 26 uid=orihuela@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=orihuela@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Rafael  Ernesto 
+correo: orihuela@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Susy: Estudiante del INSTEC
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Orihuela Diaz
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: rafael.ernesto.orihuela.diaz_1808-1
+ujc: TRUE
+userpassword: {SSHA}aF1wxJzSvxhzSwIJdiz+8nQPP1EwNUdn
+id: 1808-1
+
+# Entry: 27 uid=adeanez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=adeanez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Liz Adeanez
+correo: adeanez@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Susy: Estudiante del INSTEC
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Ambruster Sanchez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: liz.adeanez.ambruster.sanchez_1806-1
+ujc: TRUE
+userpassword: {SSHA}KMrJUQNftXeR05SHLEFCwy2GwmBVQWFt
+id: 1806-1
+
+# Entry: 28 uid=rosangel@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=rosangel@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Rosangel
+correo: rosangel@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Campo Vaga
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: rosangel.campo.vaga_1807-1
+ujc: TRUE
+userpassword: {SSHA}cmHIuUYYcIaJ5WovDkk/y9wnTV02ajJn
+id: 1807-1
+
+# Entry: 29 uid=leilasd@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=leilasd@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Leila
+correo: leilasd@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Sarduy Perez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: leila.sarduy.perez_1805-1
+ujc: TRUE
+userpassword: {SSHA}5mmAb2Cxuqw+ZZpdjqWNmwky8bVYWGNr
+id: 1805-1
+
+# Entry: 30 uid=brbasulto@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=brbasulto@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Bertha Rosa
+correo: brbasulto@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Susy: Estudiante del INSTEC
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Basulto Acosta
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: bertha.rosa.basulto.acosta_1804-1
+ujc: TRUE
+userpassword: {SSHA}SAhI+IgXCTiCTFyFUxj32C+eKBpuVVpx
+id: 1804-1
+
+# Entry: 31 uid=ilopez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=ilopez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Ismelia
+correo: ilopez@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Lopez Mena
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: ismelia.lopez.mena_1803-1
+ujc: TRUE
+userpassword: {SSHA}jjNp2LWWnJ59DI7C/ogJjFP6dPhZVzJt
+id: 1803-1
+
+# Entry: 32 uid=mpedraza@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=mpedraza@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Mayvi
+correo: mpedraza@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Susy: estudiante del INSTEC
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Pedraza Monzon
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: mayvi.pedraza.monzon_1802-1
+ujc: TRUE
+userpassword: {SSHA}nFSRX2bhBoD5tAzEuZlzdgcaQmZoTEZX
+id: 1802-1
+
+# Entry: 33 uid=ady@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=ady@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Adianez
+correo: ady@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Saez Boada
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: adianez.saez.boada_1801-1
+ujc: TRUE
+userpassword: {SSHA}X+o6NlsxIXzNeR4BcMk+7m2DSfRUbDlK
+id: 1801-1
+
+# Entry: 34 uid=isabella@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=isabella@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Isabella
+correo: isabella@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Bracho Ibarra
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: isabella.bracho.ibarra_1798-1
+ujc: TRUE
+userpassword: {SSHA}zKWkwO3pgzFoNVsiW/YaRP2oRrV0WGpp
+id: 1798-1
+
+# Entry: 35 uid=anier@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=anier@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Anier
+correo: anier@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Susy: Estudiante de INSTEC
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Felipe Perez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: anier.felipe.perez_1797-1
+ujc: TRUE
+userpassword: {SSHA}JPwB5xD2K4rW0niVOF+9IspefK02RFl5
+id: 1797-1
+
+# Entry: 36 uid=ericsch@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=ericsch@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Eric
+correo: ericsch@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Susy: Estudiante de INSTEC
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Sanchez Chavez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: eric.sanchez.chavez_1799-1
+ujc: TRUE
+userpassword: {SSHA}RbReE6stfuYI4qtUlCs8lcg3yOVIU1Vz
+id: 1799-1
+
+# Entry: 37 uid=elsy1900@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=elsy1900@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Elsileidys
+correo: elsy1900@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Alfonso Castillo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: elsileidys.alfonso.castillo_1800-1
+ujc: TRUE
+userpassword: {SSHA}MA7jKa7oyxp0oDM4P+iEOCdnBptkT0RX
+id: 1800-1
+
+# Entry: 38 uid=epla@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=epla@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Ernesto
+correo: epla@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Maryany:estudiante del Instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Pla Montero
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: ernesto.pla.montero_1793-1
+ujc: TRUE
+userpassword: {SSHA}Ae9ojAdpk9SmXtuetLqO6miYk/UyZDdK
+id: 1793-1
+
+# Entry: 39 uid=josue@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=josue@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: josue
+correo: josue@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Maryany:estudiante del Instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Ponce De Leon
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: josue.ponce.de.leon_1794-1
+ujc: TRUE
+userpassword: {SSHA}su6zU+uMF4YdYGjBCpPJiuav9nNSNEF0
+id: 1794-1
+
+# Entry: 40 uid=ariel@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=ariel@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Ariel
+correo: ariel@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Maryany:estudiante del Instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Castro Sifonte
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: ariel.castro.sifonte_1795-1
+ujc: TRUE
+userpassword: {SSHA}2+hqFw9eeWcZHNZ3OzK3GOSm4sVFcG5Y
+id: 1795-1
+
+# Entry: 41 uid=giulio@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=giulio@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Giulio Cesare
+correo: giulio@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Susy: Estudiante del Instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Hernandez Mondejar
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: giulio.cesare.hernandez.mondejar_1796-1
+ujc: TRUE
+userpassword: {SSHA}WmG0KZ0nyP/8Kb4blB4i5//1ZUtUNXQx
+id: 1796-1
+
+# Entry: 42 uid=exon@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=exon@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Exon
+correo: exon@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Maryany:estudiante del Instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Aguiar Creagh
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: exon.aguiar.creagh_1790-1
+ujc: TRUE
+userpassword: {SSHA}UmJbZjH6+flBqgd7JaDkPKdOXPBHNEZ0
+id: 1790-1
+
+# Entry: 43 uid=ronaldo@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=ronaldo@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Ronaldo
+correo: ronaldo@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Maryany:estudiante del Instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Catillo Baldaza
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: ronaldo.catillo.baldaza_1789-1
+ujc: TRUE
+userpassword: {SSHA}RuidLiE1WQyzsEq4lfETMIajZhlzNm1N
+id: 1789-1
+
+# Entry: 44 uid=raydel@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=raydel@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Raidel
+correo: raydel@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Maryany:estudiante del Instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Sanchez Garcia
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: raidel.sanchez.garcia_1792-1
+ujc: TRUE
+userpassword: {SSHA}s6hKX0p3lTGZGcZQFqpEchm1zR9MbGpO
+id: 1792-1
+
+# Entry: 45 uid=jmeneses@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=jmeneses@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Jorge
+correo: jmeneses@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Maryany:estudiante del Instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Meneses Yero
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: jorge.meneses.yero_1791-1
+ujc: TRUE
+userpassword: {SSHA}l1oFhSTHe7Womho+cntnCM+l7CtzOGJY
+id: 1791-1
+
+# Entry: 46 uid=emarquez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=emarquez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Eleannis
+correo: emarquez@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Maryany:estudiante del Instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Marquez Ricardo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: eleannis.marquez.ricardo_1786-1
+ujc: TRUE
+userpassword: {SSHA}fe58CkugrFbPX5pyUJaWpiM+yqJpR1hK
+id: 1786-1
+
+# Entry: 47 uid=eduardo@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=eduardo@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Eduardo
+correo: eduardo@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Maryany:estudiante del Instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Echemendia Delgado
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: eduardo.echemendia.delgado_1788-1
+ujc: TRUE
+userpassword: {SSHA}2xR1usbo++nwn7QToCx+nsv0t7NBcnBF
+id: 1788-1
+
+# Entry: 48 uid=kissy@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=kissy@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: kissy
+correo: kissy@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Maryany:estudiante del Instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Yznaga Pino
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: kissy.yznaga.pino_1787-1
+ujc: TRUE
+userpassword: {SSHA}URVLrpBo3vqXJ1BBTk+hesqmOoNCQ2Ru
+id: 1787-1
+
+# Entry: 49 uid=arlen@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=arlen@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Arlen
+correo: arlen@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Maryany:estudiante del Instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Perez Hernandez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: arlen.perez.hernandez_1785-1
+ujc: TRUE
+userpassword: {SSHA}E88+QDzJzi+3CxBJhHT2Lw+riIlyYlVN
+id: 1785-1
+
+# Entry: 50 uid=jreyes@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=jreyes@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Jennifer
+correo: jreyes@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Maryany:estudiante del Instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Reyes Garrido
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: jennifer.reyes.garrido_1783-1
+ujc: TRUE
+userpassword: {SSHA}WVR3dTohE32zaatm5N2uIZ5SnLN1R1dM
+id: 1783-1
+
+# Entry: 51 uid=jcabrera@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=jcabrera@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Javier
+correo: jcabrera@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Maryany:estudiante del Instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Cabrera Perianes
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: javier.cabrera.perianes_1782-1
+ujc: TRUE
+userpassword: {SSHA}TE1wfV6uwsDaeCu9YLxlGl3nUsRoamMx
+id: 1782-1
+
+# Entry: 52 uid=marykarla62@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=marykarla62@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Mary 
+correo: marykarla62@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Maryany:estudiante del Instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Perez Shanchez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: mary.perez.shanchez_1784-1
+ujc: TRUE
+userpassword: {SSHA}WNEFRpQ6WjbEG0Pzq4SKtkS3T2BXRk5H
+id: 1784-1
+
+# Entry: 53 uid=cmembrado@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=cmembrado@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Claudia
+correo: cmembrado@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Susy::Estudiante de instec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542603600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Membrado Lores
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: claudia.membrado.lores_1780-1
+ujc: TRUE
+userpassword: {SSHA}4NsgeueiurLJhS8F7pX8yFnqy3JlU0Ux
+id: 1780-1
+
+# Entry: 54 uid=mondelo@isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=mondelo@isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 91093028585
+ciudadania: N/D
+cn: Ariel Alejandro
+correo: mondelo@isdi.uh.cu
+cuotainternet: 5500
+description: Susy: Administrador del ISDI
+direccion: N/D
+edad: 27
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542603600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Mondelo Morales
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: ariel.alejandro.mondelo.morales_1779-1
+ujc: TRUE
+userpassword: {SSHA}fPaVlTiNZsG4sLwzJf4FbvObKRBmeThk
+id: 1779-1
+
+# Entry: 55 uid=claudiag@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=claudiag@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Claudia
+correo: claudiag@estudiantes.instec.uh.cu
+cuotainternet: 2000
+description: Maryany:Estudiante del Intec
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542690000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Garcia Rodriguez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: claudia.garcia.rodriguez_1781-1
+ujc: TRUE
+userpassword: {SSHA}exTWOXlE4iEpDhzKNGBTyByXMlg3NkJR
+id: 1781-1
+
+# Entry: 56 uid=marcos.espinosa@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=marcos.espinosa@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01122868068
+ciudadania: N/D
+cn: Marcos 
+correo: marcos.espinosa@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542603600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Espinosa Molinet
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: marcos.espinosa.molinet_1778-1
+ujc: TRUE
+userpassword: {SSHA}+5u5I7RE4Nevvs11sXUTXlU7zKpNR1dJ
+id: 1778-1
+
+# Entry: 57 uid=rces@cepes.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=rces@cepes.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 00000000000
+ciudadania: N/D
+cn: Adelín
+correo: rces@cepes.uh.cu
+cuotainternet: 0
+description: Dario: Correo institucional Revista del CEPES
+direccion: N/D
+edad: 19
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542171600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Cepes Cepes
+telefonopersonal: N/D
+tienechat: FALSE
+tienecorreo: TRUE
+tieneinternet: FALSE
+tiempodeactividad: 0
+uid: adelin.cepes.cepes_1776-1
+ujc: TRUE
+userpassword: {SSHA}Wwfqt0ik9tYjEBydvz/xZgfLU+40T3hG
+id: 1776-1
+
+# Entry: 58 uid=mercedes.intriagoc@fec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=mercedes.intriagoc@fec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 1310297641
+ciudadania: N/D
+cn: Mercedes
+correo: mercedes.intriagoc@fec.uh.cu
+cuotainternet: 6750
+description: Claudia: doctorante
+direccion: N/D
+edad: 5
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542258000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Intriago Cedeno
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: mercedes.intriago.cedeno_1777-1
+ujc: TRUE
+userpassword: {SSHA}tUJiBviHmS7HLxCG0hy0pcBdnFRYemFR
+id: 1777-1
+
+# Entry: 59 uid=mgallegos@cepes.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=mgallegos@cepes.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 1308616273
+ciudadania: N/D
+cn: Marcos Ramón
+correo: mgallegos@cepes.uh.cu
+cuotainternet: 6750
+description: Susy: Doctorante
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542171600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Gallegos Macias
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: marcos.ramon.gallegos.macias_1775-1
+ujc: TRUE
+userpassword: {SSHA}7r66Ip+G5iZXaZKH6cIo7yy2lNpmU2VY
+id: 1775-1
+
+# Entry: 60 uid=frank.gomez@estudiantes.psico.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=frank.gomez@estudiantes.psico.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 83122817302
+ciudadania: N/D
+cn: Frank
+correo: frank.gomez@estudiantes.psico.uh.cu
+cuotainternet: 6750
+description: Maryany:Estudiante de Doctorado de la Facultad de Psicologia
+direccion: N/D
+edad: 35
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542085200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Gomez Cera
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: frank.gomez.cera_1773-1
+ujc: TRUE
+userpassword: {SSHA}a28guwJoUqKhOUNg72yB8zNSiKRFQnM1
+id: 1773-1
+
+# Entry: 61 uid=idaliana.aleaga@estudiantes.psico.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=idaliana.aleaga@estudiantes.psico.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 81071123418
+ciudadania: N/D
+cn: Idaliana
+correo: idaliana.aleaga@estudiantes.psico.uh.cu
+cuotainternet: 6750
+description: Maryany:Estudiante de Doctorado de la Facultad de Psicologia
+direccion: N/D
+edad: 37
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542085200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Aleaga Antunez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: idaliana.aleaga.antunez_1771-1
+ujc: TRUE
+userpassword: {SSHA}nDmkmrVzV3jlLr7ELkjmpcCmlak2TmVR
+id: 1771-1
+
+# Entry: 62 uid=yailen.sanchez@estudiantes.psico.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=yailen.sanchez@estudiantes.psico.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 87081733617
+ciudadania: N/D
+cn: Yailen
+correo: yailen.sanchez@estudiantes.psico.uh.cu
+cuotainternet: 6750
+description: Maryany:Estudiante de Doctorado de la Facultad de Psicologia
+direccion: N/D
+edad: 31
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1542085200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Sanchez Maso
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: yailen.sanchez.maso_1772-1
+ujc: TRUE
+userpassword: {SSHA}Vm7W9noeeuYg0lXnQEYX6pmRIGh2c3pR
+id: 1772-1
+
+# Entry: 63 uid=diego.ajo@estudiantes.ffh.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=diego.ajo@estudiantes.ffh.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: XDC756938
+ciudadania: N/D
+cn: Diego
+correo: diego.ajo@estudiantes.ffh.uh.cu
+cuotainternet: 6000
+description: Claudia: estudiante extranjero
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541566800
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Ajo Sagredo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: diego.ajo.sagredo_1766-1
+ujc: TRUE
+userpassword: {SSHA}XaSd1/VafHTkZeEkbmZBWzS6n+o0NmxX
+id: 1766-1
+
+# Entry: 64 uid=vdd@flex.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=vdd@flex.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 64052358791
+ciudadania: N/D
+cn: Eliza
+correo: vdd@flex.uh.cu
+cuotainternet: 0
+description: Susy:Vicedecanato docente. Orientado por Enrique.
+direccion: N/D
+edad: 54
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541653200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Suarez Suarez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: FALSE
+tiempodeactividad: 0
+uid: eliza.suarez.suarez_1768-1
+ujc: TRUE
+userpassword: {SSHA}0f164KTbkzgBROGgBoUk+Ut0O7o0ajE2
+id: 1768-1
+
+# Entry: 65 uid=ernesto.blanco@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=ernesto.blanco@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01120968545
+ciudadania: N/D
+cn: Ernesto
+correo: ernesto.blanco@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541998800
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Blanco Fajardo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: ernesto.blanco.fajardo_1769-1
+ujc: TRUE
+userpassword: {SSHA}nGy7fs7YCeC0FP3XN9NuBbiFystIOG1s
+id: 1769-1
+
+# Entry: 66 uid=carlos.miyar@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=carlos.miyar@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01100568163
+ciudadania: N/D
+cn: Carlos
+correo: carlos.miyar@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541998800
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Miyar Nieves
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: carlos.miyar.nieves_1770-1
+ujc: TRUE
+userpassword: {SSHA}rbFnc066UP4FFwJBnpV8q4n6ej52UHBL
+id: 1770-1
+
+# Entry: 67 uid=christian.llerena@cepes.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=christian.llerena@cepes.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 0201294170
+ciudadania: N/D
+cn: Christian
+correo: christian.llerena@cepes.uh.cu
+cuotainternet: 6750
+description: Maryany:Aspirante al programa de Doctorado en Ciencias de la Educación
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541480400
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Llerena Gavilanez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: christian.llerena.gavilanez_1762-1
+ujc: TRUE
+userpassword: {SSHA}VewA7USiitTmYNxrlxOJ7A9GN6VtWjlS
+id: 1762-1
+
+# Entry: 68 uid=neilser.rodriguez@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=neilser.rodriguez@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01030464487
+ciudadania: N/D
+cn: Neilser
+correo: neilser.rodriguez@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 18
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541566800
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Rodriguez Broche
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: neilser.rodriguez.broche_1763-1
+ujc: TRUE
+userpassword: {SSHA}htiZDxkEKpRqW9WPllpAQP7AoMV2bDlV
+id: 1763-1
+
+# Entry: 69 uid=carmen.llerena@estudiantes.ifal.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=carmen.llerena@estudiantes.ifal.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 0913777058
+ciudadania: N/D
+cn: Carmen
+correo: carmen.llerena@estudiantes.ifal.uh.cu
+cuotainternet: 22500
+description: Claudia: doctorante
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541566800
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Llerena Ramirez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: carmen.llerena.ramirez_1764-1
+ujc: TRUE
+userpassword: {SSHA}AP/V2P2FWObUadHTLCkHXdjEa2RNZWZm
+id: 1764-1
+
+# Entry: 70 uid=alberto.guerra@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=alberto.guerra@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01070564968
+ciudadania: N/D
+cn: Alberto
+correo: alberto.guerra@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Claudia: proyecto de estudiantes
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541566800
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Guerra Barroso
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: alberto.guerra.barroso_1765-1
+ujc: TRUE
+userpassword: {SSHA}4oSx/idXu8cIg1ZBDk5l1aZcmuZHYU4w
+id: 1765-1
+
+# Entry: 71 uid=gabriela.fernandez@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=gabriela.fernandez@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01042968497
+ciudadania: N/D
+cn: Gabriela
+correo: gabriela.fernandez@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Susy: Estudiante del proyecto de química
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541480400
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Fernandez Perez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: gabriela.fernandez.perez_1758-1
+ujc: TRUE
+userpassword: {SSHA}532WyV9hmJEZoTyJWAiQyolHXohhZVNB
+id: 1758-1
+
+# Entry: 72 uid=cesar.ceballos@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=cesar.ceballos@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01082368467
+ciudadania: N/D
+cn: Cesar
+correo: cesar.ceballos@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del proyecto de Nuclear
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541480400
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Ceballos Melian
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: cesar.ceballos.melian_1759-1
+ujc: TRUE
+userpassword: {SSHA}tNLzcpleRP/hgjbghgtsqsH75SNySDVz
+id: 1759-1
+
+# Entry: 73 uid=adrian.garcia@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=adrian.garcia@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01042865526
+ciudadania: N/D
+cn: Adrian
+correo: adrian.garcia@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Maryany.estudiante del proyecto de Fisica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541480400
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Garcia Llanes
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: adrian.garcia.llanes_1760-1
+ujc: TRUE
+userpassword: {SSHA}LtWy0E9R/k0c2ERXkQo556Kwd5gyekZV
+id: 1760-1
+
+# Entry: 74 uid=nelson.mora@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=nelson.mora@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01100579805
+ciudadania: N/D
+cn: Nelson
+correo: nelson.mora@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Maryany.estudiante del proyecto de Nuclear
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541480400
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Mora Fernandez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: nelson.mora.fernandez_1761-1
+ujc: TRUE
+userpassword: {SSHA}XhiDQrEf7t9QNThiBrOyQxGRUkxmcDl4
+id: 1761-1
+
+# Entry: 75 uid=yuling.sing@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=yuling.sing@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01060866813
+ciudadania: N/D
+cn: Yuling
+correo: yuling.sing@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541394000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Sing Ricardo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: yuling.sing.ricardo_1755-1
+ujc: TRUE
+userpassword: {SSHA}azQRQ6DF5sX35lwD5+4PRD67EmhQV3k3
+id: 1755-1
+
+# Entry: 76 uid=test@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=test@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 85122324739
+ciudadania: N/D
+cn: Susibel
+correo: test@rect.uh.cu
+cuotainternet: 0
+description: Susy:Correo de prueba
+direccion: N/D
+edad: 33
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541480400
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Labrada Morales
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: FALSE
+tiempodeactividad: 0
+uid: susibel.labrada.morales_1756-1
+ujc: TRUE
+userpassword: {SSHA}wg6odKVVesDi0PZ4L6zhuF52OEVWRVhI
+id: 1756-1
+
+# Entry: 77 uid=lilianni.perez@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=lilianni.perez@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01120980597
+ciudadania: N/D
+cn: Lilianni
+correo: lilianni.perez@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del proyecto de quimica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541480400
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Perez Rivero
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: lilianni.perez.rivero_1757-1
+ujc: TRUE
+userpassword: {SSHA}1gM4raJG44cITC0+DZGFUCQCcXlqV01F
+id: 1757-1
+
+# Entry: 78 uid=dixon@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=dixon@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: A6771727
+ciudadania: N/D
+cn: Dixon Domingo
+correo: dixon@estudiantes.fq.uh.cu
+cuotainternet: 6000
+description: Susy: Maestrante.
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541394000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Andi Grefa
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: dixon.domingo.andi.grefa_1752-1
+ujc: TRUE
+userpassword: {SSHA}5EQIU3NTs4wOkP1El06aaInGjz5ESHFk
+id: 1752-1
+
+# Entry: 79 uid=jose1.rios@iris.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=jose1.rios@iris.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 93072731707
+ciudadania: N/D
+cn: Jose
+correo: jose1.rios@iris.uh.cu
+cuotainternet: 1000
+description: N/D
+direccion: N/D
+edad: 25
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541394000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Rios
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: jose.rios_1753-1
+ujc: TRUE
+userpassword: {SSHA}BLp60Jv9LYS7T1jPPdVu2wzZmBhhN2l4
+id: 1753-1
+
+# Entry: 80 uid=ronald.rivero@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=ronald.rivero@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01092664548
+ciudadania: N/D
+cn: Ronald
+correo: ronald.rivero@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del proyecto de Quimica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541394000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Rivero Marero
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: ronald.rivero.marero_1754-1
+ujc: TRUE
+userpassword: {SSHA}X1+QE1mGE5Tf2MS6k2OHlEYNBKJSU3h3
+id: 1754-1
+
+# Entry: 81 uid=xuan@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=xuan@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 94100200900
+ciudadania: N/D
+cn: Xuan
+correo: xuan@estudiantes.fec.uh.cu
+cuotainternet: 6000
+description: Susy: Estudiante de FEC.
+direccion: N/D
+edad: 24
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540958400
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: He
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: xuan.he_1745-1
+ujc: TRUE
+userpassword: {SSHA}ct9zU5q9ucFLNpuIp6ON1ugGhmlSWUU1
+id: 1745-1
+
+# Entry: 82 uid=zhitong.mu@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=zhitong.mu@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 96112701211
+ciudadania: N/D
+cn: Zhitong
+correo: zhitong.mu@estudiantes.fec.uh.cu
+cuotainternet: 6000
+description: Maryany:Estudiante de maestria en Admon de Negocios
+direccion: N/D
+edad: 22
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540958400
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Mu
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: zhitong.mu_1746-1
+ujc: TRUE
+userpassword: {SSHA}vgGFyipee+blLA9vCNv4M2tWF7Q1Q0tm
+id: 1746-1
+
+# Entry: 83 uid=sihan@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=sihan@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 95072000900
+ciudadania: N/D
+cn: Sihan
+correo: sihan@estudiantes.fec.uh.cu
+cuotainternet: 6000
+description: Susy: estudiante de FEC
+direccion: N/D
+edad: 23
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540958400
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Liu
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: sihan.liu_1747-1
+ujc: TRUE
+userpassword: {SSHA}+7SaCbFy6ihFhGBU0CmJ2V5MTfZNNnFu
+id: 1747-1
+
+# Entry: 84 uid=pablo.bienvenido@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=pablo.bienvenido@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 1303576043
+ciudadania: N/D
+cn: Pablo
+correo: pablo.bienvenido@estudiantes.fec.uh.cu
+cuotainternet: 6750
+description: maryany:Estudiante de Doctorado
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1541394000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Bienvenido Loor
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: pablo.bienvenido.loor_1749-1
+ujc: TRUE
+userpassword: {SSHA}0Nt+y3E056g+zk6H6uDKnNHry2BOeXh1
+id: 1749-1
+
+# Entry: 85 uid=siyu.jiang@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=siyu.jiang@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 97040400813
+ciudadania: N/D
+cn: Siyu
+correo: siyu.jiang@estudiantes.fec.uh.cu
+cuotainternet: 6000
+description: Maryany:Estudiante de maestria en Admon de Negocios
+direccion: N/D
+edad: 21
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540958400
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Jiang
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: siyu.jiang_1741-1
+ujc: TRUE
+userpassword: {SSHA}Nx0Gl16K7oCbWpA8B5RrbxcgW5g5OW1E
+id: 1741-1
+
+# Entry: 86 uid=xue.yin@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=xue.yin@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 95062301312
+ciudadania: N/D
+cn: Xue
+correo: xue.yin@estudiantes.fec.uh.cu
+cuotainternet: 6000
+description: Maryany:Estudiante de maestria en Admon de Negocios
+direccion: N/D
+edad: 23
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540958400
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Yin
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: xue.yin_1742-1
+ujc: TRUE
+userpassword: {SSHA}XIdMUY7NevE2O68KFU2sWP5CWilhWXVn
+id: 1742-1
+
+# Entry: 87 uid=yuting.liu@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=yuting.liu@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 96061000912
+ciudadania: N/D
+cn: Yuting
+correo: yuting.liu@estudiantes.fec.uh.cu
+cuotainternet: 6000
+description: Maryany:Estudiante de maestria en Admon de Negocios
+direccion: N/D
+edad: 22
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540958400
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Liu
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: yuting.liu_1743-1
+ujc: TRUE
+userpassword: {SSHA}a4r7u9GN4c4GpJsR+GCtfPpGxCh2WjFR
+id: 1743-1
+
+# Entry: 88 uid=yue.li@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=yue.li@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 93122701313
+ciudadania: N/D
+cn: Yue
+correo: yue.li@estudiantes.fec.uh.cu
+cuotainternet: 6000
+description: Maryany:Estudiante de maestria en Admon de Negocios
+direccion: N/D
+edad: 25
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540958400
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Li
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: yue.li_1744-1
+ujc: TRUE
+userpassword: {SSHA}MAPwoTyZfocEH8UHDETRZ40CzhRDaE9a
+id: 1744-1
+
+# Entry: 89 uid=ana.diaz@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=ana.diaz@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01111870353
+ciudadania: N/D
+cn: Ana Laura
+correo: ana.diaz@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Susy: estudiante del INSTEC
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540872000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Diaz Perera
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: ana.laura.diaz.perera_1738-1
+ujc: TRUE
+userpassword: {SSHA}Hc+dEZCQ1kJz2XNjLS/GAbFZ8N9tblBs
+id: 1738-1
+
+# Entry: 90 uid=alejandro.gonzalez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=alejandro.gonzalez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01111974000
+ciudadania: N/D
+cn: Jose Alejandro
+correo: alejandro.gonzalez@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Susy: estudiante del INSTEC
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540872000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Gonzalez De La Cruz
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: jose.alejandro.gonzalez.de.la.cruz_1739-1
+ujc: TRUE
+userpassword: {SSHA}RflDJ060anVZSy2q1uMj4er++3pIR2Rr
+id: 1739-1
+
+# Entry: 91 uid=jorge.tomas@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=jorge.tomas@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01012360384
+ciudadania: N/D
+cn: Jorge Enrique
+correo: jorge.tomas@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Susy: Estudiante del INSTEC
+direccion: N/D
+edad: 18
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540872000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Tomas Milian
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: jorge.enrique.tomas.milian_1740-1
+ujc: TRUE
+userpassword: {SSHA}BYky11i4dhMdQR0qx1o2iRcfsR5oQ00w
+id: 1740-1
+
+# Entry: 92 uid=jose.duquesne@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=jose.duquesne@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01030160342
+ciudadania: N/D
+cn: Jose
+correo: jose.duquesne@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del proyecto de Nuclear
+direccion: N/D
+edad: 18
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540872000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Duquesne Sanabria
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: jose.duquesne.sanabria_1734-1
+ujc: TRUE
+userpassword: {SSHA}jj00DEn+kVetH+CLhiU1YKVeiXA4M0lF
+id: 1734-1
+
+# Entry: 93 uid=joan.garcia@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=joan.garcia@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01052668968
+ciudadania: N/D
+cn: Joan
+correo: joan.garcia@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del proyecto de Fisica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540872000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Garcia Rimada
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: joan.garcia.rimada_1735-1
+ujc: TRUE
+userpassword: {SSHA}NLN8nU1a15T+HtmkOMoDHT2c0HVDWjJG
+id: 1735-1
+
+# Entry: 94 uid=marcos.hernandez@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=marcos.hernandez@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01031969367
+ciudadania: N/D
+cn: Marcos
+correo: marcos.hernandez@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del proyecto de Fisica
+direccion: N/D
+edad: 18
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540872000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Hernandez Prado
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: marcos.hernandez.prado_1736-1
+ujc: TRUE
+userpassword: {SSHA}FLHeArIl4OJJrDyK+xygigUC30t0ejN2
+id: 1736-1
+
+# Entry: 95 uid=magela.balinno@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=magela.balinno@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01110280490
+ciudadania: N/D
+cn: Magela Irene
+correo: magela.balinno@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Susy: estudiante del INSTEC
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540872000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Baliño Anache
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: magela.irene.balino.anache_1737-1
+ujc: TRUE
+userpassword: {SSHA}7fqOr1KFVVXCeMARGSNdeNAFCuNxNEdZ
+id: 1737-1
+
+# Entry: 96 uid=felix.pascual@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=felix.pascual@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 95011320745
+ciudadania: N/D
+cn: Felix
+correo: felix.pascual@estudiantes.fisica.uh.cu
+cuotainternet: 4500
+description: Maryany:Estudiante de pregrado por convenio con UO
+direccion: N/D
+edad: 24
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540872000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Pascual Garcia
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: felix.pascual.garcia_1730-1
+ujc: TRUE
+userpassword: {SSHA}4vgwuhmRlpyCfVhZN103za2KVgRNc1VK
+id: 1730-1
+
+# Entry: 97 uid=leandro.espinosa@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=leandro.espinosa@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01041360329
+ciudadania: N/D
+cn: Leandro
+correo: leandro.espinosa@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del proyecto de Nuclear
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540872000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Espinosa Amador
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: leandro.espinosa.amador_1731-1
+ujc: TRUE
+userpassword: {SSHA}vz095tvjFBMoA6giCBNZ0fXpTrVLZEE1
+id: 1731-1
+
+# Entry: 98 uid=andy.ruiz@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=andy.ruiz@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01091175229
+ciudadania: N/D
+cn: Andy
+correo: andy.ruiz@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del proyecto de Nuclear
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540872000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Ruiz Tellez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: andy.ruiz.tellez_1732-1
+ujc: TRUE
+userpassword: {SSHA}QmeAScUo44o6sldNQ7vQQWKufoVta1ZN
+id: 1732-1
+
+# Entry: 99 uid=jose.estrada@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=jose.estrada@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01052477480
+ciudadania: N/D
+cn: Jose
+correo: jose.estrada@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del proyecto de Nuclear
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540872000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Estrada Torres
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: jose.estrada.torres_1733-1
+ujc: TRUE
+userpassword: {SSHA}fJtEOhSfUy4YZrgJTzL9bz8vC7x1UFZs
+id: 1733-1
+
+# Entry: 100 uid=emilio.hernandez@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=emilio.hernandez@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01082068465
+ciudadania: N/D
+cn: Emilio
+correo: emilio.hernandez@estudiantes.matcom.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Hernandez Curbelo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: emilio.hernandez.curbelo_1725-1
+ujc: TRUE
+userpassword: {SSHA}tttu54izoLWB39FsySjnWRXzPGBpMlRn
+id: 1725-1
+
+# Entry: 101 uid=ismely.rosa@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=ismely.rosa@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01042764495
+ciudadania: N/D
+cn: Ismely
+correo: ismely.rosa@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyento
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Rosa Hernandez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: ismely.rosa.hernandez_1726-1
+ujc: TRUE
+userpassword: {SSHA}WovY1D6fIJG0vEVjPm8+KAtkOxNlTkM5
+id: 1726-1
+
+# Entry: 102 uid=maikol.cabanas@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=maikol.cabanas@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01121865766
+ciudadania: N/D
+cn: Maikol
+correo: maikol.cabanas@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Cabanas Ruiz
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: maikol.cabanas.ruiz_1727-1
+ujc: TRUE
+userpassword: {SSHA}bZ7oqoLkyzUyzMiPEbkh9X+o6BBDSmRE
+id: 1727-1
+
+# Entry: 103 uid=claudia.castaneda@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=claudia.castaneda@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 87012503619
+ciudadania: N/D
+cn: Claudia
+correo: claudia.castaneda@rect.uh.cu
+cuotainternet: 10500
+description: Se contrata por interés de la DDI y el Rectorado. Prof Instructor y Maestria.
+direccion: N/D
+edad: 32
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540872000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Castañeda Pérez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: claudia.castaneda.perez_1729-1
+ujc: TRUE
+userpassword: {SSHA}vCsfytoc/SS8KY5gh8jzaKHiK3JiWFZ3
+id: 1729-1
+
+# Entry: 104 uid=yojan.artiles@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=yojan.artiles@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01081865767
+ciudadania: N/D
+cn: Yojan
+correo: yojan.artiles@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Artiles Brito
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: yojan.artiles.brito_1721-1
+ujc: TRUE
+userpassword: {SSHA}jGane0AjCEWjNjpj8noysz6m3Ax4ZkZn
+id: 1721-1
+
+# Entry: 105 uid=taima.ramos@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=taima.ramos@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01020164530
+ciudadania: N/D
+cn: Taima
+correo: taima.ramos@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del Proyecto de Quimica
+direccion: N/D
+edad: 18
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Ramos Garcia
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: taima.ramos.garcia_1722-1
+ujc: TRUE
+userpassword: {SSHA}FVSGFV5rO2o62CPXnVEVuxX2d8s2SWs5
+id: 1722-1
+
+# Entry: 106 uid=ediany.velazquez@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=ediany.velazquez@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01052264510
+ciudadania: N/D
+cn: Ediany
+correo: ediany.velazquez@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Velazquez Ravelo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: ediany.velazquez.ravelo_1723-1
+ujc: TRUE
+userpassword: {SSHA}1VfOXuA8iIATQyqdyvDFud8XkxtNa0Fj
+id: 1723-1
+
+# Entry: 107 uid=alejandro.senen@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=alejandro.senen@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01120165846
+ciudadania: N/D
+cn: Alejandro
+correo: alejandro.senen@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del Proyecto de Quimica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Senen Hernandez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: alejandro.senen.hernandez_1724-1
+ujc: TRUE
+userpassword: {SSHA}FDp/G9aEc5PGBSFZtRMkDS8H5G82b0VY
+id: 1724-1
+
+# Entry: 108 uid=natali.arguelles@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=natali.arguelles@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01103164976
+ciudadania: N/D
+cn: Natali
+correo: natali.arguelles@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del Proyecto de Quimica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Arguelles Echenique
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: natali.arguelles.echenique_1718-1
+ujc: TRUE
+userpassword: {SSHA}+IBDOA18YWe3+CToWQgqQnHR/TJ1WWpm
+id: 1718-1
+
+# Entry: 109 uid=anyelaine.lazo@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=anyelaine.lazo@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01022065295
+ciudadania: N/D
+cn: Anyelaine
+correo: anyelaine.lazo@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 18
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Lazo Sardina
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: anyelaine.lazo.sardina_1719-1
+ujc: TRUE
+userpassword: {SSHA}OBIrV9aBM3uIxDhpVb7jfW3qURtYdGZG
+id: 1719-1
+
+# Entry: 110 uid=anyelaine.lazos@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=anyelaine.lazos@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01022065295
+ciudadania: N/D
+cn: Anyelaine
+correo: anyelaine.lazos@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes del proyecto
+direccion: N/D
+edad: 18
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Lazo Sardina
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: anyelaine.lazo.sardina_1720-1
+ujc: TRUE
+userpassword: {SSHA}RHpGIdViFD4v9xWh9vNixtgN8pV0aUZU
+id: 1720-1
+
+# Entry: 111 uid=gabriela.chaviano@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=gabriela.chaviano@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01111866778
+ciudadania: N/D
+cn: Gabriela
+correo: gabriela.chaviano@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del Proyecto de Quimica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Chaviano Fajardo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: gabriela.chaviano.fajardo_1716-1
+ujc: TRUE
+userpassword: {SSHA}PFXzH2Hh6Gze38SQ+F5lMAfE0A84blUz
+id: 1716-1
+
+# Entry: 112 uid=rodrigo.dominguez@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=rodrigo.dominguez@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01122560107
+ciudadania: N/D
+cn: Rodrigo
+correo: rodrigo.dominguez@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del Proyecto de Quimica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Dominguez Alonso
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: rodrigo.dominguez.alonso_1717-1
+ujc: TRUE
+userpassword: {SSHA}Fe7rD4cQVyyHYSqCUO57DphjKd9QTzdR
+id: 1717-1
+
+# Entry: 113 uid=roberto.diaz@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=roberto.diaz@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01011968008
+ciudadania: N/D
+cn: Roberto
+correo: roberto.diaz@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del Proyecto de Quimica
+direccion: N/D
+edad: 18
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Diaz Carro
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: roberto.diaz.carro_1713-1
+ujc: TRUE
+userpassword: {SSHA}8vJIgwslm+OCM8lNSWt6aWKnRh82R3hT
+id: 1713-1
+
+# Entry: 114 uid=lilian.dearmas@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=lilian.dearmas@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01092865851
+ciudadania: N/D
+cn: Lilian
+correo: lilian.dearmas@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del Proyecto de Quimica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: De Armas Domenech
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: lilian.de.armas.domenech_1714-1
+ujc: TRUE
+userpassword: {SSHA}/+dFVSPg9h0aFl6cNh0ueB4GkcVtU2dl
+id: 1714-1
+
+# Entry: 115 uid=yandy.merencio@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=yandy.merencio@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01053064167
+ciudadania: N/D
+cn: Yandy
+correo: yandy.merencio@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del Proyecto de Quimica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Merencio Perez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: yandy.merencio.perez_1715-1
+ujc: TRUE
+userpassword: {SSHA}FLaH5JU8JCNpADiKfmGidQZnKS1CY0Jn
+id: 1715-1
+
+# Entry: 116 uid=carlos.hernandez@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=carlos.hernandez@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01122864420
+ciudadania: N/D
+cn: Carlos
+correo: carlos.hernandez@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Claudia. estudiantes del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Hernandez Rodriguez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: carlos.hernandez.rodriguez_1709-1
+ujc: TRUE
+userpassword: {SSHA}KBelcvizYzzbA9YY91YP/zvFv4ZHSUN3
+id: 1709-1
+
+# Entry: 117 uid=leidy.farinnas@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=leidy.farinnas@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01041670334
+ciudadania: N/D
+cn: Leidy
+correo: leidy.farinnas@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del Proyecto de Quimica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Farinnas Naranjo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: leidy.farinnas.naranjo_1710-1
+ujc: TRUE
+userpassword: {SSHA}4A7G+dVE8NJsyL3hCtQcTH3v1olXcjQ4
+id: 1710-1
+
+# Entry: 118 uid=wendy.alvarez@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=wendy.alvarez@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01070368493
+ciudadania: N/D
+cn: Wendy
+correo: wendy.alvarez@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del Proyecto de Quimica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Alvarez Rey
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: wendy.alvarez.rey_1711-1
+ujc: TRUE
+userpassword: {SSHA}/LJHjw6tkk9gLHH0SNfgVyiDwT1zV0J1
+id: 1711-1
+
+# Entry: 119 uid=samanta.corbo@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=samanta.corbo@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01112365539
+ciudadania: N/D
+cn: Samanta
+correo: samanta.corbo@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del Proyecto de Quimica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Corbo Gonzalez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: samanta.corbo.gonzalez_1712-1
+ujc: TRUE
+userpassword: {SSHA}qPDIj3Wk++As0N4qj+jg0b/0NXt2OHZP
+id: 1712-1
+
+# Entry: 120 uid=arian.gomez@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=arian.gomez@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01022064825
+ciudadania: N/D
+cn: Arian
+correo: arian.gomez@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes del proyecto
+direccion: N/D
+edad: 18
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Gomez Scull
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: arian.gomez.scull_1706-1
+ujc: TRUE
+userpassword: {SSHA}hV7gBkr1R0MKQ9aRTasnfoCa3tVEdHk3
+id: 1706-1
+
+# Entry: 121 uid=rita.barbosa@estudiantes.fcom.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=rita.barbosa@estudiantes.fcom.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: FV316804
+ciudadania: N/D
+cn: Rita
+correo: rita.barbosa@estudiantes.fcom.uh.cu
+cuotainternet: 6750
+description: Maryany:Estudiante de Doctorado
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Barbosa Dos Santos
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: rita.barbosa.dos.santos_1707-1
+ujc: TRUE
+userpassword: {SSHA}A7y0I6N1/ekuEtTBZy2S27dCDK1aVGFn
+id: 1707-1
+
+# Entry: 122 uid=henry.suarez@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=henry.suarez@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01022462887
+ciudadania: N/D
+cn: Henry
+correo: henry.suarez@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 18
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Suarez Ogando
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: henry.suarez.ogando_1708-1
+ujc: TRUE
+userpassword: {SSHA}Bu23ewsd79AbFAyn/eQeoLg9N7Y3ODJ6
+id: 1708-1
+
+# Entry: 123 uid=nicado@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=nicado@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: AABBCC
+ciudadania: N/D
+cn: Miriam
+correo: nicado@rect.uh.cu
+cuotainternet: 22500
+description: Susy: Nueva Rectora
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Nicado Garcia
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: miriam.nicado.garcia_1704-1
+ujc: TRUE
+userpassword: {SSHA}o8n/9Hj17ZnhJangawbMsuH6PJdvblEx
+id: 1704-1
+
+# Entry: 124 uid=danny.rivera@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=danny.rivera@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 0102664489
+ciudadania: N/D
+cn: Danny
+correo: danny.rivera@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes del proyecto
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540785600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Rivera Valera
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: danny.rivera.valera_1705-1
+ujc: TRUE
+userpassword: {SSHA}ArtWlGfQKcviPIcbjh8hhd6IVIlUenNS
+id: 1705-1
+
+# Entry: 125 uid=frank.gutierrez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=frank.gutierrez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01072967609
+ciudadania: N/D
+cn: Frank
+correo: frank.gutierrez@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Gutierrez Muina
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: frank.gutierrez.muina_1700-1
+ujc: TRUE
+userpassword: {SSHA}6fTQZWdBrjjRC0atMmA3IqxKfhlnbDVu
+id: 1700-1
+
+# Entry: 126 uid=rosalin.gonzalez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=rosalin.gonzalez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01010870430
+ciudadania: N/D
+cn: Rosalin
+correo: rosalin.gonzalez@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 18
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Gonzalez Rojas
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: rosalin.gonzalez.rojas_1701-1
+ujc: TRUE
+userpassword: {SSHA}nKz7OPufJH5rGgxFCiISphFzsyFhZENi
+id: 1701-1
+
+# Entry: 127 uid=diocles.suarez@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=diocles.suarez@estudiantes.fec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 13036224843
+ciudadania: N/D
+cn: Diocles
+correo: diocles.suarez@estudiantes.fec.uh.cu
+cuotainternet: 6750
+description: Claudia: doctorante
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540526400
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Suarez Ponce
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: diocles.suarez.ponce_1702-1
+ujc: TRUE
+userpassword: {SSHA}bySeDMwHwDK7b/vH71dBUTE/NQ9RTWlC
+id: 1702-1
+
+# Entry: 128 uid=sheila.zayas@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=sheila.zayas@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01062165857
+ciudadania: N/D
+cn: Sheila
+correo: sheila.zayas@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Zayas Rodriguez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: sheila.zayas.rodriguez_1698-1
+ujc: TRUE
+userpassword: {SSHA}U7QXOnL6yum2JtzokW5DtWKrLwUxMllN
+id: 1698-1
+
+# Entry: 129 uid=fernanda.contino@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=fernanda.contino@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01040260330
+ciudadania: N/D
+cn: Fernanda
+correo: fernanda.contino@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Contino Ramos
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: fernanda.contino.ramos_1699-1
+ujc: TRUE
+userpassword: {SSHA}M7rcG5Hz2Wr8uACt1gS5Grv5lhxKZ2NY
+id: 1699-1
+
+# Entry: 130 uid=luism.duverger@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=luism.duverger@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01030682988
+ciudadania: N/D
+cn: LuisM
+correo: luism.duverger@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 18
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Duverger Paumier
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: luism.duverger.paumier_1696-1
+ujc: TRUE
+userpassword: {SSHA}j0T0XUVPNIDmJIGKxD3TZxPxqfRUMDBx
+id: 1696-1
+
+# Entry: 131 uid=asiel.velasco@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=asiel.velasco@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01082881261
+ciudadania: N/D
+cn: Asiel
+correo: asiel.velasco@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Velasco Sotomayor
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: asiel.velasco.sotomayor_1697-1
+ujc: TRUE
+userpassword: {SSHA}M56Qn7TvC/BKi+ROSna25MV1Ge1YeVZt
+id: 1697-1
+
+# Entry: 132 uid=jose.vidal@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=jose.vidal@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01022568463
+ciudadania: N/D
+cn: Jose 
+correo: jose.vidal@estudiantes.matcom.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 18
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Vidal Fernandez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: jose.vidal.fernandez_1692-1
+ujc: TRUE
+userpassword: {SSHA}LMR57dqUvA28oJr6S/36wO5WcglQYnpx
+id: 1692-1
+
+# Entry: 133 uid=ignacio.menendez@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=ignacio.menendez@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01051368468
+ciudadania: N/D
+cn: Ignacio
+correo: ignacio.menendez@estudiantes.matcom.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Menendez Menendez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: ignacio.menendez.menendez_1693-1
+ujc: TRUE
+userpassword: {SSHA}4B/3niQSWCAGyTLLTenAEmfuK+82ZHNP
+id: 1693-1
+
+# Entry: 134 uid=carlom.gordillo@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=carlom.gordillo@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01060470426
+ciudadania: N/D
+cn: CarloM
+correo: carlom.gordillo@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Gordillo Garcia
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: carlom.gordillo.garcia_1694-1
+ujc: TRUE
+userpassword: {SSHA}fAhFqgKjYRAHX8iAJZyK0g+gqTJvcGJ3
+id: 1694-1
+
+# Entry: 135 uid=rudy.fong@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=rudy.fong@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01052765841
+ciudadania: N/D
+cn: Rudy
+correo: rudy.fong@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Fong Marrero
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: rudy.fong.marrero_1695-1
+ujc: TRUE
+userpassword: {SSHA}PqhU4r8DwNwr1t04tLXH2tzlp8lRYkFK
+id: 1695-1
+
+# Entry: 136 uid=alejandro.charon@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=alejandro.charon@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01101868168
+ciudadania: N/D
+cn: Alejandro
+correo: alejandro.charon@estudiantes.matcom.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Charon Leon
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: alejandro.charon.leon_1688-1
+ujc: TRUE
+userpassword: {SSHA}6PmgWr4C+Gdplp07UEAs8pGvhKp4MXBV
+id: 1688-1
+
+# Entry: 137 uid=kevin.acosta@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=kevin.acosta@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 02011068085
+ciudadania: N/D
+cn: Kevin 
+correo: kevin.acosta@estudiantes.matcom.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Acosta Nunez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: kevin.acosta.nunez_1689-1
+ujc: TRUE
+userpassword: {SSHA}o/MVYK5xoVY/L06pWpOJozntMmZvblg0
+id: 1689-1
+
+# Entry: 138 uid=enrique.gil@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=enrique.gil@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01022268063
+ciudadania: N/D
+cn: Enrique
+correo: enrique.gil@estudiantes.matcom.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 18
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Gil Quintana
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: enrique.gil.quintana_1690-1
+ujc: TRUE
+userpassword: {SSHA}yR5CKQ7fQyri/x5Tl96KV8ufLRkyNkc0
+id: 1690-1
+
+# Entry: 139 uid=hector.dache@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=hector.dache@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01051368044
+ciudadania: N/D
+cn: Hector 
+correo: hector.dache@estudiantes.matcom.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Dache Azcuy
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: hector.dache.azcuy_1691-1
+ujc: TRUE
+userpassword: {SSHA}RP+1ZOhNyBxwHSaCaMrb2GU0H1w1TlNh
+id: 1691-1
+
+# Entry: 140 uid=merling.sabater@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=merling.sabater@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01041868652
+ciudadania: N/D
+cn: Merling
+correo: merling.sabater@estudiantes.matcom.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Sabater Ramirez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: merling.sabater.ramirez_1685-1
+ujc: TRUE
+userpassword: {SSHA}6tt1TAL70kiJgtUC8nUQenQ9UKVUalh6
+id: 1685-1
+
+# Entry: 141 uid=vianney.gonzalez@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=vianney.gonzalez@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01080967388
+ciudadania: N/D
+cn: Vianney
+correo: vianney.gonzalez@estudiantes.matcom.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Gonzalez Carrillo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: vianney.gonzalez.carrillo_1686-1
+ujc: TRUE
+userpassword: {SSHA}AZFl6N5NFo6/q9JBkDgd7+mCBGRwZ3FF
+id: 1686-1
+
+# Entry: 142 uid=paulo.lantigua@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=paulo.lantigua@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01050868546
+ciudadania: N/D
+cn: Paulo
+correo: paulo.lantigua@estudiantes.matcom.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Lantigua Cuervo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: paulo.lantigua.cuervo_1687-1
+ujc: TRUE
+userpassword: {SSHA}kNaJUerw8sjgYGvsqSjDESY9k3FTTVFQ
+id: 1687-1
+
+# Entry: 143 uid=jose.hereida@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=jose.hereida@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 95021920589
+ciudadania: N/D
+cn: Jose
+correo: jose.hereida@estudiantes.fisica.uh.cu
+cuotainternet: 4500
+description: maryany:estudiante de Pregrado por convenio con UO
+direccion: N/D
+edad: 24
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Hereida Kindelan
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: jose.hereida.kindelan_1681-1
+ujc: TRUE
+userpassword: {SSHA}k0l/xoHBfnxHn7nUdjsTB0Bqb5pJY1c1
+id: 1681-1
+
+# Entry: 144 uid=sabrina.amador@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=sabrina.amador@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01071360414
+ciudadania: N/D
+cn: Sabrina
+correo: sabrina.amador@estudiantes.matcom.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Amador Carmona
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: sabrina.amador.carmona_1682-1
+ujc: TRUE
+userpassword: {SSHA}aAJyLUUy0+ZNcIwqszBky37swdJTaHg5
+id: 1682-1
+
+# Entry: 145 uid=melany.vilar@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=melany.vilar@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01101266578
+ciudadania: N/D
+cn: Melany
+correo: melany.vilar@estudiantes.matcom.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Vilar Aguilar
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: melany.vilar.aguilar_1683-1
+ujc: TRUE
+userpassword: {SSHA}OpghgbWutQ3kEnNYT9JMUJzJbP44QUQ4
+id: 1683-1
+
+# Entry: 146 uid=elianeth.echeverria@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=elianeth.echeverria@estudiantes.matcom.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01050966336
+ciudadania: N/D
+cn: Elianeth
+correo: elianeth.echeverria@estudiantes.matcom.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Echeverria Alvarez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: elianeth.echeverria.alvarez_1684-1
+ujc: TRUE
+userpassword: {SSHA}oX3L3NAzLT256jlfvq9IHAH+RU1qdXRX
+id: 1684-1
+
+# Entry: 147 uid=lucie.bauermeister@estudiantes.fayl.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=lucie.bauermeister@estudiantes.fayl.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: C6LG70LPT
+ciudadania: N/D
+cn: Lucie
+correo: lucie.bauermeister@estudiantes.fayl.uh.cu
+cuotainternet: 4500
+description: Claudia: covenio Halle
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Bauermeister
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: lucie.bauermeister_1677-1
+ujc: TRUE
+userpassword: {SSHA}Jl5q77k9/DcshYyFLCZ+RhvPgvJ4NGtj
+id: 1677-1
+
+# Entry: 148 uid=lucie@estudiantes.fayl.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=lucie@estudiantes.fayl.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: C6LG70LPT
+ciudadania: N/D
+cn: Lucie
+correo: lucie@estudiantes.fayl.uh.cu
+cuotainternet: 4500
+description: Susy: Convenio con Halle
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Bavermeister
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: lucie.bavermeister_1678-1
+ujc: TRUE
+userpassword: {SSHA}9bt6FtPiCMhQKn5RZnAM69YmoiJjWkts
+id: 1678-1
+
+# Entry: 149 uid=ernesto.fajardo@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=ernesto.fajardo@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01032865582
+ciudadania: N/D
+cn: Ernesto
+correo: ernesto.fajardo@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del proyecto
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Fajardo Diaz
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: ernesto.fajardo.diaz_1679-1
+ujc: TRUE
+userpassword: {SSHA}11263xLmKSSI1rGgV8p5sZ0umxVMVEUx
+id: 1679-1
+
+# Entry: 150 uid=yasser.hernandez@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=yasser.hernandez@estudiantes.fq.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01080368021
+ciudadania: N/D
+cn: Yasser
+correo: yasser.hernandez@estudiantes.fq.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante de Proyecto de Quimica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Hernandez Ravelo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: yasser.hernandez.ravelo_1680-1
+ujc: TRUE
+userpassword: {SSHA}RiHxk6f0hegHUV8igJ8wCqRCWxtDOGpZ
+id: 1680-1
+
+# Entry: 151 uid=arian.milanes@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=arian.milanes@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 95051947707
+ciudadania: N/D
+cn: Arian
+correo: arian.milanes@estudiantes.fisica.uh.cu
+cuotainternet: 4500
+description: jose.hereira@estudiantes.fisica.uh.cu
+direccion: N/D
+edad: 23
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Milanes Garcia
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: arian.milanes.garcia_1672-1
+ujc: TRUE
+userpassword: {SSHA}j96iR4c7XzDYy6bDfLqubxWKlopuM1Nm
+id: 1672-1
+
+# Entry: 152 uid=nardis.campo@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=nardis.campo@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 95012848649
+ciudadania: N/D
+cn: Nardis
+correo: nardis.campo@estudiantes.fisica.uh.cu
+cuotainternet: 4500
+description: Claudia: estudiante de fisica
+direccion: N/D
+edad: 24
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Campo Soler
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: nardis.campo.soler_1674-1
+ujc: TRUE
+userpassword: {SSHA}xeYowfFTZyfj0Xpgb+uGcqQaYW5GTG1I
+id: 1674-1
+
+# Entry: 153 uid=ciei@ciei.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=ciei@ciei.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 72082626218
+ciudadania: N/D
+cn: Zoraida
+correo: ciei@ciei.uh.cu
+cuotainternet: 0
+description: Susy: Correo institucional.
+direccion: N/D
+edad: 46
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Zambrano Aguilera
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: FALSE
+tiempodeactividad: 0
+uid: zoraida.zambrano.aguilera_1675-1
+ujc: TRUE
+userpassword: {SSHA}MXcLtBUyYkmK1kwvr6dlVTdSmsZkNDhM
+id: 1675-1
+
+# Entry: 154 uid=jasmin@estudiantes.fayl.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=jasmin@estudiantes.fayl.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: C6HM826LM
+ciudadania: N/D
+cn: Jasmin Luisa
+correo: jasmin@estudiantes.fayl.uh.cu
+cuotainternet: 4500
+description: Susy: Convenio con Halle.
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540440000
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Schmidt
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: jasmin.luisa.schmidt_1676-1
+ujc: TRUE
+userpassword: {SSHA}lNK5+pK1O78L82/Q7MaOHj6BzKFVVkM1
+id: 1676-1
+
+# Entry: 155 uid=elena@psico.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=elena@psico.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: BC5739387
+ciudadania: N/D
+cn: Elena
+correo: elena@psico.uh.cu
+cuotainternet: 2700
+description: Susy: Profesora auxiliar extranjera.
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540353600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Delgadova
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: elena.delgadova_1667-1
+ujc: TRUE
+userpassword: {SSHA}UTZKD0fvUfOTvv9exG4lfgRp4VxWeFp6
+id: 1667-1
+
+# Entry: 156 uid=alejandro.dominguez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=alejandro.dominguez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01032264485
+ciudadania: N/D
+cn: Alejandro
+correo: alejandro.dominguez@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 18
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540353600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Dominguez Ruiz
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: alejandro.dominguez.ruiz_1668-1
+ujc: TRUE
+userpassword: {SSHA}HFi7VXqOT9bFdInkl76Vbc6pZuR4YmdL
+id: 1668-1
+
+# Entry: 157 uid=paolino.presti@estudiantes.fayl.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=paolino.presti@estudiantes.fayl.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 96053100708
+ciudadania: N/D
+cn: Paolino
+correo: paolino.presti@estudiantes.fayl.uh.cu
+cuotainternet: 6000
+description: Claudia: estudiante autofinanciado
+direccion: N/D
+edad: 22
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540353600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Presti Constantino
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: paolino.presti.constantino_1669-1
+ujc: TRUE
+userpassword: {SSHA}Zf6+7LbfyC75mrdePfJ4zbETwNBaT255
+id: 1669-1
+
+# Entry: 158 uid=adel.hernandez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=adel.hernandez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01112064484
+ciudadania: N/D
+cn: Adel 
+correo: adel.hernandez@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540353600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Hernandez Ascanio
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: adel.hernandez.ascanio_1670-1
+ujc: TRUE
+userpassword: {SSHA}2fnaoleBovG6QTX34OryTduBeVhRaVU1
+id: 1670-1
+
+# Entry: 159 uid=maria.gomez@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=maria.gomez@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01122569135
+ciudadania: N/D
+cn: Maria
+correo: maria.gomez@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del colegio Universitario Fisica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Gomez Sanchez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: maria.gomez.sanchez_1663-1
+ujc: TRUE
+userpassword: {SSHA}vrkoDshd1WTabZarFdyWMtOF0nNPa3Fs
+id: 1663-1
+
+# Entry: 160 uid=kevin.moran@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=kevin.moran@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01092068548
+ciudadania: N/D
+cn: Kevin
+correo: kevin.moran@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes proyecto fisica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Moran Pulido
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: kevin.moran.pulido_1664-1
+ujc: TRUE
+userpassword: {SSHA}hMkUZU397PUNjlqZ3VkSWfbkRoxRdkI4
+id: 1664-1
+
+# Entry: 161 uid=daniel.hernandez@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=daniel.hernandez@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01061366743
+ciudadania: N/D
+cn: Daniel
+correo: daniel.hernandez@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del colegio Universitario Fisica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Hernandez Diaz
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: daniel.hernandez.diaz_1665-1
+ujc: TRUE
+userpassword: {SSHA}itIcKVkjVvQiFdO3Ez3u0c2LGyNQRG9l
+id: 1665-1
+
+# Entry: 162 uid=yodanys.carabeo@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=yodanys.carabeo@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01082669766
+ciudadania: N/D
+cn: Yodanys
+correo: yodanys.carabeo@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes proyecto fisica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Carabeo Viera
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: yodanys.carabeo.viera_1666-1
+ujc: TRUE
+userpassword: {SSHA}3jP88MNjixJ2w2nQX3CWivdr+PZMREg4
+id: 1666-1
+
+# Entry: 163 uid=daniela.camejo@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=daniela.camejo@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01060167219
+ciudadania: N/D
+cn: Daniela
+correo: daniela.camejo@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes proyecto fisica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Camejo Gonzalez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: daniela.camejo.gonzalez_1660-1
+ujc: TRUE
+userpassword: {SSHA}ju3N6dmJqoJnZYVDoqclW2KhxqdvaElp
+id: 1660-1
+
+# Entry: 164 uid=grettel.hernandez@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=grettel.hernandez@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01032968330
+ciudadania: N/D
+cn: Grettel
+correo: grettel.hernandez@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del colegio Universitario Fisica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Hernandez Ramirez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: grettel.hernandez.ramirez_1661-1
+ujc: TRUE
+userpassword: {SSHA}hg/07/ES1tDz42xNhVhCcPlc4EZUeUdJ
+id: 1661-1
+
+# Entry: 165 uid=adrian.alvarez@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=adrian.alvarez@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01040268964
+ciudadania: N/D
+cn: Adrian
+correo: adrian.alvarez@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes proyecto fisica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Alvarez Borges
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: adrian.alvarez.borges_1662-1
+ujc: TRUE
+userpassword: {SSHA}SM87/mNpsLOR8lhwQUBfxd0B52JvZkZn
+id: 1662-1
+
+# Entry: 166 uid=adriana.enriquez@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=adriana.enriquez@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 02010468973
+ciudadania: N/D
+cn: Adriana
+correo: adriana.enriquez@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes proyecto fisica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Enriquez Florat
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: adriana.enriquez.florat_1656-1
+ujc: TRUE
+userpassword: {SSHA}oN0TxuOnqKFQhJtreCGaarIkSshrRlN6
+id: 1656-1
+
+# Entry: 167 uid=rachel.fernandez@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=rachel.fernandez@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01122867397
+ciudadania: N/D
+cn: Rachel
+correo: rachel.fernandez@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del colegio Universitario Fisica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Fernandez Martinez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: rachel.fernandez.martinez_1657-1
+ujc: TRUE
+userpassword: {SSHA}YA4HGNtcZ1SabhEkiVbcO4sTB7JUUlhx
+id: 1657-1
+
+# Entry: 168 uid=boris.ramos@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=boris.ramos@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01102066400
+ciudadania: N/D
+cn: Boris
+correo: boris.ramos@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes proyecto fisica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Ramos Luis
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: boris.ramos.luis_1658-1
+ujc: TRUE
+userpassword: {SSHA}eZ1IA6XaRpaav3b7J03u0oX3/I94TENn
+id: 1658-1
+
+# Entry: 169 uid=omar.penna@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=omar.penna@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01070960300
+ciudadania: N/D
+cn: Omar
+correo: omar.penna@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del colegio Universitario Fisica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Penna Morales
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: omar.penna.morales_1659-1
+ujc: TRUE
+userpassword: {SSHA}d1AWAbQKnVsNheW2/0qlxG5biCJMdkR0
+id: 1659-1
+
+# Entry: 170 uid=anibal.terrero@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=anibal.terrero@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01122468541
+ciudadania: N/D
+cn: Anibal
+correo: anibal.terrero@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del colegio Universitario Fisica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Terrero Trinquete
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: anibal.terrero.trinquete_1652-1
+ujc: TRUE
+userpassword: {SSHA}b4w0RA0HLihPIM24m6OTv250nshZQVVt
+id: 1652-1
+
+# Entry: 171 uid=abraham.aday@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=abraham.aday@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01042572246
+ciudadania: N/D
+cn: Abraham
+correo: abraham.aday@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes proyecto fisica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Aday Cantero
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: abraham.aday.cantero_1653-1
+ujc: TRUE
+userpassword: {SSHA}CEjeq7AylZHOwC9mK2hbxvwH3ddxT1Ez
+id: 1653-1
+
+# Entry: 172 uid=jose.honra@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=jose.honra@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01010666726
+ciudadania: N/D
+cn: Jose
+correo: jose.honra@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del colegio Universitario Fisica
+direccion: N/D
+edad: 18
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Honra Aleman
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: jose.honra.aleman_1654-1
+ujc: TRUE
+userpassword: {SSHA}mvip/1F/AgV1x9okvLWCfOiowuNna3c3
+id: 1654-1
+
+# Entry: 173 uid=lya.martel@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=lya.martel@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01092266756
+ciudadania: N/D
+cn: Lya
+correo: lya.martel@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Maryany:Estudiante del colegio Universitario Fisica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Martel Roque
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: lya.martel.roque_1655-1
+ujc: TRUE
+userpassword: {SSHA}mPTInfe0lwEVmdlQU4nak6byXNVHZXpS
+id: 1655-1
+
+# Entry: 174 uid=wang.han@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=wang.han@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: EC5721563
+ciudadania: N/D
+cn: Wang
+correo: wang.han@rect.uh.cu
+cuotainternet: 22500
+description: Claudia: profesor extranjero
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Han Qi
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: wang.han.qi_1647-1
+ujc: TRUE
+userpassword: {SSHA}QGK9+et+xesqR5foJFlIsMi501xDcWZH
+id: 1647-1
+
+# Entry: 175 uid=kong.xian@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=kong.xian@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: ED5123458
+ciudadania: N/D
+cn: Kong
+correo: kong.xian@rect.uh.cu
+cuotainternet: 22500
+description: Claudia: profesor extranjero
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Xian
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: kong.xian_1649-1
+ujc: TRUE
+userpassword: {SSHA}tJ+D8cWxQUFfXPj8oVAFWPHbfoRrdjIy
+id: 1649-1
+
+# Entry: 176 uid=liang.haiyan@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=liang.haiyan@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: G47122029
+ciudadania: N/D
+cn: Liang
+correo: liang.haiyan@rect.uh.cu
+cuotainternet: 22500
+description: Claudia: profesor extranjero
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Haiyan
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: liang.haiyan_1650-1
+ujc: TRUE
+userpassword: {SSHA}XLAqGwtjLleL79pO4ueDkER/ODU0SXlB
+id: 1650-1
+
+# Entry: 177 uid=rene.terry@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=rene.terry@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01111166887
+ciudadania: N/D
+cn: Rene
+correo: rene.terry@estudiantes.fisica.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes proyecto fisica
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Terry Martinez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: rene.terry.martinez_1651-1
+ujc: TRUE
+userpassword: {SSHA}huuTiCwpLbl/SzRS5EWiEsblWLlRRFRn
+id: 1651-1
+
+# Entry: 178 uid=liu.yuan@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=liu.yuan@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: E9255067
+ciudadania: N/D
+cn: Liu
+correo: liu.yuan@rect.uh.cu
+cuotainternet: 22500
+description: maryany:profesor Extranjero Chino
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Yuan
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: liu.yuan_1643-1
+ujc: TRUE
+userpassword: {SSHA}JxFqelIQCqO+wiAl9pd7uA+b86d2bWE1
+id: 1643-1
+
+# Entry: 179 uid=yuan.chun@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=yuan.chun@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: zd6290939
+ciudadania: N/D
+cn: Yuan
+correo: yuan.chun@rect.uh.cu
+cuotainternet: 22500
+description: maryany:profesor Extranjero Chino
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Chun Li
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: yuan.chun.li_1644-1
+ujc: TRUE
+userpassword: {SSHA}don4So89Z7Q9UOnrFwmbHQKjk15jaWZt
+id: 1644-1
+
+# Entry: 180 uid=zhao.yahui@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=zhao.yahui@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: EC1854832
+ciudadania: N/D
+cn: Zhao
+correo: zhao.yahui@rect.uh.cu
+cuotainternet: 22500
+description: Claudia: profesor extranjero
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Yahui
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: zhao.yahui_1645-1
+ujc: TRUE
+userpassword: {SSHA}4Fq+4n/ItPW8RezEZK/UrvJ9xFBNOGo0
+id: 1645-1
+
+# Entry: 181 uid=xu.yi@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=xu.yi@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: e66744142
+ciudadania: N/D
+cn: Xu
+correo: xu.yi@rect.uh.cu
+cuotainternet: 22500
+description: maryany:profesor Extranjero Chino
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Yi
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: xu.yi_1646-1
+ujc: TRUE
+userpassword: {SSHA}p5s7Mvq0qgNaDrPEiM0FQwgr+eJRTWRP
+id: 1646-1
+
+# Entry: 182 uid=kang.ying@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=kang.ying@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: Ed4874313
+ciudadania: N/D
+cn: kang
+correo: kang.ying@rect.uh.cu
+cuotainternet: 22500
+description: maryany:profesor Extranjero Chino
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Ying
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: kang.ying_1639-1
+ujc: TRUE
+userpassword: {SSHA}dPM0ae3uTR1tQ93UyOdwQAaPdBNlSWZv
+id: 1639-1
+
+# Entry: 183 uid=wan.boqing@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=wan.boqing@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: E90823611
+ciudadania: N/D
+cn: Wan
+correo: wan.boqing@rect.uh.cu
+cuotainternet: 22500
+description: maryany:profesor Extranjero Chino
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Boqing
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: wan.boqing_1641-1
+ujc: TRUE
+userpassword: {SSHA}kPuG4Q2SoygN9V0sFXOFjyQNAxFSR2RD
+id: 1641-1
+
+# Entry: 184 uid=chen.qian@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=chen.qian@rect.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: E90925994
+ciudadania: N/D
+cn: Chen
+correo: chen.qian@rect.uh.cu
+cuotainternet: 22500
+description: Claudia: profesor extranjero
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Qian Qian
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: chen.qian.qian_1642-1
+ujc: TRUE
+userpassword: {SSHA}+3/ir+GIKW/EvOxc+41qFLV2aXNJeFJE
+id: 1642-1
+
+# Entry: 185 uid=javier.avalos@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=javier.avalos@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 0604293167
+ciudadania: N/D
+cn: javier
+correo: javier.avalos@estudiantes.fisica.uh.cu
+cuotainternet: 6000
+description: maryany:Alumno posgrado del pprograma de maestria
+direccion: N/D
+edad: 12
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540180800
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Avalos Alvarado
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: javier.avalos.alvarado_1634-1
+ujc: TRUE
+userpassword: {SSHA}iDbnu8pEnqYYMz5RqpItBZE7EtVTdHJB
+id: 1634-1
+
+# Entry: 186 uid=adrian.andrade@ceted.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=adrian.andrade@ceted.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 1002841672
+ciudadania: N/D
+cn: Adrian
+correo: adrian.andrade@ceted.uh.cu
+cuotainternet: 6750
+description: Maryany:Doctorante
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540180800
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Andrade Orbe
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: adrian.andrade.orbe_1635-1
+ujc: TRUE
+userpassword: {SSHA}juBCTLzj4re+m6yznwQL/OYOyeI1UVk5
+id: 1635-1
+
+# Entry: 187 uid=fabian.tamayo@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=fabian.tamayo@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 95112520585
+ciudadania: N/D
+cn: Fabian
+correo: fabian.tamayo@estudiantes.fisica.uh.cu
+cuotainternet: 4500
+description: maryany:Estudiante de 5to año de pregrado por convenio
+direccion: N/D
+edad: 23
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Tamayo Delgado
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: fabian.tamayo.delgado_1637-1
+ujc: TRUE
+userpassword: {SSHA}a+2Lgt5JHVyX4xbRDU1eTwZ2iztJSXI1
+id: 1637-1
+
+# Entry: 188 uid=liang@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=liang@estudiantes.fisica.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 95122020765
+ciudadania: N/D
+cn: Liang
+correo: liang@estudiantes.fisica.uh.cu
+cuotainternet: 4500
+description: maryany:Estudiante de 5to año de pregrado por convenio
+direccion: N/D
+edad: 23
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1540267200
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Villarrubia Rio
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: liang.villarrubia.rio_1638-1
+ujc: TRUE
+userpassword: {SSHA}o2lr3JOXRHPzqIykXp087jIDWt9RYnpQ
+id: 1638-1
+
+# Entry: 189 uid=carlos.pareja@estudiantes.isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=carlos.pareja@estudiantes.isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Carlos
+correo: carlos.pareja@estudiantes.isdi.uh.cu
+cuotainternet: 4500
+description: Susy: Estudiante del ISDI
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1539921600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Pareja Frómeta
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: carlos.pareja.frometa_1630-1
+ujc: TRUE
+userpassword: {SSHA}IIv8M3weSc/UmH3Yd7Aiw2PBU5VLaGx1
+id: 1630-1
+
+# Entry: 190 uid=walter.duran@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=walter.duran@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01050474648
+ciudadania: N/D
+cn: Walter
+correo: walter.duran@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1539921600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Duran Graelles
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: walter.duran.graelles_1631-1
+ujc: TRUE
+userpassword: {SSHA}usAXok/gopNQ9DeEff8tmiw9Bw14RVoy
+id: 1631-1
+
+# Entry: 191 uid=carlos.gonzalez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=carlos.gonzalez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01113073965
+ciudadania: N/D
+cn: Carlos
+correo: carlos.gonzalez@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1539921600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Gonzalez Alejo
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: carlos.gonzalez.alejo_1632-1
+ujc: TRUE
+userpassword: {SSHA}PkjmvBumLqK4xG76sOOge75WedhuN0Jz
+id: 1632-1
+
+# Entry: 192 uid=isel.gonzalez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=isel.gonzalez@estudiantes.instec.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: 01122074407
+ciudadania: N/D
+cn: Isel
+correo: isel.gonzalez@estudiantes.instec.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiantes de instec
+direccion: N/D
+edad: 17
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1539921600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Gonzalez Ramirez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: isel.gonzalez.ramirez_1633-1
+ujc: TRUE
+userpassword: {SSHA}alaKTpQiNIRhAh6JjAFR0vIzZbpsOVds
+id: 1633-1
+
+# Entry: 193 uid=samuel.diaz@estudiantes.isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=samuel.diaz@estudiantes.isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Samuel
+correo: samuel.diaz@estudiantes.isdi.uh.cu
+cuotainternet: 1200
+description: Susy: Estudiante del ISDI
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1539921600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Diaz Diaz
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: samuel.diaz.diaz_1628-1
+ujc: TRUE
+userpassword: {SSHA}7Dfx+5+C2jyzUXOJD7FfJTYc9jFRS2lW
+id: 1628-1
+
+# Entry: 194 uid=ronny.alvarez@estudiantes.isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=ronny.alvarez@estudiantes.isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Ronny
+correo: ronny.alvarez@estudiantes.isdi.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del isdi
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1539921600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Alvarez Guzman
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: ronny.alvarez.guzman_1629-1
+ujc: TRUE
+userpassword: {SSHA}8pRlRvGnczV4ZaAE+EzgMboGBFNlZzl4
+id: 1629-1
+
+# Entry: 195 uid=kevin.arana@estudiantes.isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=kevin.arana@estudiantes.isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Kevin 
+correo: kevin.arana@estudiantes.isdi.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del isdi
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1539921600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Arana Tuero
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: kevin.arana.tuero_1623-1
+ujc: TRUE
+userpassword: {SSHA}HkAhBa4IgHD98JJIxWILjTuGrJs1Rk9r
+id: 1623-1
+
+# Entry: 196 uid=manuel.lopez@estudiantes.isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=manuel.lopez@estudiantes.isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Manuel
+correo: manuel.lopez@estudiantes.isdi.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del isdi
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1539921600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Lopez Perez
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: manuel.lopez.perez_1625-1
+ujc: TRUE
+userpassword: {SSHA}3cTWK9nL+7n4BTLQfdi1l94nxnJ1MTNl
+id: 1625-1
+
+# Entry: 197 uid=nolberto.sanchez@estudiantes.isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=nolberto.sanchez@estudiantes.isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Nolberto
+correo: nolberto.sanchez@estudiantes.isdi.uh.cu
+cuotainternet: 1200
+description: Claudia: estudiante del isdi
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1539921600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Sanchez Aguilar
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: nolberto.sanchez.aguilar_1626-1
+ujc: TRUE
+userpassword: {SSHA}wbklxfHUgkPlkqimUW26loRLlRVpdlVv
+id: 1626-1
+
+# Entry: 198 uid=rossel.rodriguez@estudiantes.isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=rossel.rodriguez@estudiantes.isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Rossel
+correo: rossel.rodriguez@estudiantes.isdi.uh.cu
+cuotainternet: 1200
+description: Susy: Estudiante del ISDI
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1539921600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Rodriguez Rosas
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: rossel.rodriguez.rosas_1627-1
+ujc: TRUE
+userpassword: {SSHA}NR+wYH6n97zOkX4y5aD7TFsev7hjVWJF
+id: 1627-1
+
+# Entry: 199 uid=cesar.sanchez@estudiantes.isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=cesar.sanchez@estudiantes.isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Cesar
+correo: cesar.sanchez@estudiantes.isdi.uh.cu
+cuotainternet: 2250
+description: Susy: Estudiante del ISDI
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1539921600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Sanchez Irsola
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: cesar.sanchez.irsola_1619-1
+ujc: TRUE
+userpassword: {SSHA}QxB37jNHF7kNLJXyCsP5pAb5bRtmY3dy
+id: 1619-1
+
+# Entry: 200 uid=aristides.torres@estudiantes.isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+dn: uid=aristides.torres@estudiantes.isdi.uh.cu,ou=Externos,dc=uh,dc=cu
+ci: N/D
+ciudadania: N/D
+cn: Aristides
+correo: aristides.torres@estudiantes.isdi.uh.cu
+cuotainternet: 2250
+description: Susy: Estudiante del ISDI
+direccion: N/D
+edad: 49
+esbaja: FALSE
+fechadecreacion: 1543899600
+fechadebaja: 2145889787
+fechaderegistro: 1539921600
+lugardenacimiento: N/D
+municipio: N/D
+objectclass: Externo
+objectclass: top
+pais: N/D
+pcc: TRUE
+provincia: N/D
+raza: N/D
+sexo: N/D
+sn: Torres Diaz
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tiempodeactividad: 0
+uid: aristides.torres.diaz_1620-1
+ujc: TRUE
+userpassword: {SSHA}y8y2uno3k6kTUCnj2bRtOLpqcARGUHoz
+id: 1620-1

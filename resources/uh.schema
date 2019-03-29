@@ -1,0 +1,374 @@
+##>>>>>>>>>>>>>>>>>>>>>>>> Todos
+
+attributetype (	1.3.6.1.4.1.52020.1.3.1.17.5.17
+	NAME 'Correo'
+	DESC 'Correo electronico'
+	SUP name
+	SINGLE-VALUE
+	)
+	
+attributetype (	1.3.6.1.4.1.52020.1.3.1
+	NAME 'CI'
+	DESC 'Carnet de Identidad'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.2
+	NAME 'Edad'
+	DESC 'Edad'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.3
+	NAME 'Sexo'
+	DESC 'Sexo'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.4
+	NAME 'Raza'
+	DESC 'Raza'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.5
+	NAME 'Direccion'
+	DESC 'Direccion'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.6
+	NAME 'Municipio'
+	DESC 'Municipio de residencia'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.7
+	NAME 'Provincia'
+	DESC 'Provincia de residencia'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.8
+	NAME 'Pais'
+	DESC 'Pais de residencia'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.9
+	NAME 'LugarDeNacimiento'
+	DESC 'Lugar de Nacimiento'
+	SUP name
+	SINGLE-VALUE
+	)
+	
+attributetype (	1.3.6.1.4.1.52020.1.3.17.3
+	NAME 'Ciudadania'
+	DESC 'Ciudadania'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.10
+	NAME 'TelefonoPersonal'
+	DESC 'Telefono personal'
+	SUP name
+	SINGLE-VALUE
+	)
+
+
+attributetype (	1.3.6.1.4.1.52020.1.3.13
+	NAME 'UJC'
+	DESC 'Si pertenece, o no, a la Union de Jovenes Comunistas'
+	EQUALITY booleanMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.14
+	NAME 'PCC'
+	DESC 'Si pertenece, o no, al Partido Comunista de Cuba'
+	EQUALITY booleanMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.34
+	NAME 'EsBaja'
+	DESC 'Es Baja o no'
+	EQUALITY booleanMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.17.8
+	NAME 'FechaDeBaja'
+	DESC 'Fecha de Baja'
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.36
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.17.9
+	NAME 'FechaDeRegistro'
+	DESC 'Fecha de Registro'
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.36
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.17.11
+	NAME 'TieneCorreo'
+	DESC 'tiene Correo o no'
+	EQUALITY booleanMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
+	SINGLE-VALUE
+	)
+	
+attributetype (	1.3.6.1.4.1.52020.1.3.17.12
+	NAME 'TieneInternet'
+	DESC 'tiene Internet o no'
+	EQUALITY booleanMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.17.13
+	NAME 'TieneChat'
+	DESC 'tiene Chat  o no'
+	EQUALITY booleanMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.17.14
+	NAME 'CuotaInternet'
+	DESC 'cuota de Internet de la cuenta (en MB)'
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.27
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.17.16
+	NAME 'FechaDeCreacion'
+	DESC 'Fecha de Creacion en Base de datos'
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.36
+	SINGLE-VALUE
+	)
+
+
+##>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Estudiantes
+
+attributetype (	1.3.6.1.4.1.52020.1.3.15
+	NAME 'IdSigenu'
+	DESC 'Id del Estudiante en SIGENU'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.16
+	NAME 'IdFacultad'
+	DESC 'Id de la Facultad'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.17
+	NAME 'Facultad'
+	DESC 'Facultad a la que pertenece el Estudiante'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.18
+	NAME 'Carrera'
+	DESC 'Carrera del Estudiante'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.19
+	NAME 'TipoDeCurso'
+	DESC 'Tipo de curso del Estudiante'
+	SUP name
+	SINGLE-VALUE
+	)
+
+
+attributetype (	1.3.6.1.4.1.52020.1.3.20
+	NAME 'Grade'
+	DESC 'Año que cursa el Estudiante'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.21
+	NAME 'Grupo'
+	DESC 'Grupo del Estudiante'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.22
+	NAME 'ResidenciaEstudiantil'
+	DESC 'Residencia Estudiantil'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.23
+	NAME 'Becado'
+	DESC 'Tipo de becado'
+	SUP name
+	SINGLE-VALUE
+	)
+
+
+##>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Trabajadores
+
+attributetype (	1.3.6.1.4.1.52020.1.3.25
+	NAME 'Assets'
+	DESC 'Base de datos de Assets a la que pertenece'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.17.4
+	NAME 'IdAssets'
+	DESC 'Id en su base de datos de Assets'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.26
+	NAME 'CodigoDeDependencia'
+	DESC 'Codigo de la Dependencia'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.27
+	NAME 'Dependencia'
+	DESC 'Dependencia'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.28
+	NAME 'CodigoDelArea'
+	DESC 'Codigo del Area'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.29
+	NAME 'Area'
+	DESC 'Area'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.30
+	NAME 'Cargo'
+	DESC 'Cargo'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.31
+	NAME 'CategoriaDocenteInvestigativa'
+	DESC 'Categoria Docente Investigativa'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.32
+	NAME 'GradoCientifico'
+	DESC 'Grado científico'
+	SUP name
+	SINGLE-VALUE
+	)
+
+
+attributetype (	1.3.6.1.4.1.52020.1.3.35
+	NAME 'DireccionDelCentro'
+	DESC 'Direccion del centro'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.36
+	NAME 'TelefonoDelCentro'
+	DESC 'Telefono del centro de trabajo'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.37
+	NAME 'EsCuadro'
+	DESC 'Es Cuadro de direccion o no'
+	EQUALITY booleanMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.17.6
+	NAME 'EspecialidadDeGraduacion'
+	DESC 'Especialidad de Graduacion'
+	SUP name
+	SINGLE-VALUE
+	)
+attributetype (	1.3.6.1.4.1.52020.1.3.17.7
+	NAME 'CentroDeGraduacion'
+	DESC 'Centro de Graduacion'
+	SUP name
+	SINGLE-VALUE
+	)
+
+##>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Externos
+
+attributetype (	1.3.6.1.4.1.52020.1.3.17.10
+	NAME 'Id'
+	DESC 'Id'
+	SUP name
+	SINGLE-VALUE
+	)
+
+attributetype (	1.3.6.1.4.1.52020.1.3.17.15
+	NAME 'TiempoDeActividad'
+	DESC 'Tiempo de actividad de la cuenta (en meses)'
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.27
+	SINGLE-VALUE
+	)
+
+##>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Clases
+
+objectclass ( 1.3.6.1.4.1.52020.1.4.1 NAME 'Todos'
+	DESC 'Datos comunes a todas las personas de la Universidad de la Habana'
+	SUP person STRUCTURAL
+	MAY ( Correo $ CI $ Edad $ Sexo $ Raza $ Direccion $ Municipio $ Provincia $ Pais $ LugarDeNacimiento $ Ciudadania $ TelefonoPersonal $ UJC $ PCC $ EsBaja $ FechaDeBaja $ FechaDeRegistro $ FechaDeCreacion $ TieneCorreo $ TieneInternet $ TieneChat $ CuotaInternet))
+
+objectclass ( 1.3.6.1.4.1.52020.1.4.2 NAME 'Estudiante'
+	DESC 'Estudiante de la Universidad de la Habana'
+	SUP Todos STRUCTURAL
+	MUST (uid) 
+	MAY (IdSigenu $ IdFacultad $ Facultad $ Carrera $ TipoDeCurso $ Grade $ Grupo $ ResidenciaEstudiantil $ Becado))
+
+
+objectclass ( 1.3.6.1.4.1.52020.1.4.3 NAME 'Trabajador'
+	DESC 'Trabajador de la Universidad de la Habana'
+	SUP Todos STRUCTURAL
+	MUST (uid) 
+	MAY (Assets $ IdAssets $ CodigoDeDependencia $ Dependencia $ CodigoDelArea $ Area $ Cargo $ CategoriaDocenteInvestigativa $ GradoCientifico $ DireccionDelCentro $ TelefonoDelCentro $ EsCuadro $ EspecialidadDeGraduacion $ CentroDeGraduacion))
+
+objectclass ( 1.3.6.1.4.1.52020.1.4.4 NAME 'Externo'
+	DESC 'Trabajador Externo de la Universidad de la Habana'
+	SUP Todos STRUCTURAL
+	MUST (uid) 
+	MAY ( Id $ TiempoDeActividad ))
+
