@@ -1,32 +1,30 @@
 #!/bin/bash
-# echo "ENTRYPOINT"
-# slapadd -v -l /root/ldap/schema/local_schema.ldif -n 0
-# chown openldap:openldap /etc/ldap/slapd.d/cn\=config/cn\=schema/cn={4}uhaccount.ldif
+echo ENTRYPOINT
 
-# # ADD GROUP AND USER ORGANIZATIONAL UNITS
+# ADD UH SCHEMA, IT WAS PREVIOUSLY CONVERTED TO LDIF WITH SCHIF
+slapadd -v -l /root/ldap/schema/uh.ldif -n 0
+chown openldap:openldap /etc/ldap/slapd.d/cn\=config/cn\=schema/cn={4}uh.ldif
+
+# ADD GROUP AND USER ORGANIZATIONAL UNITS
 # slapadd -v -l /root/ldap/schema/ou.ldif
 
 # # ADD EXAMPLES USER AND GROUP
 # slapadd -v -l /root/ldap/schema/user.ldif
 # slapadd -v -l /root/ldap/schema/groups.ldif
 
-# INCLUDE UH SCHEMA FOR CONFIGURATION
-echo "" >> /etc/ldap/slapd.conf
-echo "# INCLUDE UH SCHEMA CONFIGURATION" >> /etc/ldap/slapd.conf
-echo "include /etc/ldap/schema/uh.schema" >> /etc/ldap/slapd.conf
     
 # INSTALL DEPENDENCIES FOR LDAP CLIENT
-echo "Now dependencies for ldap client will be installed"
+echo Now dependencies for ldap client will be installed
 sleep 3
 apt update
 
 ## INSTALL EXPECT SO I CAN CONFIGURE CLIENT INSTALLATION AUTOMATICALLY
-echo "-------------------------------------INSTALLING EXCEPT...----------------------"
+echo -------------------------------------INSTALLING EXCEPT...----------------------
 sleep 2
 apt -y install expect
 
 ## CCONFIGURE CLIENT AUTOMATICALLY
-echo "-------------------------------------INSTALLING CLIENT...----------------------"
+echo -------------------------------------INSTALLING CLIENT...----------------------
 sleep 2
 expect /root/ldap/configure-ldap-client-using-expect.sh
 
@@ -39,6 +37,6 @@ service slapd start
 service apache2 start
 service nscd restart
 
-getent passwd user1
+# getent passwd user1
 
 /bin/bash

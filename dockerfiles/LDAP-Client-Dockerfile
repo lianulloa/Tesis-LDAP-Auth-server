@@ -3,7 +3,7 @@ MAINTAINER Lian Ulloa l.ulloa@estudiantes.matcom.uh.cu
 
 VOLUME [ "/root/ldap/schema" ]
 COPY ldif /root/ldap/schema
-COPY ldif/uh.schema /etc/ldap/schema/
+# COPY ldif/uh.schema /etc/ldap/schema/
 
 # CMD /bin/bash
 
@@ -12,6 +12,10 @@ RUN chmod +x /root/ldap/start-service.sh
 
 COPY /scripts/configure-ldap-client-using-expect.sh /root/ldap/
 RUN chmod +x /root/ldap/configure-ldap-client-using-expect.sh
+
+COPY /scripts/schif.sh /bin/schif
+RUN chmod +x /bin/schif
+
 
 ENTRYPOINT [ "/root/ldap/start-service.sh" ]
 
