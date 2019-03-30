@@ -1,15 +1,20 @@
 #!/bin/bash
-echo "ENTRYPOINT"
-slapadd -v -l /root/ldap/schema/local_schema.ldif -n 0
-chown openldap:openldap /etc/ldap/slapd.d/cn\=config/cn\=schema/cn={4}uhaccount.ldif
+# echo "ENTRYPOINT"
+# slapadd -v -l /root/ldap/schema/local_schema.ldif -n 0
+# chown openldap:openldap /etc/ldap/slapd.d/cn\=config/cn\=schema/cn={4}uhaccount.ldif
 
-# ADD GROUP AND USER ORGANIZATIONAL UNITS
-slapadd -v -l /root/ldap/schema/ou.ldif
+# # ADD GROUP AND USER ORGANIZATIONAL UNITS
+# slapadd -v -l /root/ldap/schema/ou.ldif
 
-# ADD EXAMPLES USER AND GROUP
-slapadd -v -l /root/ldap/schema/user.ldif
-slapadd -v -l /root/ldap/schema/groups.ldif
+# # ADD EXAMPLES USER AND GROUP
+# slapadd -v -l /root/ldap/schema/user.ldif
+# slapadd -v -l /root/ldap/schema/groups.ldif
 
+# INCLUDE UH SCHEMA FOR CONFIGURATION
+echo "" >> /etc/ldap/slapd.conf
+echo "# INCLUDE UH SCHEMA CONFIGURATION" >> /etc/ldap/slapd.conf
+echo "include /etc/ldap/schema/uh.schema" >> /etc/ldap/slapd.conf
+    
 # INSTALL DEPENDENCIES FOR LDAP CLIENT
 echo "Now dependencies for ldap client will be installed"
 sleep 3

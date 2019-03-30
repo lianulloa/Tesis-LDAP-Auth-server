@@ -14,7 +14,7 @@ homeDirectory: /home/nfs/user1
 email: user1@ldap.uh.cu
 
 dn: token=adskjsda4f6546as12d5s4d,cn=user1,ou=usuarios,dc=ldap,dc=uh,dc=cu
-objectClass: UHAccountUserLogin
+objectClass: UHAccountUserLogon
 token: adskjsda4f6546as12d5s4d
 datetime: 201812161032Z
 

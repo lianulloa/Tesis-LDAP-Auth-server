@@ -3,6 +3,7 @@ MAINTAINER Lian Ulloa l.ulloa@estudiantes.matcom.uh.cu
 
 VOLUME [ "/root/ldap/schema" ]
 COPY ldif /root/ldap/schema
+COPY ldif/uh.schema /etc/ldap/schema/
 
 # CMD /bin/bash
 
