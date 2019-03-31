@@ -10,7 +10,7 @@
 version: 1
 
 # Entry 1: uid=2,ou=Externos,dc=uh,dc=cu
-dn: uid=2,ou=Externos,dc=uh,dc=cu
+dn: uid=2,ou=Externos,dc=ldap,dc=uh,dc=cu
 ci: 1
 cn: 1
 correo: 1

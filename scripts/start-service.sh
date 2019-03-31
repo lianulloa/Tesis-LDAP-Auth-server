@@ -6,10 +6,10 @@ slapadd -v -l /root/ldap/schema/uh.ldif -n 0
 chown openldap:openldap /etc/ldap/slapd.d/cn\=config/cn\=schema/cn={4}uh.ldif
 
 # ADD GROUP AND USER ORGANIZATIONAL UNITS
-# slapadd -v -l /root/ldap/schema/ou.ldif
+slapadd -v -l /root/ldap/schema/ou.ldif
 
 # # ADD EXAMPLES USER AND GROUP
-# slapadd -v -l /root/ldap/schema/user.ldif
+slapadd -v -l /root/ldap/schema/externos_one.ldif
 # slapadd -v -l /root/ldap/schema/groups.ldif
 
     

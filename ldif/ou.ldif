@@ -5,3 +5,7 @@ ou: usuarios
 dn: ou=grupos,dc=ldap,dc=uh,dc=cu
 objectClass: organizationalUnit
 ou: grupos
+
+dn: ou=Externos,dc=ldap,dc=uh,dc=cu
+objectClass: organizationalUnit
+ou: Externos
