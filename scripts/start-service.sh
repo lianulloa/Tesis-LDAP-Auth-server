@@ -9,6 +9,7 @@ chown openldap:openldap /etc/ldap/slapd.d/cn\=config/cn\=schema/cn={4}uh.ldif
 slapadd -v -l /root/ldap/schema/ou.ldif
 
 # # ADD EXAMPLES USER AND GROUP
+echo include externo
 slapadd -v -l /root/ldap/schema/externos_one.ldif
 # slapadd -v -l /root/ldap/schema/groups.ldif
 
