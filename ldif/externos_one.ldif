@@ -13,5 +13,6 @@ sn: 1
 telefonopersonal: 1
 tiempodeactividad: 1
 uid: 2
-userpassword: {SSHA}/Ypl6aOTqnJnW4xIQ5AlXnqO4L/VIRku
+userpassword: {CRYPT}$6$rounds=500000$9L3w.E81oSwexhai$XFlcYFxqbMIeVkilXmF56MNVydmxjVpGaB4Yiwmb4TlMlhndPqiqyPbC5tAzBOltqZnUxeHXIz6USPHPpbk2r0
+# userpassword: {SSHA}/Ypl6aOTqnJnW4xIQ5AlXnqO4L/VIRku
 
