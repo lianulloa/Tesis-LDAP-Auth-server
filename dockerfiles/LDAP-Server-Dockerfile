@@ -6,7 +6,7 @@ COPY scripts/configure-ldap-installation.sh /root/
 RUN chmod +x /root/configure-ldap-installation.sh
 RUN mv /etc/apt/sources.list /etc/apt/sources.list.disabled
 
-ENV SERVER_DOMAIN="ldap.uh.cu" SERVER_PASSWORD="insecurepassword" SERVER_DN="dc=ldap,dc=uh,dc=cu"
+ENV SERVER_DOMAIN="uh.cu" SERVER_PASSWORD="insecurepassword" SERVER_DN="dc=uh,dc=cu"
 RUN apt-get update && apt-get -y install apache2 expect vim
 
 RUN expect /root/configure-ldap-installation.sh
@@ -14,5 +14,5 @@ RUN apt-get install -y phpldapadmin
 
 RUN sed -i -re "s/'server','name','My LDAP Server'/'server','name','MATCOM LDAP'/" /etc/phpldapadmin/config.php
 RUN sed -i -re "s/'dc=example,dc=com'/'${SERVER_DN}'/" /etc/phpldapadmin/config.php
-RUN sed -i -re "s/$servers->setValue\('login','bind_id','cn=admin,dc=example,dc=com'\);/$servers->setValue\('login','bind_id','cn=admin,dc=ldap,dc=uh,dc=cu'\);/" /etc/phpldapadmin/config.php
+RUN sed -i -re "s/$servers->setValue\('login','bind_id','cn=admin,dc=example,dc=com'\);/$servers->setValue\('login','bind_id','cn=admin,dc=uh,dc=cu'\);/" /etc/phpldapadmin/config.php
 RUN sed -i -re "s/\/\* Hide the warnings for invalid objectClasses\/attributes in templates. \*\//\$config->custom->appearance\['hide_template_warning'\] = true;/" /etc/phpldapadmin/config.php

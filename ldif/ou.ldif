@@ -1,11 +1,19 @@
-dn: ou=usuarios,dc=ldap,dc=uh,dc=cu
+dn: ou=usuarios,dc=uh,dc=cu
 objectClass: organizationalUnit
 ou: usuarios
 
-dn: ou=grupos,dc=ldap,dc=uh,dc=cu
+dn: ou=grupos,dc=uh,dc=cu
 objectClass: organizationalUnit
 ou: grupos
 
-dn: ou=Externos,dc=ldap,dc=uh,dc=cu
+dn: ou=Externos,dc=uh,dc=cu
+objectClass: organizationalUnit
+ou: Externos
+
+dn: ou=Estudiantes,dc=uh,dc=cu
+objectClass: organizationalUnit
+ou: Externos
+
+dn: ou=Trabajadores,dc=uh,dc=cu
 objectClass: organizationalUnit
 ou: Externos
