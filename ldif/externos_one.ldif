@@ -14,5 +14,22 @@ telefonopersonal: 1
 tiempodeactividad: 1
 uid: 2
 userpassword: {CRYPT}$6$rounds=500000$9L3w.E81oSwexhai$XFlcYFxqbMIeVkilXmF56MNVydmxjVpGaB4Yiwmb4TlMlhndPqiqyPbC5tAzBOltqZnUxeHXIz6USPHPpbk2r0
+
+dn: uid=3,ou=Externos,dc=ldap,dc=uh,dc=cu
+ci: 1
+cn: 1
+correo: 1
+description: 1
+edad: 1
+esbaja: TRUE
+fechadebaja: 1
+fechaderegistro: 1
+objectclass: Externo
+objectclass: top
+sn: 1
+telefonopersonal: 1
+tiempodeactividad: 1
+uid: 3
+userpassword: {CRYPT}$5$rounds=500000$F.IQ.PBeASfPYxdA$z/Js4jpU/HrzpNAL60WOIiGuFmKkmpPndRgT4sszkw9
 # userpassword: {SSHA}/Ypl6aOTqnJnW4xIQ5AlXnqO4L/VIRku
 
