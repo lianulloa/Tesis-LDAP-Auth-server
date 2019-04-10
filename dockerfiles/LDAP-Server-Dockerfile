@@ -1,7 +1,7 @@
 FROM ubuntu:16.04 
 MAINTAINER Lian Ulloa l.ulloa@estudiantes.matcom.uh.cu
 
-COPY resources/uh.list /etc/apt/sources.list.d/
+COPY resources/online.list /etc/apt/sources.list.d/
 COPY scripts/configure-ldap-installation.sh /root/
 RUN chmod +x /root/configure-ldap-installation.sh
 RUN mv /etc/apt/sources.list /etc/apt/sources.list.disabled
