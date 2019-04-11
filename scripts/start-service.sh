@@ -11,16 +11,16 @@ slapadd -v -l /root/ldap/schema/ou.ldif
 # # ADD EXAMPLES USER AND GROUP
 echo include externo
 slapadd -v -l /root/ldap/schema/externos_one.ldif
-slapadd -v -l /root/ldap/schema/students.ldif
-slapadd -v -l /root/ldap/schema/workers.ldif
-slapadd -v -l /root/ldap/schema/externos.ldif
+# slapadd -v -l /root/ldap/schema/students.ldif
+# slapadd -v -l /root/ldap/schema/workers.ldif
+# slapadd -v -l /root/ldap/schema/externos.ldif
 
 # slapadd -v -l /root/ldap/schema/groups.ldif
 
     
 # INSTALL DEPENDENCIES FOR LDAP CLIENT
 echo Now dependencies for ldap client will be installed
-sleep 3
+sleep 2
 apt update
 
 ## INSTALL EXPECT SO I CAN CONFIGURE CLIENT INSTALLATION AUTOMATICALLY
