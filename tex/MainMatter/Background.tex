@@ -2,18 +2,23 @@
 
 \section{Surgimiento del Directorio \'Unico}
 
-Como resultado de la necesidad de acceso a la informaci\'on de los usuarios de la red de la Universidad de la Habana, tanto de estudiantes, como profesores y externos, varios servicios han sido implementados de manera aislada, durante los \'ultimos años con el fin de suplir esta necesidad. A ra\'iz del proceso de centralizaci\'on de los servicios llevado a cabo hace ya tres años, dichos servicios, relacionados con la creaci\'on, almacenamiento y la actualizaci\'on de la informaci\'on referente a los usuarios, fueron integrados en lo que se conoce hoy como Directorio \'Unico.
+\todo[inline, color=purple]{Las oraciones estan muy largas. Las oraciones en los párrafos de la tesis deben ser cortas y concisas.}
 
-Entre las principales funcionalidades que componen el Directorio \'Unico, se encuentra la de constituir una fuente, centralizada, de informaci\'on sobre toda aquella persona que pretenda hacer uso de las facilidades disponibles en la red universitaria. Dicha centralizaci\'on representa un elemento necesario para garantizar el control apropiado del uso de dichas facilidades, ya que la fragmentaci\'on de los datos, inherente a la estructura actual de la Universidad y a sus actividades, d\'igase la composici\'on por facultades, departamentos de investigaci\'on, etc, as\'i como la continua realizaci\'on de eventos para fomentar la investigaci\'on y el intercambio de experiencias, aumenta considerablemente la complejidad a la hora de administrar la informaci\'on almacenada y de garantizar cierta restricci\'on o concesi\'on de acceso a los servicios brindados. 
+Como resultado de la necesidad de acceso a la informaci\'on de los usuarios de la red de la Universidad de la Habana, tanto de estudiantes, como profesores y externos, varios servicios han sido implementados de manera aislada\todo[color=yellow]{Porque de manera aislada? Cuales son estos servicios?}, durante los \'ultimos años con el fin de suplir esta necesidad. A ra\'iz del proceso de centralizaci\'on de los servicios llevado a cabo hace ya tres años\todo[color=cyan]{Los servicios se estan centralizando desde hace alreadedor de 4 años}, dichos servicios\todo[color=yellow]{Cuales servicios? Esto necesita ser aclarado}, relacionados con la creaci\'on, almacenamiento y la actualizaci\'on de la informaci\'on referente a los usuarios, fueron integrados en lo que se conoce hoy como Directorio \'Unico.\todo[color=green]{Esto puede ser escrito mejor. Y como aclaración el directorio surgión exactamente como un directorio del personal de la universidad ... luego fue que muto a lo que es hoy producto de la necesidad de usar un sistema que uniera las principales fuentes de datos de trabajadores y estudiantes. Su primer objetivo como directorio fue fungir como un mecanismo de autenticacion OAuth para los sitios de la intranet y parte de este trabajo lo continua haciendo hasta hoy con todos los sitios de la intranet de la UH}
 
-Sin embargo, esta informaci\'on no se genera de forma centralizada, sino que se encuentra esparcida entre distintas fuentes como son el SIGENU y una base de datos conocida como 'Assets', la cual se encuentra esparcida en varios servidores y sobre la cual no se tiene total acceso debido a que, para su creaci\'on y luego su administraci\'on, se utiliza un software privativo, el cual impide el acceso requerido para implementar las actualizaciones que se hacen necesarias en este momento. \todo[color=yellow]{Cu\'ales son los nombres oficiales de las fuentes de datos?, Qu\'e significa SIGENU? si es que son siglas} 
-Por esta raz\'on, para poder actualizar esta informaci\'on centralizada, todos los datos existentes en las fuentes antes mencionadas, son procesados a trav\'es de un sistema que se compone de alrededor de 3 o 4 capas de procesamiento. Entre las principales razones que justifican la existencia de estas capas, se encuentra la incapacidad de agregarle directamente a las fuentes de datos, un campo que indique en que momento una instancia de usuario ha sido modificada.
+\newpage % agregado por Gilberto para ver mejor los comentarios
+
+
+Entre las principales funcionalidades que componen el Directorio \'Unico, se encuentra la de constituir una fuente, centralizada, de informaci\'on sobre toda aquella persona que pretenda hacer uso de las facilidades disponibles en la red universitaria\todo[color=purple]{Yo no diria sobre toda persona que pretenda hacer uso. Uno puede terner la intencion de hacer uso de algo aun sin el derecho de hacerlo. Yo diria que directorio es una fuente de informacion centralizada de todo el personal de la universidad de la habana}. Dicha centralizaci\'on representa un elemento necesario para garantizar el control apropiado del uso de dichas facilidades\todo[color=yellow]{Nuevamente las facilidades ... cuales? }, ya que la fragmentaci\'on de los datos, inherente a la estructura actual de la Universidad y a sus actividades, d\'igase la composici\'on por facultades, departamentos de investigación, etc, as\'i como la continua realizaci\'on de eventos para fomentar la investigaci\'on y el intercambio de experiencias, aumenta considerablemente la complejidad a la hora de administrar la informaci\'on almacenada y de garantizar cierta restricci\'on o concesi\'on de acceso a los servicios brindados. \todo[color=yellow]{La centralizacion fue una decision, que nada tuvo que ver con las dificultades de centralizar. De hecho, es mas dificil la implementación de los servicios centralizados que la de los servicios descentralizados. }
+
+Sin embargo, esta informaci\'on no se genera de forma centralizada, sino que se encuentra esparcida entre distintas fuentes como son el SIGENU \todo[color=yellow]{Sistema de Gestion para la Nueva Universidad} y una base de datos conocida como 'Assets', la cual se encuentra esparcida en varios servidores y sobre la cual no se tiene total acceso debido a que, para su creaci\'on y luego su administraci\'on, se utiliza un software privativo, el cual impide el acceso requerido para implementar las actualizaciones que se hacen necesarias en este momento. \todo[color=yellow]{La información se agrega de forma separada porque existen distintos origenes: SIGENU, manejado por las secretarias de las facultades, para los estudiantes; ASSETS, uno por cada unidad presupuestada de la UH (hay 6: UH, IFAL, JBN, UPA, ISDI, INSTEC)  } 
+Por esta raz\'on, para poder actualizar esta informaci\'on centralizada, todos los datos existentes en las fuentes antes mencionadas, son procesados a trav\'es de un sistema que se compone de alrededor de 3 o 4 capas de procesamiento\todo[color=yellow]{Cuales capas de procesamiento? Esto tiene que ver con lo que hizo Fernando asumo. Realmente directorio procesa los datos de los trabajadores en una sola accion y los de SIGENU los consume directamente de los datos de SIGENU, nunca los importa a directorio.}. Entre las principales razones que justifican la existencia de estas capas, se encuentra la incapacidad de agregarle directamente a las fuentes de datos, un campo que indique en que momento una instancia de usuario ha sido modificada.\todo[color=yellow]{Nuevamente, te basas en la implementacion de Fernando y no en el funcionamiento actual de directorio.}
 
 Entre los datos m\'as relevantes, almacenados en este sistema, se encuentra aquellos que permiten la restricci\'on y/o concesi\'on de acceso a los servicios brindados, es decir, las credenciales de los usuarios de la red. Esta informaci\'on permite:
 
 \begin{enumerate}
-\item {\bf Autenticar al usuario:} Comprobar que la persona que solicita un servicio es quien dice ser.
-\item {\bf Administrar el acceso:} En correspondencia del rol de la persona autenticada, permitir o no el acceso a ciertos servicios
+\item {\bf Autenticar al usuario:} Comprobar que la persona que solicita un servicio es quien dice ser. \todo[color=yellow]{Esto esta tipo oficina del carnet de identidad :D.}
+\item {\bf Administrar el acceso:} En correspondencia del rol de la persona autenticada, permitir o no el acceso a ciertos servicios\todo[color=yellow]{No creo que convenga hablar de rol aca cuando los campos que se utilizan para decidir cual es el nivel de privilegio de un usuario nada tienen que ver con un rol.}
 \end{enumerate}
 
 Del resto de los datos que actualmente se mantienen en el sistema, una parte se reserva para brindar informaci\'on acerca de la actividad realizada por el usuario durante su estancia en la red, es decir, los momentos en que se autentic\'o en la red, en que sistema lo hizo, la cantidad de cuota de internet consumida, etc. La otra parte, estando esta \'ultima m\'as asociada a los trabajadores y externos, contiene informaci\'on m\'as personal de los usuarios. Entre la misma sobresalen: 
@@ -27,7 +32,28 @@ Del resto de los datos que actualmente se mantienen en el sistema, una parte se 
 	\item Cargos importante (si es que los pos\'ee)
 \end{enumerate}
 
-Esta informaci\'on es requerida principalmente por los departamentos responsables de la administraci\'on de los recursos humanos de la Universidad de la Habana.
+Abajo, se encuentra la respuesta ofrecida por directorio de cuando se consultan los datos de un trabajador de la UH.
+
+\begin{verbatim}
+	<TrabajadorInfoCuote>
+	<Id>15869</Id>
+	<CatOcupacional>técnicos docentes principal</CatOcupacional>
+	<Docente>Si</Docente>
+	<CatDocenteInvestigativa>Instructor</CatDocenteInvestigativa>
+	<Contrato>Indeterminado</Contrato>
+	<Cargo>INSTRUCTOR</Cargo>
+	<Adiestrado>No</Adiestrado>
+	<AdministradorArea>No</AdministradorArea>
+	<Tecnico>Si</Tecnico>
+	<TecnicoInformatico>No</TecnicoInformatico>
+	<EspecialistaPrincipal>No</EspecialistaPrincipal>
+	<Cuadro>No</Cuadro>
+	<Asset>1</Asset>
+	<Departamento>DIRECCION DE INFORMATIZACION</Departamento>
+	</TrabajadorInfoCuote>
+\end{verbatim}
+
+Esta informaci\'on es requerida principalmente por los departamentos responsables de la administraci\'on de los recursos humanos de la Universidad de la Habana.\todo[color=yellow]{Y por otros sistemas también, es mejor no precisar mucho aqui ... simplemente existen y se usan, pero a los efectos de la red no son necesarios.}
 
 \section{Problemas del sistema actual}
 
@@ -35,27 +61,36 @@ El sistema, tal y como existe en este momento, presenta varios problemas, a lo c
 
 \subsection{Mantenimiento y extensi\'on del Sistema}
 
-Debido a la naturaleza del surgimiento del Directorio \'Unico, es decir, el acoplamiento de varios servicios aislados en uno, cada componente es demasiado dependiente de la forma en que las dem\'as brindan sus correspondientes funcionalidades. Esto se debe a que la interacci\'on entre las mismas ha sido configurada mediante un enfoque est\'atico \todo[color=yellow]{Mi intenci\'on aqu\'i es decir que estan cableadas pero realmente no se como decirlo}, y que el propio sistema no dispone de herramientas que permitan su modificaci\'on de una manera c\'omoda para los encargados de su mantenimiento. Dicho enfoque dificulta enormemente las tareas de actualizaci\'on del sistema, las cuales son necesarias para poder adecuar el mismo a las nuevas condiciones y necesidades que van surgiendo en la red a trav\'es de los años.
+Debido a la naturaleza del surgimiento del Directorio \'Unico, es decir, el acoplamiento de varios servicios aislados en uno, cada componente es demasiado dependiente de la forma en que las dem\'as brindan sus correspondientes funcionalidades. Esto se debe a que la interacci\'on entre las mismas ha sido configurada mediante un enfoque est\'atico \todo[color=yellow]{Mi intenci\'on aqu\'i es decir que estan cableadas pero realmente no se como decirlo}, y que el propio sistema no dispone de herramientas que permitan su modificaci\'on de una manera c\'omoda para los encargados de su mantenimiento. Dicho enfoque dificulta enormemente las tareas de actualizaci\'on del sistema, las cuales son necesarias para poder adecuar el mismo a las nuevas condiciones y necesidades que van surgiendo en la red a trav\'es de los \todo[color=cyan]{Me parece que se debe argumentar mas aca. No tengo críticas inmediatas de la escritura.}años.
 
 \subsection{Desuso de datos almacenados}
 
 Desde el surgimiento del Directorio \'Unico, se han ido incorporando nuevos campos al diseño de las bases de datos que representan las fuentes de informaci\'on del sistema, con el fin de suplir las necesidades que ocupan a la Universidad en cada nuevo per\'iodo escolar. 
 
-Actualmente muchos de esos campos han dejados de ser \'utiles para la Universidad, pero a pesar de esto se mantiene en el sistema debido a que, como consecuencia de la rigidez del mismo, cualquier cambio, sobre todo aquellos cuya repercusi\'on y alcance no se conocen, podr\'ian significar la ca\'ida del sistema por tiempo indefinido, de ah\'i que se siga la filosof\'ia de que "... lo que funciona no se toca...", provocando una sobre carga innecesaria para el sistema, que aunque pueda ser pequeña, no deja de ser significante, reflej\'andose sobre todo en el espacio ocupado por la informaci\'on en disco.
+Actualmente muchos de esos campos han dejados de ser \'utiles para la Universidad, pero a pesar de esto se mantiene en el sistema debido a que, como consecuencia de la rigidez del mismo. 
+
+Cualquier cambio, sobre todo aquellos cuya repercusi\'on y alcance no se conocen, podr\'ian significar la ca\'ida del sistema por tiempo indefinido, de ah\'i que se siga la filosof\'ia de que "... lo que funciona no se toca...", provocando una sobre carga innecesaria para el sistema, que aunque pueda ser pequeña, no deja de ser significante, reflej\'andose sobre todo en el espacio ocupado por la informaci\'on en disco.
 
 \subsection{Incumplimiento de pol\'iticas de baja de usuarios}
 
-Este es otro problema en el cual se incurre con bastante frecuencia en la Universidad. Debido a la volatilidad de algunos contratos concertados con personal ajeno a nuestro centro de altos estudios, sucede frecuentemente que al dar de baja a estos usuarios, sus cuentas son eliminadas con efecto casi inmediato, lo cual va en contra de los protocolos usualmente implementados en estos casos, los cuales son necesarios para prevenir la p\'erdida de acceso a servicios cr\'iticos, muchas veces desarrollados, administrados y mantenidos por agentes externos a la Universidad.		
+Este es otro problema en el cual se incurre con bastante frecuencia en la Universidad. Debido a la volatilidad de algunos contratos concertados con personal ajeno a nuestro centro de altos estudios. 
+
+Sucede frecuentemente que al dar de baja a estos usuarios, sus cuentas son eliminadas con efecto casi inmediato, lo cual va en contra de los protocolos usualmente implementados en estos casos, los cuales son necesarios para prevenir la p\'erdida de acceso a servicios cr\'iticos, muchas veces desarrollados, administrados y mantenidos por agentes externos a la \todo[color=yellow]{En serio? Cuales son todos estos sistemas desarrollados, administrados y mantenidos fuera de la UH?}Universidad. 
 
 
 \subsection{Carencia de r\'eplicas sincronizadas }
 
 Actualmente el Directorio \'Unico no cuenta con r\'eplicas que puedan garantizar el continuo funcionamiento del sistema en caso de que el servicio principal se detenga por causa de alg\'un problema en el mismo. Esto causa la imposibilidad de acceder a gran parte de los servicios pertenecientes a la red universitaria, afectando la productividad de la misma.
-Este problema no se debe solo a la falta de r\'eplicas del servicio actual, si no tambi\'en a la falta de alternativas para este servicio, ya que actualmente no existe ninguna funcional, a pesar de que el Directorio \'Unico lleva fallando ya un buen tiempo.
+Este problema no se debe solo a la falta de r\'eplicas del servicio actual, si no tambi\'en a la falta de alternativas para este servicio, ya que actualmente no existe ninguna funcional, a pesar de que el Directorio \'Unico lleva fallando ya un \todo[color=yellow]{No entiendo de que va esta oracion. Directorio como VM dentro del nodo si tiene salvas. Muchas de ellas ya se han usado ante un fallo, o sea, ya ha sido necesario restaurar la salva de la VM.) 
+	buen tiempo.
+
 
 \subsection{Carencia de protocolos comunes para servicios externos}
 
-Resulta natural que, con el paso del tiempo, se haga necesaria la disponibilidad de nuevos servicios en la red de la Universidad. Generalmente estos servicios, presentan como requerimiento com\'un, aquel asociado a la autenticaci\'on de usuarios, as\'i como a la administraci\'on de roles para los mismos. Por esta raz\'on, esta tarea se suele asignar a un sistema externo y centralizado con el objetivo de evitar que se repita este proceso en el desarrollo de cada servicio. Generalmente es implementado utilizando uno de los protocolos desarrollado por las entidades encargadas de estandarizar ciertos procesos en el amplio campo de la ciencia de la computaci\'on. Teniendo esto en cuenta, es que se pretende implementar una API Rest que permita modificar la l\'ogica detr\'as de la informaci\'on brindada, sin que esto implique modificar todos los servicios que consuman informaci\'on de nuestro sistema.
+Resulta natural que, con el paso del tiempo, se haga necesaria la disponibilidad de nuevos servicios en la red de la Universidad. Generalmente estos servicios, presentan como requerimiento com\'un, aquel asociado a la autenticaci\'on de usuarios, as\'i como a la administraci\'on de roles para los mismos. Por esta raz\'on, esta tarea se suele asignar a un sistema externo y centralizado con el objetivo de evitar que se repita este proceso en el desarrollo de cada servicio. Generalmente es implementado utilizando uno de los protocolos desarrollado por las entidades encargadas de estandarizar ciertos procesos en el amplio campo de la ciencia de la computaci\'on. Teniendo esto en cuenta, es que se pretende implementar una API Rest que permita modificar la l\'ogica detr\'as de la informaci\'on brindada, sin que esto implique modificar todos los servicios que consuman informaci\'on de \todo[color=yellow]{Solo dos problemas mas, que considero claves y que no veo reportados arriba: 1. directorio no tiene personal que lo mantenga    2. Los desarrolladores de directorio perdieron muchos de los cambios en su historial de codigo, al punto de que se hace imposible recuperar la lógica del directorio actual partiendo solamente del código almacenado.) 
+	nuestro sistema.
+
+
 
 
 
