@@ -1,518 +1,446 @@
-PWD /home/lian/Tesis Doc/Tesis/tex
-INPUT /etc/texmf/web2c/texmf.cnf
-INPUT /usr/share/texmf/web2c/texmf.cnf
-INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
-INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.tex
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.log
-INPUT /home/lian/Tesis Doc/Tesis/tex/uhthesis.cls
-INPUT /home/lian/Tesis Doc/Tesis/tex/uhthesis.cls
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/book.cls
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/book.cls
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
-INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm
-INPUT /usr/share/texmf/tex/latex/lm/lmodern.sty
-INPUT /usr/share/texmf/tex/latex/lm/lmodern.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/babelbib/babelbib.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/babelbib/babelbib.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/nomencl/nomencl.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/nomencl/nomencl.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadows.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadows.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.pdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-base.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-base.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tracklang/tracklang.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tracklang/tracklang.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/tracklang/tracklang.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/tracklang/tracklang.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator-language-mappings.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator-language-mappings.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries-spanish/glossaries-spanish.ldf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries-spanish/glossaries-spanish.ldf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries-spanish/glossaries-spanish.ldf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries-spanish/glossaries-spanish-utf8.ldf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries-spanish/glossaries-spanish-utf8.ldf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.glo
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.nlo
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Dedication.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Dedication.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Acknowledgements.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Acknowledgements.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/SupervisorOpinion.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/SupervisorOpinion.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Abstract.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Abstract.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/EnglishAbstract.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/EnglishAbstract.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Contents.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Contents.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/Introduction.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/Introduction.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/Background.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/Background.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/StateOfTheArt.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/StateOfTheArt.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/SystemImplementation.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/SystemImplementation.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/ExperimentationAndResults.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/ExperimentationAndResults.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Recommendations.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Recommendations.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Conclusions.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Conclusions.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Bibliography.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Bibliography.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Glossary.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Glossary.aux
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.aux
-INPUT /usr/share/texmf/tex/latex/lm/t1lmr.fd
-INPUT /usr/share/texmf/tex/latex/lm/t1lmr.fd
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr10.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/babelbib/spanish.bdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/babelbib/spanish.bdf
-INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.out
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.out
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.out
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.out
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.out
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.out
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.out
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.glsdefs
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.glsdefs
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr12.tfm
-INPUT /home/lian/Tesis Doc/Tesis/tex/Graphics/uhlogo.pdf
-INPUT /home/lian/Tesis Doc/Tesis/tex/Graphics/uhlogo.pdf
-INPUT /home/lian/Tesis Doc/Tesis/tex/Graphics/uhlogo.pdf
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr17.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr12.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT /home/lian/Tesis Doc/Tesis/tex/Graphics/qr.png
-INPUT /home/lian/Tesis Doc/Tesis/tex/Graphics/qr.png
-INPUT /home/lian/Tesis Doc/Tesis/tex/Graphics/qr.png
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.ist
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Dedication.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Dedication.tex
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Dedication.tex
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri10.tfm
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Acknowledgements.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Acknowledgements.tex
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Acknowledgements.tex
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr17.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx10.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx8.tfm
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/SupervisorOpinion.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/SupervisorOpinion.tex
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/SupervisorOpinion.tex
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Abstract.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Abstract.tex
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Abstract.tex
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/EnglishAbstract.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/EnglishAbstract.tex
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/EnglishAbstract.tex
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Contents.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Contents.tex
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Contents.tex
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.toc
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.toc
-INPUT /usr/share/texmf/tex/latex/lm/ot1lmr.fd
-INPUT /usr/share/texmf/tex/latex/lm/ot1lmr.fd
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr10.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr8.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr6.tfm
-INPUT /usr/share/texmf/tex/latex/lm/omllmm.fd
-INPUT /usr/share/texmf/tex/latex/lm/omllmm.fd
-INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi10.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi8.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi6.tfm
-INPUT /usr/share/texmf/tex/latex/lm/omslmsy.fd
-INPUT /usr/share/texmf/tex/latex/lm/omslmsy.fd
-INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy10.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy8.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy6.tfm
-INPUT /usr/share/texmf/tex/latex/lm/omxlmex.fd
-INPUT /usr/share/texmf/tex/latex/lm/omxlmex.fd
-INPUT /usr/share/texmf/fonts/tfm/public/lm/lmex10.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.toc
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.lof
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.lof
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.lof
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/Introduction.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/Introduction.tex
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/Introduction.tex
-INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
-INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt10.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmro10.tfm
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.tdo
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.tdo
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.tdo
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/Background.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/Background.tex
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/Background.tex
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr17.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmro10.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/StateOfTheArt.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/StateOfTheArt.tex
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/StateOfTheArt.tex
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/SystemImplementation.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/SystemImplementation.tex
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/SystemImplementation.tex
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/ExperimentationAndResults.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/ExperimentationAndResults.tex
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/ExperimentationAndResults.tex
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Recommendations.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Recommendations.tex
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Recommendations.tex
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Conclusions.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Conclusions.tex
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Conclusions.tex
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Bibliography.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Bibliography.tex
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Bibliography.tex
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.bbl
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.bbl
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.brf
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.brf
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.brf
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.brf
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.brf
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Glossary.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Glossary.tex
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Glossary.tex
-OUTPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.glsdefs
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Dedication.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Dedication.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Acknowledgements.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Acknowledgements.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/SupervisorOpinion.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/SupervisorOpinion.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Abstract.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Abstract.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/EnglishAbstract.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/EnglishAbstract.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Contents.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/FrontMatter/Contents.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/Introduction.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/Introduction.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/Background.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/Background.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/StateOfTheArt.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/StateOfTheArt.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/SystemImplementation.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/SystemImplementation.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/ExperimentationAndResults.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/ExperimentationAndResults.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Recommendations.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Recommendations.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Conclusions.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Conclusions.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Bibliography.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Bibliography.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Glossary.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/BackMatter/Glossary.aux
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.out
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.out
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.brf
-INPUT /home/lian/Tesis Doc/Tesis/tex/Thesis.brf
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmr10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmri10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmro10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb
+PWD d:\Others\Tesis\tex
+INPUT C:\Users\ericn\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT d:\Others\Tesis\tex\Thesis.tex
+OUTPUT d:\Others\Tesis\tex\Thesis.log
+INPUT d:\Others\Tesis\tex\uhthesis.cls
+INPUT d:\Others\Tesis\tex\uhthesis.cls
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk11.clo
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk11.clo
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1095.tfm
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\lmodern.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\lmodern.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.def
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babelbib\babelbib.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babelbib\babelbib.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\footmisc\footmisc.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\footmisc\footmisc.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\nomencl\nomencl.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\nomencl\nomencl.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\backref.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\backref.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\preprint\authblk.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\preprint\authblk.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.def
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.def
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.cfg
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.cfg
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\todonotes\todonotes.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\todonotes\todonotes.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorerdf.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshadows.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshadows.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfadings.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfadings.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfadings.code.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfadings.code.tex
+OUTPUT d:\Others\Tesis\tex\Thesis.pdf
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\base\glossaries.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\base\glossaries.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mfirstuc\mfirstuc.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mfirstuc\mfirstuc.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\textcase\textcase.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\textcase\textcase.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xfor\xfor.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xfor\xfor.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool-base.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool-base.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\substr\substr.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\substr\substr.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool-fp.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool-fp.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\defpattern.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\defpattern.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-basic.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-basic.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-addons.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-addons.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-snap.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-snap.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-exp.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-exp.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-trigo.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-trigo.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-pas.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-pas.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-random.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-random.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-upn.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-upn.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-eval.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-eval.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\base\glossaries-compatible-307.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\base\glossaries-compatible-307.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tracklang\tracklang.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tracklang\tracklang.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\tracklang\tracklang.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\tracklang\tracklang.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries-spanish\glossaries-spanish.ldf
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries-spanish\glossaries-spanish.ldf
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries-spanish\glossaries-spanish.ldf
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries-spanish\glossaries-spanish-utf8.ldf
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries-spanish\glossaries-spanish-utf8.ldf
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-hypernav.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-hypernav.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-list.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-list.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-long.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-long.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-super.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-super.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-tree.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-tree.sty
+OUTPUT d:\Others\Tesis\tex\Thesis.glo
+OUTPUT d:\Others\Tesis\tex\Thesis.nlo
+INPUT d:\Others\Tesis\tex\Thesis.aux
+INPUT d:\Others\Tesis\tex\Thesis.aux
+OUTPUT d:\Others\Tesis\tex\Thesis.aux
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmr.fd
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmr.fd
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr10.tfm
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babelbib\spanish.bdf
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babelbib\spanish.bdf
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+OUTPUT d:\Others\Tesis\tex\Thesis.out
+INPUT d:\Others\Tesis\tex\Thesis.glsdefs
+INPUT d:\Others\Tesis\tex\Thesis.glsdefs
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr12.tfm
+INPUT d:\Others\Tesis\tex\Graphics\uhlogo.pdf
+INPUT d:\Others\Tesis\tex\Graphics\uhlogo.pdf
+INPUT d:\Others\Tesis\tex\Graphics\uhlogo.pdf
+INPUT d:\Others\Tesis\tex\Graphics\uhlogo.pdf
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr17.tfm
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr12.tfm
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT d:\Others\Tesis\tex\Graphics\qr.png
+INPUT d:\Others\Tesis\tex\Graphics\qr.png
+INPUT d:\Others\Tesis\tex\Graphics\qr.png
+INPUT d:\Others\Tesis\tex\Graphics\qr.png
+INPUT d:\Others\Tesis\tex\Graphics\qr.png
+OUTPUT d:\Others\Tesis\tex\Thesis.ist
+INPUT C:\Users\ericn\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+OUTPUT d:\Others\Tesis\tex\FrontMatter\Dedication.aux
+INPUT d:\Others\Tesis\tex\FrontMatter\Dedication.tex
+INPUT d:\Others\Tesis\tex\FrontMatter\Dedication.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmri10.tfm
+OUTPUT d:\Others\Tesis\tex\FrontMatter\Acknowledgements.aux
+INPUT d:\Others\Tesis\tex\FrontMatter\Acknowledgements.tex
+INPUT d:\Others\Tesis\tex\FrontMatter\Acknowledgements.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr17.tfm
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx10.tfm
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx8.tfm
+OUTPUT d:\Others\Tesis\tex\FrontMatter\SupervisorOpinion.aux
+INPUT d:\Others\Tesis\tex\FrontMatter\SupervisorOpinion.tex
+INPUT d:\Others\Tesis\tex\FrontMatter\SupervisorOpinion.tex
+OUTPUT d:\Others\Tesis\tex\FrontMatter\Abstract.aux
+INPUT d:\Others\Tesis\tex\FrontMatter\Abstract.tex
+INPUT d:\Others\Tesis\tex\FrontMatter\Abstract.tex
+OUTPUT d:\Others\Tesis\tex\FrontMatter\EnglishAbstract.aux
+INPUT d:\Others\Tesis\tex\FrontMatter\EnglishAbstract.tex
+INPUT d:\Others\Tesis\tex\FrontMatter\EnglishAbstract.tex
+OUTPUT d:\Others\Tesis\tex\FrontMatter\Contents.aux
+INPUT d:\Others\Tesis\tex\FrontMatter\Contents.tex
+INPUT d:\Others\Tesis\tex\FrontMatter\Contents.tex
+OUTPUT d:\Others\Tesis\tex\Thesis.toc
+OUTPUT d:\Others\Tesis\tex\Thesis.lof
+OUTPUT d:\Others\Tesis\tex\MainMatter\Introduction.aux
+INPUT d:\Others\Tesis\tex\MainMatter\Introduction.tex
+INPUT d:\Others\Tesis\tex\MainMatter\Introduction.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmro10.tfm
+INPUT d:\Others\Tesis\tex\Thesis.tdo
+OUTPUT d:\Others\Tesis\tex\Thesis.tdo
+OUTPUT d:\Others\Tesis\tex\MainMatter\Background.aux
+INPUT d:\Others\Tesis\tex\MainMatter\Background.tex
+INPUT d:\Others\Tesis\tex\MainMatter\Background.tex
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr17.tfm
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmro10.tfm
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmtt10.tfm
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx12.tfm
+OUTPUT d:\Others\Tesis\tex\MainMatter\StateOfTheArt.aux
+INPUT d:\Others\Tesis\tex\MainMatter\StateOfTheArt.tex
+INPUT d:\Others\Tesis\tex\MainMatter\StateOfTheArt.tex
+OUTPUT d:\Others\Tesis\tex\MainMatter\SystemImplementation.aux
+INPUT d:\Others\Tesis\tex\MainMatter\SystemImplementation.tex
+INPUT d:\Others\Tesis\tex\MainMatter\SystemImplementation.tex
+OUTPUT d:\Others\Tesis\tex\MainMatter\ExperimentationAndResults.aux
+INPUT d:\Others\Tesis\tex\MainMatter\ExperimentationAndResults.tex
+INPUT d:\Others\Tesis\tex\MainMatter\ExperimentationAndResults.tex
+OUTPUT d:\Others\Tesis\tex\BackMatter\Recommendations.aux
+INPUT d:\Others\Tesis\tex\BackMatter\Recommendations.tex
+INPUT d:\Others\Tesis\tex\BackMatter\Recommendations.tex
+OUTPUT d:\Others\Tesis\tex\BackMatter\Conclusions.aux
+INPUT d:\Others\Tesis\tex\BackMatter\Conclusions.tex
+INPUT d:\Others\Tesis\tex\BackMatter\Conclusions.tex
+OUTPUT d:\Others\Tesis\tex\BackMatter\Bibliography.aux
+INPUT d:\Others\Tesis\tex\BackMatter\Bibliography.tex
+INPUT d:\Others\Tesis\tex\BackMatter\Bibliography.tex
+OUTPUT d:\Others\Tesis\tex\BackMatter\Glossary.aux
+INPUT d:\Others\Tesis\tex\BackMatter\Glossary.tex
+INPUT d:\Others\Tesis\tex\BackMatter\Glossary.tex
+OUTPUT d:\Others\Tesis\tex\Thesis.glsdefs
+INPUT d:\Others\Tesis\tex\Thesis.aux
+INPUT d:\Others\Tesis\tex\FrontMatter\Dedication.aux
+INPUT d:\Others\Tesis\tex\FrontMatter\Dedication.aux
+INPUT d:\Others\Tesis\tex\FrontMatter\Acknowledgements.aux
+INPUT d:\Others\Tesis\tex\FrontMatter\Acknowledgements.aux
+INPUT d:\Others\Tesis\tex\FrontMatter\SupervisorOpinion.aux
+INPUT d:\Others\Tesis\tex\FrontMatter\SupervisorOpinion.aux
+INPUT d:\Others\Tesis\tex\FrontMatter\Abstract.aux
+INPUT d:\Others\Tesis\tex\FrontMatter\Abstract.aux
+INPUT d:\Others\Tesis\tex\FrontMatter\EnglishAbstract.aux
+INPUT d:\Others\Tesis\tex\FrontMatter\EnglishAbstract.aux
+INPUT d:\Others\Tesis\tex\FrontMatter\Contents.aux
+INPUT d:\Others\Tesis\tex\FrontMatter\Contents.aux
+INPUT d:\Others\Tesis\tex\MainMatter\Introduction.aux
+INPUT d:\Others\Tesis\tex\MainMatter\Introduction.aux
+INPUT d:\Others\Tesis\tex\MainMatter\Background.aux
+INPUT d:\Others\Tesis\tex\MainMatter\Background.aux
+INPUT d:\Others\Tesis\tex\MainMatter\StateOfTheArt.aux
+INPUT d:\Others\Tesis\tex\MainMatter\StateOfTheArt.aux
+INPUT d:\Others\Tesis\tex\MainMatter\SystemImplementation.aux
+INPUT d:\Others\Tesis\tex\MainMatter\SystemImplementation.aux
+INPUT d:\Others\Tesis\tex\MainMatter\ExperimentationAndResults.aux
+INPUT d:\Others\Tesis\tex\MainMatter\ExperimentationAndResults.aux
+INPUT d:\Others\Tesis\tex\BackMatter\Recommendations.aux
+INPUT d:\Others\Tesis\tex\BackMatter\Recommendations.aux
+INPUT d:\Others\Tesis\tex\BackMatter\Conclusions.aux
+INPUT d:\Others\Tesis\tex\BackMatter\Conclusions.aux
+INPUT d:\Others\Tesis\tex\BackMatter\Bibliography.aux
+INPUT d:\Others\Tesis\tex\BackMatter\Bibliography.aux
+INPUT d:\Others\Tesis\tex\BackMatter\Glossary.aux
+INPUT d:\Others\Tesis\tex\BackMatter\Glossary.aux
+INPUT d:\Others\Tesis\tex\Thesis.out
+INPUT d:\Others\Tesis\tex\Thesis.out
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-ec.enc
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmbx10.pfb
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmbx10.pfb
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmbx12.pfb
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmbx12.pfb
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmbx8.pfb
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmbx8.pfb
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr10.pfb
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr10.pfb
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr12.pfb
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr12.pfb
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmri10.pfb
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmri10.pfb
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmro10.pfb
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmro10.pfb
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmtt10.pfb
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmtt10.pfb
