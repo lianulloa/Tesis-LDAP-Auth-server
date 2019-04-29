@@ -359,11 +359,6 @@ OUTPUT d:\Others\Tesis\tex\Thesis.lof
 OUTPUT d:\Others\Tesis\tex\MainMatter\Introduction.aux
 INPUT d:\Others\Tesis\tex\MainMatter\Introduction.tex
 INPUT d:\Others\Tesis\tex\MainMatter\Introduction.tex
-INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr8.tfm
-INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr6.tfm
-INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd
-INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd
-INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmtt10.tfm
 INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmro10.tfm
 INPUT d:\Others\Tesis\tex\Thesis.tdo
 OUTPUT d:\Others\Tesis\tex\Thesis.tdo
@@ -373,6 +368,9 @@ INPUT d:\Others\Tesis\tex\MainMatter\Background.tex
 INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr17.tfm
 INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx12.tfm
 INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmro10.tfm
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmtt10.tfm
 INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx12.tfm
 OUTPUT d:\Others\Tesis\tex\MainMatter\StateOfTheArt.aux
 INPUT d:\Others\Tesis\tex\MainMatter\StateOfTheArt.tex
@@ -440,10 +438,6 @@ INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr
 INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr12.pfb
-INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr6.pfb
-INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr6.pfb
-INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr8.pfb
-INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Users\ericn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmro10.pfb
