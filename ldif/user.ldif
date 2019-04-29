@@ -10,7 +10,7 @@ uidNumber: 5001
 gidNumber: 10000
 userPassword: user1
 loginshell: /bin/bash
-homeDirectory: /home/nfs/user1
+homeDirectory: /home/user1
 email: user1@ldap.uh.cu
 
 dn: token=adskjsda4f6546as12d5s4d,cn=user1,ou=usuarios,dc=ldap,dc=uh,dc=cu
