@@ -1,23 +1,60 @@
-\chapter{Directorio \'Unico}
+\chapter{Directorio Único}
 
-\section{Surgimiento del Directorio \'Unico}
+\section{Surgimiento del Directorio Único}
 
-Como resultado de la necesidad de acceso a la informaci\'on de los usuarios de la red de la Universidad de la Habana, tanto de estudiantes, como profesores y externos, varios servicios han sido implementados de manera aislada, durante los \'ultimos años con el fin de suplir esta necesidad. A ra\'iz del proceso de centralizaci\'on de los servicios llevado a cabo hace ya tres años, dichos servicios, relacionados con la creaci\'on, almacenamiento y la actualizaci\'on de la informaci\'on referente a los usuarios, fueron integrados en lo que se conoce hoy como Directorio \'Unico.
+Directorio Único es un servicio, que fue implementado con el objetivo de acceder a los datos 
+del personal de la Universidad de la Habana. En el momento de su surgimiento, se hacia 
+necesario disponer de un sistema que unificara las principales fuentes de datos de 
+trabajadores y estudiantes. De esta manera sería factible presentarlas a través de una misma
+interfaz. Desde su creación se han implementado, sobre dicha interfaz, varios 
+servicios de manera escalonada. Entre los principales servicios implementados, podemos 
+destacar la implementación de un mecanismo de autenticación OAuth para los sitios de la 
+intranet. Todos los servicios implementados sobre directorio funcionan hasta hoy. Otros 
+servicios permiten denegar o permitir el acceso de los usuarios a determinados recursos 
+brindados por la Universidad. Se puede tomar como ejemplo, el acceso al servicio que 
+administra la asignación de viajes internacionales al personal de la Universidad. Otro 
+ejemplo, un poco más palpable, lo tenemos en el servicio que decide la cuota de internet 
+asociada a cada usuario. Este se basa tanto, en el año que cursa, en caso de ser estudiante,
+como en el cargo que ocupa o departamento en que trabaja, en el caso de los trabajadores.
 
-Entre las principales funcionalidades que componen el Directorio \'Unico, se encuentra la de constituir una fuente, centralizada, de informaci\'on sobre toda aquella persona que pretenda hacer uso de las facilidades disponibles en la red universitaria. Dicha centralizaci\'on representa un elemento necesario para garantizar el control apropiado del uso de dichas facilidades, ya que la fragmentaci\'on de los datos, inherente a la estructura actual de la Universidad y a sus actividades, d\'igase la composici\'on por facultades, departamentos de investigaci\'on, etc, as\'i como la continua realizaci\'on de eventos para fomentar la investigaci\'on y el intercambio de experiencias, aumenta considerablemente la complejidad a la hora de administrar la informaci\'on almacenada y de garantizar cierta restricci\'on o concesi\'on de acceso a los servicios brindados. 
+Todos estos servicios, se implementaron sobre una misma base, debido al proceso de 
+centralización iniciado hace ya 4 años. Dicha centralización nos provee de ciertas ventajas,
+ya que representa una fuente de información de todo el personal de la Universidad de La 
+Habana. Con este enfoque, la información queda más accesible y más fácil de administrar. 
 
-Sin embargo, esta informaci\'on no se genera de forma centralizada, sino que se encuentra esparcida entre distintas fuentes como son el SIGENU y una base de datos conocida como 'Assets', la cual se encuentra esparcida en varios servidores y sobre la cual no se tiene total acceso debido a que, para su creaci\'on y luego su administraci\'on, se utiliza un software privativo, el cual impide el acceso requerido para implementar las actualizaciones que se hacen necesarias en este momento. \todo[color=yellow]{Cu\'ales son los nombres oficiales de las fuentes de datos?, Qu\'e significa SIGENU? si es que son siglas} 
-Por esta raz\'on, para poder actualizar esta informaci\'on centralizada, todos los datos existentes en las fuentes antes mencionadas, son procesados a trav\'es de un sistema que se compone de alrededor de 3 o 4 capas de procesamiento. Entre las principales razones que justifican la existencia de estas capas, se encuentra la incapacidad de agregarle directamente a las fuentes de datos, un campo que indique en que momento una instancia de usuario ha sido modificada.
+Sin embargo, esta información no se genera de forma centralizada, sino que se encuentra 
+esparcida entre distintas fuentes. Primeramente contamos con el Sistema de Gestión para la 
+Nueva Universidad (SIGENU). La información almacenada en esta, es administrada por las 
+secretarias de las respectivas facultades y es referente solo a los estudiantes. También se
+consume información de los trabajadores de la Universidad de La Habana, la cual se maneja 
+por los departamentos de recursos humanos de cada una de las unidades presupuestadas de la 
+Universidad (UH, IFAL, JBN, UPA, ISDI, INSTEC). Sobre esta no se tiene total 
+acceso debido a que, para su creación y luego su administración, se utiliza un software 
+privativo, el cual impide el acceso requerido para implementar las actualizaciones que se 
+hacen necesarias en este momento. \todo[inline]{Que actualizaciones? Assets es un software 
+para administracion de RH, que otras funcionalidades quieren implementar sobre esta db?} 
+Uno de los principales problemas que provoca esta falta de acceso, es la 
+incapacidad de agregarle directamente a las fuentes de datos, un campo que indique en que 
+momento una instancia de usuario ha sido modificada. \todo[inline]{Es verdad, pero 
+nuevamente, esta idea no parte del uso del sistema original sino de adaptarlo a 
+nuestras condiciones especificas. Bien las secretarias de RH podrian decir que la 
+información de un trabajador se actualizó en un sistema aparte a Assets luego de haber 
+introducido el cambio en Assets }
 
-Entre los datos m\'as relevantes, almacenados en este sistema, se encuentra aquellos que permiten la restricci\'on y/o concesi\'on de acceso a los servicios brindados, es decir, las credenciales de los usuarios de la red. Esta informaci\'on permite:
+Entre los datos más relevantes, almacenados en el Directorio Único, se encuentran aquellos 
+que permiten la restricción y/o concesión de acceso a los servicios brindados. Es decir, 
+las credenciales de los usuarios de la red. Esta información permite:
 
 \begin{enumerate}
-\item {\bf Autenticar al usuario:} Comprobar que la persona que solicita un servicio es quien dice ser.
-\item {\bf Administrar el acceso:} En correspondencia del rol de la persona autenticada, permitir o no el acceso a ciertos servicios
+\item {\bf Autenticar al usuario:} Comprobar que la persona que solicita un servicio es 
+quien dice ser.
+\item {\bf Administrar el acceso:} En correspondencia del nivel de privilegio de un usuario 
+,permitir o no el acceso a ciertos servicios.
 \end{enumerate}
 
-Del resto de los datos que actualmente se mantienen en el sistema, una parte se reserva para brindar informaci\'on acerca de la actividad realizada por el usuario durante su estancia en la red, es decir, los momentos en que se autentic\'o en la red, en que sistema lo hizo, la cantidad de cuota de internet consumida, etc. La otra parte, estando esta \'ultima m\'as asociada a los trabajadores y externos, contiene informaci\'on m\'as personal de los usuarios. Entre la misma sobresalen: 
-
+Una parte de la información almacenada, contiene información personal de los usuarios,
+estando esta más asociada a los trabajadores y externos. Entre la 
+misma sobresalen: 
 \begin{enumerate}
 	\item Año que cursa (en caso de ser estudiante)
 	\item Direcci\'on Particular
@@ -27,35 +64,101 @@ Del resto de los datos que actualmente se mantienen en el sistema, una parte se 
 	\item Cargos importante (si es que los pos\'ee)
 \end{enumerate}
 
-Esta informaci\'on es requerida principalmente por los departamentos responsables de la administraci\'on de los recursos humanos de la Universidad de la Habana.
+A los datos que actualmente se mantienen en el sistema, se le asocia información adicional
+para conocer la actividad realizada por el usuario. Dicha información, la almacenad el nodo
+de la Universidad en otro sistema aparte. Durante su estancia en la red, podemos registrar
+los momentos en que se autentica , en que sistema lo hace, la cantidad de cuota de internet
+consumida, etc.
+
+En el listado siguiente, se encuentra un ejemplo de una posible respuesta ofrecida por el 
+directorio cuando se consultan los datos de un trabajador de la UH.
+
+\begin{verbatim}
+	<TrabajadorInfoCuote>
+	<Id>15869</Id>
+	<CatOcupacional>técnicos docentes principal</CatOcupacional>
+	<Docente>Si</Docente>
+	<CatDocenteInvestigativa>Instructor</CatDocenteInvestigativa>
+	<Contrato>Indeterminado</Contrato>
+	<Cargo>INSTRUCTOR</Cargo>
+	<Adiestrado>No</Adiestrado>
+	<AdministradorArea>No</AdministradorArea>
+	<Tecnico>Si</Tecnico>
+	<TecnicoInformatico>No</TecnicoInformatico>
+	<EspecialistaPrincipal>No</EspecialistaPrincipal>
+	<Cuadro>No</Cuadro>
+	<Asset>1</Asset>
+	<Departamento>DIRECCION DE INFORMATIZACION</Departamento>
+	</TrabajadorInfoCuote>
+\end{verbatim}
 
 \section{Problemas del sistema actual}
 
-El sistema, tal y como existe en este momento, presenta varios problemas, a lo cuales esta tesis pretende brindar una posible soluci\'on. Los problemas son presentados a continuaci\'on:
+El sistema, tal y como existe en este momento, presenta varios problemas. Esta tesis 
+pretende brindar una propuesta de solución, así como su implementación. Los problemas son 
+presentados a continuación:
 
-\subsection{Mantenimiento y extensi\'on del Sistema}
+\subsection{Mantenimiento y extensión del Sistema}
 
-Debido a la naturaleza del surgimiento del Directorio \'Unico, es decir, el acoplamiento de varios servicios aislados en uno, cada componente es demasiado dependiente de la forma en que las dem\'as brindan sus correspondientes funcionalidades. Esto se debe a que la interacci\'on entre las mismas ha sido configurada mediante un enfoque est\'atico \todo[color=yellow]{Mi intenci\'on aqu\'i es decir que estan cableadas pero realmente no se como decirlo}, y que el propio sistema no dispone de herramientas que permitan su modificaci\'on de una manera c\'omoda para los encargados de su mantenimiento. Dicho enfoque dificulta enormemente las tareas de actualizaci\'on del sistema, las cuales son necesarias para poder adecuar el mismo a las nuevas condiciones y necesidades que van surgiendo en la red a trav\'es de los años.
+Debido a la naturaleza del surgimiento del Directorio Único, es decir, el acoplamiento 
+de varios servicios de manera escalonada sobre la idea inicial, cada componente es 
+demasiado dependiente de la forma en que las demás brindan sus correspondientes 
+funcionalidades. Esto se debe a que la interacción entre las mismas ha sido configurada 
+mediante un enfoque estático. El propio sistema no dispone de herramientas que permitan su 
+modificación de una manera cómoda para los encargados de su mantenimiento. Dicho enfoque 
+dificulta enormemente las tareas de actualización del sistema, las cuales son necesarias 
+para poder adecuar el mismo a las nuevas condiciones y necesidades que van surgiendo en la 
+red a través de los años. De hecho, actualmente el personal encargado del mantenimiento de
+Directorio no puede responder a las necesidades de actualización. La principal causa de 
+esta desatención, es que los desarrolladores de Directorio perdieron muchos de los cambios
+en su historial de código. Tan importante es la pérdida de este historial que imposibilita
+la recuperación de la lógica del Directorio actual partiendo solamente del código almacenado.
 
 \subsection{Desuso de datos almacenados}
 
-Desde el surgimiento del Directorio \'Unico, se han ido incorporando nuevos campos al diseño de las bases de datos que representan las fuentes de informaci\'on del sistema, con el fin de suplir las necesidades que ocupan a la Universidad en cada nuevo per\'iodo escolar. 
+Desde el surgimiento del Directorio Único, se han ido incorporando nuevos campos a las 
+fuentes de información del sistema. Estos cambios han tenido como objetivo suplir las 
+necesidades que ocupan a la Universidad en cada nuevo período escolar. 
 
-Actualmente muchos de esos campos han dejados de ser \'utiles para la Universidad, pero a pesar de esto se mantiene en el sistema debido a que, como consecuencia de la rigidez del mismo, cualquier cambio, sobre todo aquellos cuya repercusi\'on y alcance no se conocen, podr\'ian significar la ca\'ida del sistema por tiempo indefinido, de ah\'i que se siga la filosof\'ia de que "... lo que funciona no se toca...", provocando una sobre carga innecesaria para el sistema, que aunque pueda ser pequeña, no deja de ser significante, reflej\'andose sobre todo en el espacio ocupado por la informaci\'on en disco.
+Actualmente muchos de esos campos han dejados de ser útiles para la Universidad. Como
+consecuencia de la rigidez del Directorio, cualquier cambio, sobre todo aquellos cuya 
+repercusión y alcance no se conocen, podrían significar la caída del sistema por tiempo 
+indefinido. De ahí que se siga la filosofía de que "... lo que funciona no se toca...". Pero
+mantener este enfoque, provoca una sobrecarga innecesaria para el sistema, que aunque pueda
+ser pequeña, no deja de ser significante. Dicha sobrecarga se refleja sobre todo en el 
+espacio ocupado por la información en disco.
 
-\subsection{Incumplimiento de pol\'iticas de baja de usuarios}
+\subsection{Incumplimiento de políticas de baja de usuarios}
 
-Este es otro problema en el cual se incurre con bastante frecuencia en la Universidad. Debido a la volatilidad de algunos contratos concertados con personal ajeno a nuestro centro de altos estudios, sucede frecuentemente que al dar de baja a estos usuarios, sus cuentas son eliminadas con efecto casi inmediato, lo cual va en contra de los protocolos usualmente implementados en estos casos, los cuales son necesarios para prevenir la p\'erdida de acceso a servicios cr\'iticos, muchas veces desarrollados, administrados y mantenidos por agentes externos a la Universidad.		
+Este es otro problema en el cual se incurre con bastante frecuencia en la Universidad. 
+Debido a la volatilidad de algunos contratos concertados con personal ajeno a nuestro 
+centro de altos estudios. 
 
+Sucede frecuentemente que al dar de baja a estos usuarios, sus cuentas son eliminadas con 
+efecto casi inmediato, lo cual va en contra de los protocolos usualmente implementados en 
+estos casos. Generalmente se debe espera una cierta cantidad de días para implementar la 
+eliminación total de las cuentas. De esta manera se puede prevenir la pérdida de acceso a 
+servicios críticos, como son el correo, el proxy y la nube recientemente desplega en la 
+intranet de la Universidad. Muchas veces estos servicios son desarrollados, administrados 
+y mantenidos por agentes externos a la Universidad. 
 
-\subsection{Carencia de r\'eplicas sincronizadas }
-
-Actualmente el Directorio \'Unico no cuenta con r\'eplicas que puedan garantizar el continuo funcionamiento del sistema en caso de que el servicio principal se detenga por causa de alg\'un problema en el mismo. Esto causa la imposibilidad de acceder a gran parte de los servicios pertenecientes a la red universitaria, afectando la productividad de la misma.
-Este problema no se debe solo a la falta de r\'eplicas del servicio actual, si no tambi\'en a la falta de alternativas para este servicio, ya que actualmente no existe ninguna funcional, a pesar de que el Directorio \'Unico lleva fallando ya un buen tiempo.
 
 \subsection{Carencia de protocolos comunes para servicios externos}
 
-Resulta natural que, con el paso del tiempo, se haga necesaria la disponibilidad de nuevos servicios en la red de la Universidad. Generalmente estos servicios, presentan como requerimiento com\'un, aquel asociado a la autenticaci\'on de usuarios, as\'i como a la administraci\'on de roles para los mismos. Por esta raz\'on, esta tarea se suele asignar a un sistema externo y centralizado con el objetivo de evitar que se repita este proceso en el desarrollo de cada servicio. Generalmente es implementado utilizando uno de los protocolos desarrollado por las entidades encargadas de estandarizar ciertos procesos en el amplio campo de la ciencia de la computaci\'on. Teniendo esto en cuenta, es que se pretende implementar una API Rest que permita modificar la l\'ogica detr\'as de la informaci\'on brindada, sin que esto implique modificar todos los servicios que consuman informaci\'on de nuestro sistema.
+A menudo, se implementan nuevos servicios en la red de la Universidad. Generalmente estos
+servicios necesitan tener control de acceso sobre los recursos que brindan a sus usuarios.
+Esto implica el tener que desarrollar para cada nuevo servicio, un mecanismo de 
+autenticación de usuarios. Este mecanismo además tiene que ser capaz de brindar una 
+funcionalidad para administrar los roles o grupos a los que pertenecen dichos usuarios.
+Un enfoque más útil, es el de delegar esta tarea a un sistema externo y centralizado. De
+esta forma se evita el tener que repetir el desarrollo de la misma funcionalidad para cada
+servicio.
+
+Teniendo esto en cuenta, es que se pretende implementar una API Rest que permita modificar 
+la lógica detrás de la información brindada, sin que esto implique modificar todos los 
+servicios que consuman información de nuestro sistema.
+
+
 
 
 

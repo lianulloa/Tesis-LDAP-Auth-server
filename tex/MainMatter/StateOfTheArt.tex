@@ -1,41 +1,59 @@
 \chapter{Estado del arte}
-
+\todo[inline, color=yellow]{Esta nota es de conexion entre el capitulo anterior y este. Se necesita una idea lógica para conectar los dos capítulos. Al final del capítulo anterior se describió la situación del directorio único en la UH y de pronto en este capítulo caemos en el análisis de las herramientas para dar la solución ... falta algo: nunca se habló de cual iba a ser la propuesta de solución (no cuenta la breve descripción dentro de la introducción). 
+Es necesario destinar un epígrafe al final del capítulo anterior proponiendo la idea de la solución a implementar utilizando un protocolo de acceso a directorios. En este capítulo se discuten las herramientas con las que se puede llevar a cabo: LDAP y active directory como candidatos del protocolo de acceso a directorios; python y adversarios como lenguajes de base para la implementacion del api; django vs flask como frameworks alternativos para la implementacion del api. Así, cuando concluya este capítulo le debe quedar claro al lector cuales son las herramientas que se van a utilizar para orquestar la solucion al igual que los conceptos fundamentales de dichas herramientas. 
+OJO-nota: en el párrafo de arriba utilicé oraciones impropias para una tesis, son tan largas que la idea se pierde. Son suficientes para transmitirles una idea de manera informal a Uds como estudiantes, pero sirven para hacer llegar el mensaje de manera formal a un tribunal científico.
+Finalmente, el capitulo 3 es la implementación en detalle de la solución.}
 \section{LDAP}
 \subsection{¿Qu\'e es el protocolo LDAP?}
-LDAP (Lightweight Directory Access Protocol) es un protocolo perteneciente a la capa de aplicaciones, tanto para servidores como para clientes. Es abierto y multiplataforma. Est\'a pensado para la implementaci\'on de servicios de directorio, facilitando el acceso r\'apido a la informaci\'on almacenada. Presenta una estructura arbórea, la cual organiza la informaci\'on en ramas y permite realizar b\'usquedas de manera eficiente, debido a que la cardinalidad de las posibles repuestas se reduce a medida que se avanza por cualquiera de estas ramas. Es una versi\'on ligera del protocolo DAP (Directory Access Protocol), el cual a su vez es parte del estandar para servicios de directorios en la re X.500. \todo[]{Me falta poner referencias para DAP y X.500}
+LDAP (Lightweight Directory Access Protocol) es un protocolo perteneciente a la capa de aplicaciones, tanto para servidores como para clientes.\todo[color=yellow]{Poner referencia al tanembaum por hablar de las capas del modelo OSI. } Es abierto y multiplataforma. Est\'a pensado para la implementaci\'on de servicios de directorio\todo{Poner ejemplos de servicios de directorios para que quede claro}, facilitando el acceso r\'apido a la informaci\'on almacenada. Presenta una estructura arbórea, la cual organiza la informaci\'on en ramas y permite realizar b\'usquedas de manera eficiente, debido a que la cardinalidad de las posibles repuestas se reduce a medida que se avanza por cualquiera de estas ramas. Es una versi\'on ligera del protocolo DAP (Directory Access Protocol), el cual a su vez es parte del estandar para servicios de directorios en la re X.500. \todo[]{Me falta poner referencias para DAP y X.500. Acaben de empezar a manejar las referencias, para luego es muy tarde.}
+
+\newpage
 
 \subsection{Conceptos Importantes dentro de LDAP}
+
 \subsubsection{Servidor de Directorio}
-Un servidor de directorio, no es m\'as que un tipo de base de datos pensada para ser utilizada directamente en la red. A diferencia de las bases de datos tradicionales (Bases de Datos Relacionales) que representan los datos en tablas y cada instancia es una fila, en este cada entrada en el directorio es un \'arbol de entradas, donde cada \'arbol puede contener datos o ser una hoja (un \'arbol vac\'io)
+Un servidor de directorio, no es m\'as que un tipo de base de datos pensada para ser utilizada directamente en la red. A diferencia de las bases de datos tradicionales (Bases de Datos Relacionales\todo[inline, color=purple]{Referencia al articulo de Codd para las bases de datos relacionales.}) que representan los datos en tablas y cada instancia es una fila, en este cada entrada en el directorio es un \'arbol de entradas, donde cada \'arbol puede contener datos o ser una hoja (un \'arbol vac\'io)
+	
 \subsubsection{Entradas}
 Cada entrada en un servidor de directorio representa una colecci\'on de informaci\'on referente a cierta entidad. Est\'a compuesta principalmente, por un nombre distinguido, que es el identificador un\'ivoco de la misma. Adem\'as cuenta con un conjunto de atributos y de clases de objetos los cuales definen la estructura y el comportamiento de la entrada.
-\subsubsection{Distinguished Name (Nombre Distinguido)}
+
+\subsubsection{Distinguished Name (Nombre Distinguido)} \todo[inline]{Usar solo Nombre Distinguido para ser consecuente con el resto de los encabezados de sección.}
 Este es el identificador un\'ivoco de la entrada. Esta compuesto por lo que se conoce en la literatura como 'Nombres distinguidos relativos' o 'RDN' por sus siglas en ingl\'es. Estos RDN no son m\'as que un conjunto ordenado de pares atributo-valor. Usualmente se escogen los atributos m\'as representativos de cada entrada para la representaci\'on del DN.
+
 \subsubsection{Artibutos}
 Los atributos son los encargados de guardar la informaci\'on de cada entrada y tiene asociados un tipo, un conjunto de opciones.
 
 Los atributos representan una parte importante del esquema del directorio LDAP. A trav\'es de estos podemos definir nuevas clases de objetos para poder suplir las necesidad de almacenamiento de informaci\'on. Para poder definir tanto atributos como clases de objetos es necesario proveerle a ambos un identificador, el cual presenta un formato similar al siguiente: 1.3.6.1.4.1.<Identificador global>.1.5 .
+\todo[inline, color=purple]{No me queda claro como se ve el identificador. Una imagen vale mas que mil palabras. Toda esta explicación se vería mejor a través de un ejemplo.}
 El identificador global al que se hace referencia, no es m\'as que un n\'umero de series que distingue a la implementaci\'on del protocolo LDAP utilizada a nivel global. Este se puede obtener realizada una solicitud a IANA(Internet Assigned Numbers Authority).
+\todo[inline]{Es importante que en el capítulo de implementación se explique como solicitamos nuestro identificador global a IANA (Lian hizo esto si no recuerdo mal.)}
+
 \subsubsection{Clases de Objetos}
 Estos tambi\'en representan una parte importante del esquema del protocolo LDAP. No son m\'as que conjunto de atributos que definen la informaci\'on almacenada en cada entrada. Pueden ser de dos tipos: estructurales o auxiliares. Cada entrada puede tener asociada una clase de objetos estructural y cero o m\'as clases auxiliares.
+
 \subsubsection{Filtros}
 Los filtros representan el mecanismo utilizado para realizar consultas al directorio. La l\'ogica utilizada para filtrar las entidades almacenadas en el servidor se define a trav\'es de reglas de comparaci\'on, las cuales, a su vez se definen en los atributos.
 
 \subsection{Implementaciones m\'as utilizadas}
 \subsubsection{IBM Security Directory Server}
-Este servicio implementa las especificaciones de Internet Engineering Task Force (IETF) LDAP V3. Permite la comunicaci\'on con clientes basados en IETF LDAP V3. \todo{poner referencia a la pagina de ibm https://www.ibm.com/support/knowledgecenter/en/SSVJJU\_6.3.1/com.ibm.IBMDS.doc\_6.3.1/admin\_gd13.htm}  Esta alternativa presenta una amplia variedad de funcionalidades que facilitar\'ian la integraci\'on con el sistema de la Universidad , pero esta herramienta es de pago, por lo que no podemos utilizarla.
+Este servicio implementa las especificaciones de Internet Engineering Task Force (IETF) LDAP V3. Permite la comunicaci\'on con clientes basados en IETF LDAP V3. \todo[inline]{poner referencia a la pagina de ibm https://www.ibm.com/support/knowledgecenter/en/SSVJJU\_6.3.1/com.ibm.IBMDS.doc\_6.3.1/admin\_gd13.htm ... Acaben de poner las referencias.}  Esta alternativa presenta una amplia variedad de funcionalidades que facilitar\'ian la integraci\'on con el sistema de la Universidad , pero esta herramienta es de pago, por lo que no podemos utilizarla.
 \subsubsection{Active Directory}
 Esta es la implementaci\'on que brinda Microsoft del protocolo LDAP. Igualmente presenta una amplia variedad de funcionalidades pero tambi\'en es de pago.
+\todo[inline]{Poner al menos una referencia a la página de manual. Esta explicación esta pobrecita, hay qye hablar un poco mas de las diferencias de AD de Microsoft con respecto al resto de las alternativas.} 
 \subsubsection{Oracle Internet Directory}
 Oracle Internet Directory is a general purpose directory service that enables fast retrieval and centralized management of information about dispersed users and network resources. It combines Lightweight Directory Access Protocol (LDAP) Version 3 with the high performance, scalability, robustness, and availability of an Oracle Database. \todo{poner cita de la url {https://docs.oracle.com/cd/B14099\_19/idmanage.1012/b14082/intro.htm\#i1001669}}
 \subsubsection{OpenLDAP}
-Esta es la implementaci\'on que estaremos, principalmente debido a que es totalmente gratis y se integra f\'acilmente al entorno de sistemas basados en Linux, el cual es la base de la mayor\'ia de los servidores de la Universidad.
+Esta es la implementaci\'on que estaremos\todo[inline]{que utilizaremos ... pero esto no se pone aun, aca solo estas hablando de las alternativas y de las diferencias entre ellas .... y hay que demostrar conocimiento. .} , principalmente debido a que es totalmente gratis y se integra f\'acilmente al entorno de sistemas basados en Linux, el cual es la base de la mayor\'ia de los servidores de la Universidad.
 
 \subsection{Modos de empleo usuales}
 \subsubsection{DNS}
-LDAP es usualmente utilizado con una estructura de DNS. Las clases de objetos que existen por defecto en el esquema de OpenLDAP, permite simular la estructura de que presentan los DNS. Esto da la oportunidad de brindar las mismas funcionalidades de servicio de nombres de dominios y a la vez utilizar las ventajas de b\'usqueda y modificaci\'on de los LDAP.
+LDAP es usualmente utilizado con una estructura de DNS. Las clases de objetos que existen por defecto en el esquema de OpenLDAP, permite simular la estructura de que presentan los DNS\todo[inline]{no solo vale decir la estructura que presentan los DNS ... una estructura de delegación de zonas, arborea, similar a la del DNS... sería una variante mas acorde para describir la relación} . Esto da la oportunidad de brindar las mismas funcionalidades de servicio de nombres de dominios y a la vez utilizar las ventajas de b\'usqueda y modificaci\'on de los LDAP.
+
 \subsubsection{Sistema de Autenticaci\'on}
 Esta implementaci\'on tambi\'en brinda ventajas a la hora de implementar un sistema de autenticaci\'on de usuarios. Esto se debe principalmente al amplio soporte que tiene el protocolo LDAP para varios servicios. La posibilidad de agrupar a los usuario mediante unidades organizativas (Organizational Unit [OU]) y de representar su pertenencia a determinados grupos, permite f\'acilmente administrar el acceso que cada uno debe tener a los servicios ofrecidos por la universidad. Este modo de organizar la informaci\'on de los usuarios se asemeja bastante a la manera en que se asigna permisos a un usuario en los sistemas operativos basados en Linux, de hecho, una de las funcionalidades implementadas para este protocolo permite autenticar un usuario en una m\'aquina, ya sea virtual o f\'isica, siempre y cuando este exista en el servidor LDAP.
+
+\todo[inline]{TODO:
+	Revisar la longitud y ajuste al tema de las oraciones. Argumentar con ejemplos, idealmente con imagenes también. Argumentar la selección de la herramienta OpenLDAP. Abordar el análisis del lenguaje para la implementación del API. Argumentar cual es el framework utilizado para implementar el API. Descripción completa de la selección de herramientas para implementar la solución.} 
 
 \section{Docker}
 \section{EA3}
