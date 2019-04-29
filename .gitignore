@@ -5,4 +5,4 @@ __pycache__/
 apps/ldap-api/log/*
 *.aux
 *.log
-Thesis.*
+tex/Thesis.*
