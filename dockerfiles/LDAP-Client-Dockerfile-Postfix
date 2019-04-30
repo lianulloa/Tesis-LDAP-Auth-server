@@ -1,0 +1,14 @@
+FROM m_l/postfix_dovecot 
+MAINTAINER Lian Ulloa l.ulloa@estudiantes.matcom.uh.cu
+
+COPY /scripts/configure-ldap-client-using-expect.sh /root/
+COPY /scripts/start-postfix.sh /root/
+RUN chmod +x /root/configure-ldap-client-using-expect.sh
+RUN chmod +x /root/start-postfix.sh
+
+EnTRYPOINT [ "/root/start-postfix.sh" ]
+
+# TENER EN CUENTA QUE HAY QUE AGREGAR LOS NUEVOS USUARIOS AL ARCHIVO VIRTUAL DE POSTFIX
+# Y CREAR EL HOME DE CADA USUARIO
+
+# EXPOSE 80 443

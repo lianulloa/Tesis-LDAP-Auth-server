@@ -1,7 +1,7 @@
 set timeout -1
 spawn apt -y install libnss-ldap libpam-ldap nscd
 expect "LDAP server Uniform Resource Identifier: "
-send "ldap://127.0.0.1\r"
+send "ldap://172.17.0.3\r"
 expect "Distinguished name of the search base: "
 send "dc=uh,dc=cu\r"
 expect "LDAP version to use: "

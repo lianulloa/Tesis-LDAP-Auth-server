@@ -3891,6 +3891,11 @@ carrera: Contabilidad y Finanzas
 ci: 94102730414
 ciudadania: N/D
 cn: Analay
+uidNumber: 5002
+gidNumber: 10000
+objectClass: posixAccount
+objectClass: shadowAccount
+homeDirectory: /home/user2
 correo: acruz@fcf.uh.cu
 cuotainternet: 0
 direccion: N/D
