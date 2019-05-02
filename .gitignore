@@ -3,3 +3,11 @@ tmp/*
 __pycache__/
 *.py[cod]
 apps/ldap-api/log/*
+*.tdo
+*.toc
+*.brf
+*.bbl
+*.aux
+*.lof
+*.blg
+*.fls
