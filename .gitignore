@@ -11,3 +11,5 @@ apps/ldap-api/log/*
 *.lof
 *.blg
 *.fls
+*.log
+

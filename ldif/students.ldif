@@ -39,6 +39,51 @@ ujc: TRUE
 userpassword: {SSHA}Lup1u+byEBjsrVWVW5xeU/1uToZmRDVP
 idsigenu: -34204687:1322f330ab7:-7f21
 
+# Entry 1: uid=amartínez@estudiantes.fbio.uh.cu,ou=Estudiantes,dc=uh,dc=cu
+dn: uid=user1,ou=Estudiantes,dc=uh,dc=cu
+becado: Externo
+carrera: Contabilidad y Finanzas
+ci: 91012429054
+ciudadania: N/D
+cn: user1
+uidNumber: 5001
+gidNumber: 10000
+objectClass: posixAccount
+objectClass: shadowAccount
+homeDirectory: /home/user1/
+correo: amartínez@estudiantes.fbio.uh.cu
+cuotainternet: 0
+direccion: N/D
+edad: 28
+esbaja: FALSE
+facultad: Contabilidad y Finanzas
+fechadecreacion: 1487048400
+fechadebaja: 2145889787
+fechaderegistro: 2145889787
+grade: 3ro
+grupo: 4323
+idfacultad: 223.0.06816_11
+lugardenacimiento: N/D
+municipio: Plaza De La Revolucion
+objectclass: Estudiante
+objectclass: top
+pais: Cuba
+pcc: FALSE
+provincia: La Habana
+raza: Blanca
+residenciaestudiantil: N/D
+sexo: F
+sn: Martínez Domenech
+telefonopersonal: N/D
+tienechat: TRUE
+tienecorreo: TRUE
+tieneinternet: TRUE
+tipodecurso: Curso por Encuentros
+uid: user1
+ujc: TRUE
+userPassword: 12345678
+idsigenu: -34204687:1322f330ab7:-7f21
+
 # Entry 2: uid=imartinez@estudiantes.fcf.uh.cu,ou=Estudiantes,dc=uh,dc=cu
 dn: uid=imartinez@estudiantes.fcf.uh.cu,ou=Estudiantes,dc=uh,dc=cu
 becado: Externo
@@ -3846,6 +3891,11 @@ carrera: Contabilidad y Finanzas
 ci: 94102730414
 ciudadania: N/D
 cn: Analay
+uidNumber: 5002
+gidNumber: 10000
+objectClass: posixAccount
+objectClass: shadowAccount
+homeDirectory: /home/user2
 correo: acruz@fcf.uh.cu
 cuotainternet: 0
 direccion: N/D

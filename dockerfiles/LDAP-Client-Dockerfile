@@ -16,6 +16,9 @@ RUN chmod +x /root/ldap/start-service.sh
 COPY /scripts/configure-ldap-client-using-expect.sh /root/ldap/
 RUN chmod +x /root/ldap/configure-ldap-client-using-expect.sh
 
+RUN mv /etc/apt/sources.list.d/online.list /etc/apt/sources.list.d/online.list.disabled
+COPY /resources/uh.list /etc/apt/sources.list.d/
+
 
 ENTRYPOINT [ "/root/ldap/start-service.sh" ]
 

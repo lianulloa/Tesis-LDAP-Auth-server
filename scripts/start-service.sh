@@ -10,12 +10,13 @@ slapadd -v -l /root/ldap/schema/ou.ldif
 
 # # ADD EXAMPLES USER AND GROUP
 echo include externo
-slapadd -v -l /root/ldap/schema/externos_one.ldif
-# slapadd -v -l /root/ldap/schema/students.ldif
+# slapadd -v -l /root/ldap/schema/externos_one.ldif
+slapadd -v -l /root/ldap/schema/students.ldif
 # slapadd -v -l /root/ldap/schema/workers.ldif
 # slapadd -v -l /root/ldap/schema/externos.ldif
+# slapadd -v -l /root/ldap/schema/user.ldif
 
-# slapadd -v -l /root/ldap/schema/groups.ldif
+slapadd -v -l /root/ldap/schema/groups.ldif
 
     
 # INSTALL DEPENDENCIES FOR LDAP CLIENT
@@ -42,6 +43,8 @@ service slapd start
 service apache2 start
 service nscd restart
 
-# getent passwd user1
+echo "before "
+getent passwd user1
+echo "after"
 
 /bin/bash
