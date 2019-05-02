@@ -30,16 +30,7 @@ consume información de los trabajadores de la Universidad de La Habana, la cual
 por los departamentos de recursos humanos de cada una de las unidades presupuestadas de la 
 Universidad (UH, IFAL, JBN, UPA, ISDI, INSTEC). Sobre esta no se tiene total 
 acceso debido a que, para su creación y luego su administración, se utiliza un software 
-privativo, el cual impide el acceso requerido para implementar las actualizaciones que se 
-hacen necesarias en este momento. \todo[inline]{Que actualizaciones? Assets es un software 
-para administracion de RH, que otras funcionalidades quieren implementar sobre esta db?} 
-Uno de los principales problemas que provoca esta falta de acceso, es la 
-incapacidad de agregarle directamente a las fuentes de datos, un campo que indique en que 
-momento una instancia de usuario ha sido modificada. \todo[inline]{Es verdad, pero 
-nuevamente, esta idea no parte del uso del sistema original sino de adaptarlo a 
-nuestras condiciones especificas. Bien las secretarias de RH podrian decir que la 
-información de un trabajador se actualizó en un sistema aparte a Assets luego de haber 
-introducido el cambio en Assets }
+privativo.
 
 Entre los datos más relevantes, almacenados en el Directorio Único, se encuentran aquellos 
 que permiten la restricción y/o concesión de acceso a los servicios brindados. Es decir, 
@@ -158,8 +149,37 @@ Teniendo esto en cuenta, es que se pretende implementar una API Rest que permita
 la lógica detrás de la información brindada, sin que esto implique modificar todos los 
 servicios que consuman información de nuestro sistema.
 
+\section{Propuesta de solución}
 
+Con el objetivo de subsanar dichos problemas, pretendemos desarrollar un sistema capaz de
+sustituir el Directorio Único. Nuestro enfoque va orientado a desplegar un servidor que
+implemente el protocolo LDAP. Este protocolo define un servicio de directorio optimizado para
+las operaciones de búsqueda. Además posee facilidades para la organización de los datos, 
+asociándolos a entidades, grupos y cualquier otra unidad organizacional en la que se necesiten
+agrupar a los datos. Dichos datos serán consumidos directamente de las mismas fuentes de las
+que se alimenta Directorio Único. Existirá, para esto, un capa de software intermedio capaz de
+transformar los datos a un formato compatible con el protocolo LDAP. Y en caso de que se
+necesite guardar alguna información que no este incluida en las fuente, es en esta capa donde
+será generada.
 
+Actualmente existe muchos servicios que saben como comunicarse directamente con el protocolo
+LDAP. Pero no todos incluyen esta funcionalidad. Es debido a esto, que es necesario implementar
+una interfaz, una capa de abstracción entre LDAP y el resto de los servicios, que permita su
+comunicación. El protocolo de comunicación más común entre servicios web es el de HTTP. Por eso
+pretendemos implementar una RESTFUL Api para garantizar la interacción de nuestro sistema, con
+todos los servicios que puedan necesitar consumir la información que almacenaremos. Los servicios
+que brindara dicha Api son los siguiente:
+
+\begin{enumerate}
+	\item Consultar la información acerca de cualquiera de las usuario almacenados en el sistema,
+	siempre y cuando cuente con el permiso necesario.
+	\item Introducir y actualizar la información de los usuarios, tanto de estudiantes, como de 
+	trabajadores y externos.
+	\todo[inline, color=yellow]{no se si las puse muy genericas? se me queda algo fuera?}
+\end{enumerate}
+
+El capítulo siguiente presentaremos las tecnologías usadas como base para la implementación del
+sistema.
 
 
 

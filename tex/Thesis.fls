@@ -446,6 +446,26 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 OUTPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/StateOfTheArt.aux
 INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/StateOfTheArt.tex
 INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/StateOfTheArt.tex
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr8.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr9.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr9.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr7.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr5.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi9.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi7.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi5.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy9.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy7.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy5.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr7.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt9.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr10.tfm
 OUTPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/SystemImplementation.aux
 INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/SystemImplementation.tex
 INPUT /home/lian/Tesis Doc/Tesis/tex/MainMatter/SystemImplementation.tex
@@ -513,6 +533,10 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmr7.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmr8.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmr9.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmri10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmro10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb
