@@ -1,14 +1,21 @@
 FROM m_l/postfix_dovecot 
 MAINTAINER Lian Ulloa l.ulloa@estudiantes.matcom.uh.cu
 
+COPY /mail/virtual /etc/postfix/
 COPY /scripts/configure-ldap-client-using-expect.sh /root/
 COPY /scripts/start-postfix.sh /root/
+COPY /scripts/.bashrc /etc/skel/
+# COPY /scripts/exit.sh /root/
+
 RUN chmod +x /root/configure-ldap-client-using-expect.sh
 RUN chmod +x /root/start-postfix.sh
+# RUN chmod +x /root/exit.sh
 
 EnTRYPOINT [ "/root/start-postfix.sh" ]
 
 # TENER EN CUENTA QUE HAY QUE AGREGAR LOS NUEVOS USUARIOS AL ARCHIVO VIRTUAL DE POSTFIX
-# Y CREAR EL HOME DE CADA USUARIO
+# Y CREAR EL HOME DE CADA USUARIO DE MANERA AUTOMATICA LOGUEANDO EL USUARIO
+# REINICIAR POSTFIX
+# Y YA LUEGO SE PUEDEN ENVIAR CORREOS CON EL CLIENTE DE CONSOLA
 
 # EXPOSE 80 443

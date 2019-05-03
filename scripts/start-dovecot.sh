@@ -28,8 +28,4 @@ echo "before "
 getent passwd user1
 echo "after"
 
-postmap /etc/postfix/virtual
-
-service postfix restart
-
 /bin/bash

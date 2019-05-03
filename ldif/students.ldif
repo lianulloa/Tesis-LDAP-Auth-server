@@ -50,7 +50,7 @@ uidNumber: 5001
 gidNumber: 10000
 objectClass: posixAccount
 objectClass: shadowAccount
-homeDirectory: /home/user1/
+homeDirectory: /home/user1
 correo: amartínez@estudiantes.fbio.uh.cu
 cuotainternet: 0
 direccion: N/D
