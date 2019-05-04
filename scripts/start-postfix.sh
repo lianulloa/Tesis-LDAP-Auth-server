@@ -1,5 +1,6 @@
 #!/bin/bash
 echo ENTRYPOINT
+# IMPORTANT EVERY IMAGE WHICH INHERITS FROM THIS SHOULD EXPORT PORTS 25 , AND 80
 
 # INSTALL DEPENDENCIES FOR LDAP CLIENT
 echo Now dependencies for ldap client will be installed
@@ -28,8 +29,40 @@ echo "before "
 getent passwd user1
 echo "after"
 
-postmap /etc/postfix/virtual
+sed -i -re "s/virtual_alias_maps = hash:\/etc\/postfix\/virtual/virtual_alias_maps = mysql:\/etc\/postfix\/mysql-virtual-alias-maps.cf/" /etc/postfix/main.cf
+
+# apt install -y mysql-server
+expect /root/install-mysql-server.sh
+
+usermod -d /var/lib/mysql/ mysql
+chown -R mysql:mysql /var/lib/mysql
+
+apt install -y postfix-mysql
+
+# postmap /etc/postfix/virtual
+
+service mysql start
+
+expect /root/configure-mysql.sh
+# CREATE DATABASE TO HOST ALIASES TO POSIX ACCOUNTS
+expect /root/create-mail-database.sh
+
+mysql -u root --password=insecurepassword -e "grant all on maildb.* to 'mailuser'@'localhost' identified by 'insecurepassword';"
+mysql -u root --password=insecurepassword -e "flush privileges;"
+mysql -u mailuser --password=insecurepassword maildb -e "create table \`virtual_aliases\` ( \`id\` int(11) not null auto_increment, \`source\` varchar(100) not null, \`destination\` varchar(100) not null, primary key (\`id\`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8;"
+mysql -u mailuser --password=insecurepassword maildb -e "insert into \`maildb\`.\`virtual_aliases\` (\`id\`, \`source\`,\`destination\`) values ('1','root@example.com','root'),('2','user1@example.com', 'user1');"
 
 service postfix restart
+postfix reload
+
+apt install phpmyadmin
+
+# Testing connection with database
+postmap -q root@example.com mysql:/etc/postfix/mysql-virtual-alias-maps.cf
+getent passwd user1
+
+echo "If everything is ok then you can send emails with command line client"
+echo "WHEN TESTING, PLEASE REMEMBER TO CREATE USER HOME LOGIN HIM"
+
 
 /bin/bash
