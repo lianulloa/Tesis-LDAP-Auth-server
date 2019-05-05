@@ -7,6 +7,7 @@ COPY /scripts/configure-ldap-client-using-expect.sh /root/
 COPY /scripts/install-mysql-server.sh /root/
 COPY /scripts/configure-mysql.sh /root/
 COPY /scripts/create-mail-database.sh /root/
+COPY /scripts/configure-phpmyadmin.sh /root/
 COPY /scripts/start-postfix.sh /root/
 COPY /scripts/.bashrc /etc/skel/
 # COPY /scripts/exit.sh /root/
@@ -15,6 +16,7 @@ RUN chmod +x /root/configure-ldap-client-using-expect.sh
 RUN chmod +x /root/install-mysql-server.sh
 RUN chmod +x /root/configure-mysql.sh
 RUN chmod +x /root/create-mail-database.sh
+RUN chmod +x /root/configure-phpmyadmin.sh
 RUN chmod +x /root/start-postfix.sh
 # RUN chmod +x /root/exit.sh
 

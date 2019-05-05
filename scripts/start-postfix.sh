@@ -55,7 +55,8 @@ mysql -u mailuser --password=insecurepassword maildb -e "insert into \`maildb\`.
 service postfix restart
 postfix reload
 
-apt install phpmyadmin
+#apt install -y phpmyadmin
+expect /root/configure-phpmyadmin.sh
 
 # Testing connection with database
 postmap -q root@example.com mysql:/etc/postfix/mysql-virtual-alias-maps.cf
