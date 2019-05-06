@@ -12,8 +12,8 @@ slapadd -v -l /root/ldap/schema/ou.ldif
 echo include externo
 # slapadd -v -l /root/ldap/schema/externos_one.ldif
 slapadd -v -l /root/ldap/schema/students.ldif
-# slapadd -v -l /root/ldap/schema/workers.ldif
-# slapadd -v -l /root/ldap/schema/externos.ldif
+slapadd -v -l /root/ldap/schema/workers.ldif
+slapadd -v -l /root/ldap/schema/externos.ldif
 # slapadd -v -l /root/ldap/schema/user.ldif
 
 slapadd -v -l /root/ldap/schema/groups.ldif
