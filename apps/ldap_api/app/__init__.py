@@ -24,7 +24,7 @@ app.config['JWT_REFRESH_COOKIE_PATH'] = '/token/refresh'
 
 db = SQLAlchemy(app)
 jwt = JWTManager(app)
-cors = CORS(app, resources={r"/*": {"origins": "*"}})
+cors = CORS(app, resources={r"/*": {"origins": "*", "supports_credentials": True}})
 
 
 @app.before_first_request
