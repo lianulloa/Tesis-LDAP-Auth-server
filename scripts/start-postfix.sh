@@ -52,8 +52,11 @@ mysql -u root --password=insecurepassword -e "flush privileges;"
 mysql -u mailuser --password=insecurepassword maildb -e "create table \`virtual_aliases\` ( \`id\` int(11) not null auto_increment, \`source\` varchar(100) not null, \`destination\` varchar(100) not null, primary key (\`id\`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8;"
 mysql -u mailuser --password=insecurepassword maildb -e "insert into \`maildb\`.\`virtual_aliases\` (\`id\`, \`source\`,\`destination\`) values ('1','root@example.com','root'),('2','user1@example.com', 'user1');"
 
+newaliases
 service postfix restart
 postfix reload
+service dovecot restart
+
 
 #apt install -y phpmyadmin
 expect /root/configure-phpmyadmin.sh

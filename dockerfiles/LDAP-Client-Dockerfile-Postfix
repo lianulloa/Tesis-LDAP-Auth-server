@@ -20,6 +20,16 @@ RUN chmod +x /root/configure-phpmyadmin.sh
 RUN chmod +x /root/start-postfix.sh
 # RUN chmod +x /root/exit.sh
 
+
+# DOVECOT SPECIFIC CONFIGURATION
+RUN mv /etc/dovecot/dovecot.conf /etc/dovecot/dovecot.conf.backup
+COPY /mail/dovecot.conf /etc/dovecot/
+COPY /mail/mail.key /etc/ssl/private/mail.key
+COPY /mail/mailcert.pem /etc/ssl/certs/mailcert.pem
+COPY /scripts/start-dovecot.sh /root/
+RUN chmod +x /root/start-dovecot.sh
+
+
 EnTRYPOINT [ "/root/start-postfix.sh" ]
 
 # TENER EN CUENTA QUE HAY QUE AGREGAR LOS NUEVOS USUARIOS AL ARCHIVO VIRTUAL DE POSTFIX
