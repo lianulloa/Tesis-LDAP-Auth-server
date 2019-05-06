@@ -24,7 +24,7 @@ app.config['JWT_REFRESH_COOKIE_PATH'] = '/token/refresh'
 
 db = SQLAlchemy(app)
 jwt = JWTManager(app)
-cors = CORS(app, resources={r"/*": {"origins": "*"}})
+cors = CORS(app, resources={r"/*": {"origins": "*", "supports_credentials": True}})
 
 
 @app.before_first_request
@@ -48,6 +48,7 @@ api.add_resource(resources.AllUsers, '/all-registered')
 api.add_resource(resources.SecretResource, '/secret')
 api.add_resource(resources.UserRegistration, '/registration')
 api.add_resource(resources.UserLogin, '/login')
+api.add_resource(resources.UserLogout, '/logout')
 api.add_resource(resources.Users, '/users')
 api.add_resource(resources.User, '/users/<string:user_id>')
 api.add_resource(resources.Workers, '/trabajadores')

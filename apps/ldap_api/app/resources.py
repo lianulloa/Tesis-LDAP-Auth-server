@@ -45,7 +45,8 @@ class UserRegistration(Resource):
             resp = jsonify({'registration': True})
             set_access_cookies(resp, access_token)
             set_refresh_cookies(resp, refresh_token)
-            return resp, 200
+            resp.status_code = 200
+            return resp
         except:
             return {'message': 'Something went wrong'}, 500
 
@@ -66,7 +67,6 @@ class UserLogin(Resource):
             set_access_cookies(resp, access_token)
             set_refresh_cookies(resp, refresh_token)
             resp.status_code = 200
-            print(resp)
             return resp
         else:
             return {'message': 'Wrong credentials'}, 403
@@ -75,7 +75,8 @@ class UserLogout(Resource):
     def post(self):
         resp = jsonify({'logout': True})
         unset_jwt_cookies(resp)
-        return resp, 200
+        resp.status_code = 200
+        return resp
 
 
 class AllUsers(Resource):

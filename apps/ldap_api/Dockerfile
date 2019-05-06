@@ -12,6 +12,7 @@ RUN pip3 install flask \
     flask-jsonpify \
     flask-sqlalchemy \
     flask_jwt_extended \
+    flask-cors \
     passlib \
     python-ldap
 
