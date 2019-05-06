@@ -75,7 +75,8 @@ class UserLogout(Resource):
     def post(self):
         resp = jsonify({'logout': True})
         unset_jwt_cookies(resp)
-        return resp, 200
+        resp.status_code = 200
+        return resp
 
 
 class AllUsers(Resource):
