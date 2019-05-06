@@ -12,4 +12,10 @@ apps/ldap-api/log/*
 *.blg
 *.fls
 *.log
-
+tex/Thesis.*
+*.bak
+apps/ldap-api/env
+scripts/env
+apps/ldap_api/env/
+apps/sqlserver_manager/env/
+app.db

@@ -1,0 +1,68 @@
+# Entry 1: 
+area: COMUNICACION    
+cargo: SECRETARIA
+ci: 00010868492    
+cn: DAIMIS DE LA CARIDAD
+sexo: F
+sn: HECHEVARRIA GUERRA
+dn: : Trabajador
+objectclass: : Trabajador
+objectclass: : posixAccount
+objectclass: : shadowAccount
+uidNumber: : 5000
+gidNumber: : 10000
+homeDirectory: : ---------
+uid: : 5000
+correo: : ---------
+
+# Entry 2: 
+area: SECRETARIA DE FACULTAD
+cargo: TECNICO "D"  EN GESTION UNIVERSITARIA
+ci: 00021267617    
+cn: NEILYN
+sexo: F
+sn: OZUNA FLORES
+dn: : Trabajador
+objectclass: : Trabajador
+objectclass: : posixAccount
+objectclass: : shadowAccount
+uidNumber: : 5001
+gidNumber: : 10000
+homeDirectory: : ---------
+uid: : 5001
+correo: : ---------
+
+# Entry 3: 
+area: FILOSOFIA E HISTORIA   ADMINISTRACION 
+cargo: TECNICO "D"  EN GESTION UNIVERSITARIA
+ci: 00022667739    
+cn: DENISSE
+sexo: F
+sn: BICET ROSS
+dn: : Trabajador
+objectclass: : Trabajador
+objectclass: : posixAccount
+objectclass: : shadowAccount
+uidNumber: : 5002
+gidNumber: : 10000
+homeDirectory: : ---------
+uid: : 5002
+correo: : ---------
+
+# Entry 4: 
+area:  GRUPO ADMINISTRATIVO
+cargo: TECNICO "C" EN GESTION UNIVERSITARIA
+ci: 00022868173    
+cn: ZAILY
+sexo: F
+sn: TORRES ROJO
+dn: : Trabajador
+objectclass: : Trabajador
+objectclass: : posixAccount
+objectclass: : shadowAccount
+uidNumber: : 5003
+gidNumber: : 10000
+homeDirectory: : ---------
+uid: : 5003
+correo: : ---------
+

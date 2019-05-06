@@ -1,0 +1,11 @@
+sql_server:
+  connection_string: 
+    server:
+      - 'DESKTOP-50O75DL\SQLEXPRESS'
+  restore_query:
+    bak_source:
+      - 'D:\Others\Tesis\resources\Nomina.bak'
+    data_destination:
+      - 'C:\Program Files\Microsoft SQL Server\MSSQL14.SQLEXPRESS\MSSQL\DATA\PLANTILLA_RH.mdf'
+    logs_destination:
+      - 'C:\Program Files\Microsoft SQL Server\MSSQL14.SQLEXPRESS\MSSQL\DATA\PLANTILLA_RH.ldf'

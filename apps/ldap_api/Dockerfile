@@ -10,6 +10,9 @@ RUN apt-get update && apt-get install -y libldap2-dev libsasl2-dev
 RUN pip3 install flask \
     flask_restful \
     flask-jsonpify \
+    flask-sqlalchemy \
+    flask_jwt_extended \
+    passlib \
     python-ldap
 
 
