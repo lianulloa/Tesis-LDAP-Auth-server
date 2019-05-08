@@ -1,0 +1,12 @@
+FROM python:3
+
+ENV APP_DIR /api
+
+VOLUME ${APP_DIR}
+WORKDIR ${APP_DIR}
+
+RUN apt-get update && apt-get install -y  memcached
+
+
+
+

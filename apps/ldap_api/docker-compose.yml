@@ -1,6 +1,18 @@
 version: '3'
 
 services:
+  memcached:
+    build:
+      context: .
+      dockerfile: ./memcached-dockerfile
+    image: memcached
+    container_name: memcached_server
+    expose: 
+      - 11211
+    ports:
+    - "11211:11211"
+    restart: always
+    command: memcached -u root
   api:
     build: .
     image: flask_restful
@@ -17,6 +29,8 @@ services:
     restart: always
     working_dir: /api
     command: python run.py
+    depends_on: 
+      - memcached
 
 networks: 
   default:
