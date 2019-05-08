@@ -1,4 +1,4 @@
-FROM m-l/postfix_dovecot_pam_client
+FROM m-l/postfix_dovecot_pam_client_auto
 MAINTAINER Lian Ulloa l.ulloa@estudiantes.matcom.uh.cu
 
 RUN mv /etc/dovecot/dovecot.conf /etc/dovecot/dovecot.conf.backup

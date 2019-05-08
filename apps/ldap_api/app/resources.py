@@ -4,10 +4,22 @@ from flask_jwt_extended import (create_access_token, create_refresh_token, jwt_r
                                 get_jwt_identity, set_access_cookies, unset_jwt_cookies,
                                 set_refresh_cookies, get_raw_jwt)
 from .models import UserModel
+from app import config, utils
+from flask import request
+import os
+import ldap
+import json
+
 
 parser = reqparse.RequestParser()
 parser.add_argument('username', help='This field cannot be blank', required=True)
 parser.add_argument('password', help='This field cannot be blank', required=True)
+
+# Configuraciones según el entorno
+configuration = config.set_environment(os.getenv("LDAP_API_ENVIRONMENT"))
+
+ldap_server = ldap.initialize(configuration.LDAP_SERVER_URI,
+                trace_level=utils.DEBUG_LEVEL[configuration.PYTHON_LDAP_DEBUG_LVL])
 
 
 class SecretResource(Resource):
@@ -126,8 +138,24 @@ class User(Resource):
 class Workers(Resource):
     @jwt_required
     def get(self):
-        return {'workers': [{"name" : "Eric", "last_name": 'Nordelo Galiano', "ci": '95120831005', "area": 'MATCOM', "ocupation": 'Programador'},
-                            {"name" : "Lian", "last_name": 'Ulloa McKion', "ci": '95120831005', "area": 'MATCOM', "ocupation": 'Programador'}]}
+        workers_account = ldap_server.search_s("ou=Trabajadores,dc=uh,dc=cu", ldap.SCOPE_SUBTREE, "(objectclass=Trabajador)")
+        workers_account = [ 
+            { 
+                "name":x[1]['cn'], 
+                "last_name":x[1]['sn'],
+                "ci":x[1]['CI'],
+                "area":x[1]['Area'],
+                "ocupation":x[1]['Cargo']
+
+            }  for x in workers_account]
+        workers_account_json = json.dumps(workers_account, cls=utils.MyEncoder)
+        workers_account = json.loads(workers_account_json)
+
+        args = request.args
+        page = int(args.get('page',1))
+        workers_account = workers_account[(page-1)*configuration.PAGE_COUNT:page*configuration.PAGE_COUNT]
+
+        return {'workers': workers_account}
 
 
 class Worker(Resource):
@@ -138,7 +166,22 @@ class Worker(Resource):
 
 class Students(Resource):
     def get(self):
-        return {'students': []}
+        students_account = ldap_server.search_s("ou=Estudiantes,dc=uh,dc=cu", ldap.SCOPE_SUBTREE, "(objectclass=Estudiante)")
+        students_account = [ 
+            { 
+                "name":x[1]['cn'], 
+                "last_name":x[1]['sn'],
+                "ci":x[1]['CI'],
+
+            }  for x in students_account]
+        students_account_json = json.dumps(students_account, cls=utils.MyEncoder)
+        students_account = json.loads(students_account_json)
+
+        args = request.args
+        page = int(args.get('page',1))
+        students_account = students_account[(page-1)*configuration.PAGE_COUNT:page*configuration.PAGE_COUNT]
+
+        return {'students': students_account}
 
 
 class Student(Resource):
@@ -148,8 +191,26 @@ class Student(Resource):
 
 
 class Externs(Resource):
+    @jwt_required
     def get(self):
-        return {'externs': []}
+        externs_account = ldap_server.search_s("ou=Externos,dc=uh,dc=cu", ldap.SCOPE_SUBTREE, "(objectclass=Externo)")
+        externs_account = [ 
+            { 
+                "name":x[1]['cn'], 
+                "last_name":x[1]['sn'],
+                "ci":x[1]['CI'],
+
+            }  for x in externs_account]
+        externs_account_json = json.dumps(externs_account, cls=utils.MyEncoder)
+        externs_account = json.loads(externs_account_json)
+
+        args = request.args
+        page = int(args.get('page',1))
+        externs_account = externs_account[(page-1)*configuration.PAGE_COUNT:page*configuration.PAGE_COUNT]
+
+        return {'externs': externs_account}
+
+        # return {'externs': []}
 
 
 class Extern(Resource):
