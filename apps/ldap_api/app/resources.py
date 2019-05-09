@@ -8,6 +8,9 @@ from .models import UserModel
 from app import config, utils
 from flask import request, Response
 from ldap import modlist
+import crypt
+import random
+import string
 import os
 import ldap
 import json
@@ -215,46 +218,40 @@ class Externs(Resource):
         return {'externs': externs_account}
 
         # return {'externs': []}
+
     def post(self):
         data = request.get_json()
         old_login = data.get('old_login')
-
-        # IMPORTANTE, EL HECHO DE QUE TENGA OLD LOGIN ES SOLO PARA ASIGNARLE EL MISMO CORREO QUE TENIA ANTES,
-        # NO HAY QUE HACER NADA RELACIONADO CON REACTIVAR
-        # EN EL CASO DE QUE SE CREE UNA NUEVA CUENTA, CUYO CORREO COINCIDA CON UNO QUE EXISTIO ANTES, ES NECESARIO REINICIAR EL HOME DEL CORREO
+        can_use_old_login = True
 
         if old_login:
-            return {'hasta':'no deberia'}
             extern_account = ldap_server.search_s("ou=Externos,dc=uh,dc=cu", ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=Externo))" % data.get('old_login_email'))
             if len(extern_account):
-                extern_account = __translate_byte_types__(extern_account[0])
-                # ACTIVATE ACCOUNT
-                return {'success':'cuenta reactivada mediante correo'}
-            extern_account = ldap_server.search_s("ou=Externos,dc=uh,dc=cu", ldap.SCOPE_ONELEVEL, "(&(ci=%s)(objectclass=Externo))" % data.get('ci'))
-            if len(extern_account):
-                extern_account = __translate_byte_types__(extern_account[0])
-                # ACTIVATE ACCOUNT
-                return {'success':'cuenta reactivada mediante ci','correo':extern_account[1]['Correo']}
-        
+                can_use_old_login = False
+                
         # CREATE ACCOUNT
         ## GENERATE NEW EMAIL
         name = data.get('name')
         last_name = data.get('last_name').lower()
         first_last_name, second_last_name = last_name.split()
         possible_email = name.lower() + '.' +first_last_name + __map_area_to_email_domain__(data.get('area'))
-        if len(ldap_server.search_s("ou=Externos,dc=uh,dc=cu", ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=Externo))" % possible_email)):
-            possible_email = name.lower() + '.' +second_last_name + __map_area_to_email_domain__(data.get('area'))
+
+        if can_use_old_login:
+            email = data.get('old_login_email')
+        else:
             if len(ldap_server.search_s("ou=Externos,dc=uh,dc=cu", ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=Externo))" % possible_email)):
-                for i in range(1,1000):
-                    possible_email = name.lower() + '.' +second_last_name +str(i) + __map_area_to_email_domain__(data.get('area'))
-                    if len(ldap_server.search_s("ou=Externos,dc=uh,dc=cu", ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=Externo))" % possible_email)):
-                        continue
+                possible_email = name.lower() + '.' +second_last_name + __map_area_to_email_domain__(data.get('area'))
+                if len(ldap_server.search_s("ou=Externos,dc=uh,dc=cu", ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=Externo))" % possible_email)):
+                    for i in range(1,1000):
+                        possible_email = name.lower() + '.' +second_last_name +str(i) + __map_area_to_email_domain__(data.get('area'))
+                        if len(ldap_server.search_s("ou=Externos,dc=uh,dc=cu", ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=Externo))" % possible_email)):
+                            continue
+                        email = possible_email
+                        break
+                else:
                     email = possible_email
-                    break
             else:
                 email = possible_email
-        else:
-            email = possible_email
 
         ## GET UIDNUMBERCOUNTER
         try:
@@ -265,6 +262,7 @@ class Externs(Resource):
             return {"error":"Can't get uidNumberCounter from memcached"}
 
         dn = 'uid=%s,ou=Externos,dc=uh,dc=cu' % email
+        password = '{CRYPT}' + __sha512_crypt__(data.get('password'),500000)
         try:
             created_at = data.get('created_at').split('-')
             created_at = created_at[0] + created_at[1] + created_at[2]
@@ -281,7 +279,7 @@ class Externs(Resource):
                 'tieneinternet': [b'TRUE'],
                 'tienechat': [b'TRUE'],
                 'description':[b'comments'],
-                'userpassword':[b'password'],
+                'userpassword':[password.encode('utf-8')],
                 'uid':email.encode('utf-8'),
                 'objectClass':[b'Externo']
             })
@@ -314,3 +312,15 @@ def __map_area_to_email_domain__(area):
 def __translate_byte_types__(instance):
     instance_json = json.dumps(instance, cls=utils.MyEncoder)
     return json.loads(instance_json)
+
+
+
+def __sha512_crypt__(password, rounds=5000):
+    rand = random.SystemRandom()
+    salt = ''.join([rand.choice(string.ascii_letters + string.digits)
+                    for _ in range(16)])
+
+    prefix = '$6$'
+    rounds = max(1000, min(999999999, rounds))
+    prefix += 'rounds={0}$'.format(rounds)
+    return crypt.crypt(password, prefix + 'abcdefghijklmnop')
