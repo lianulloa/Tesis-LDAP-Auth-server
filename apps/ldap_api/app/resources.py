@@ -3,9 +3,14 @@ from flask_jsonpify import jsonify
 from flask_jwt_extended import (create_access_token, create_refresh_token, jwt_required, jwt_refresh_token_required, 
                                 get_jwt_identity, set_access_cookies, unset_jwt_cookies,
                                 set_refresh_cookies, get_raw_jwt)
+from pymemcache.client import base
 from .models import UserModel
 from app import config, utils
-from flask import request
+from flask import request, Response
+from ldap import modlist
+import crypt
+import random
+import string
 import os
 import ldap
 import json
@@ -20,6 +25,8 @@ configuration = config.set_environment(os.getenv("LDAP_API_ENVIRONMENT"))
 
 ldap_server = ldap.initialize(configuration.LDAP_SERVER_URI,
                 trace_level=utils.DEBUG_LEVEL[configuration.PYTHON_LDAP_DEBUG_LVL])
+
+ldap_server.simple_bind_s('cn=admin,dc=uh,dc=cu','insecurepassword')
 
 
 class SecretResource(Resource):
@@ -123,7 +130,7 @@ class Users(Resource):
 
 class User(Resource):
     def get(self, user_id):
-        # users_account = ldap_server.search_s("ou=usuarios,dc=ldap,dc=uh,dc=cu", ldap.SCOPE_ONELEVEL, "(cn=%s*)" % user_id)
+        # users_account = ldap_server.search_s("ou=usuarios,dc=uh,dc=cu", ldap.SCOPE_ONELEVEL, "(cn=%s*)" % user_id)
         # users_account = {x[0] : x[1] for x in users_account}
         # users_account_json = json.dumps(users_account, cls=utils.MyEncoder)
         # users_account = json.loads(users_account_json)
@@ -210,6 +217,79 @@ class Externs(Resource):
 
         return {'externs': externs_account}
 
+        # return {'externs': []}
+
+    def post(self):
+        data = request.get_json()
+        old_login = data.get('old_login')
+        can_use_old_login = True
+
+        if old_login:
+            extern_account = ldap_server.search_s("ou=Externos,dc=uh,dc=cu", ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=Externo))" % data.get('old_login_email'))
+            if len(extern_account):
+                can_use_old_login = False
+                
+        # CREATE ACCOUNT
+        ## GENERATE NEW EMAIL
+        name = data.get('name')
+        last_name = data.get('last_name').lower()
+        first_last_name, second_last_name = last_name.split()
+        possible_email = name.lower() + '.' +first_last_name + __map_area_to_email_domain__(data.get('area'))
+
+        if can_use_old_login:
+            email = data.get('old_login_email')
+        else:
+            if len(ldap_server.search_s("ou=Externos,dc=uh,dc=cu", ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=Externo))" % possible_email)):
+                possible_email = name.lower() + '.' +second_last_name + __map_area_to_email_domain__(data.get('area'))
+                if len(ldap_server.search_s("ou=Externos,dc=uh,dc=cu", ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=Externo))" % possible_email)):
+                    for i in range(1,1000):
+                        possible_email = name.lower() + '.' +second_last_name +str(i) + __map_area_to_email_domain__(data.get('area'))
+                        if len(ldap_server.search_s("ou=Externos,dc=uh,dc=cu", ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=Externo))" % possible_email)):
+                            continue
+                        email = possible_email
+                        break
+                else:
+                    email = possible_email
+            else:
+                email = possible_email
+
+        ## GET UIDNUMBERCOUNTER
+        try:
+            client = base.Client((configuration.MEMCACHED_HOST, 11211))
+            uidNumberCounter = int(__translate_byte_types__(client.get('uidNumberCounter')))
+        except Exception as e:
+            print(e)
+            return {"error":"Can't get uidNumberCounter from memcached"}
+
+        dn = 'uid=%s,ou=Externos,dc=uh,dc=cu' % email
+        password = '{CRYPT}' + __sha512_crypt__(data.get('password'),500000)
+        try:
+            created_at = data.get('created_at').split('-')
+            created_at = created_at[0] + created_at[1] + created_at[2]
+            expires = data.get('expires').encode('utf-8')
+            expires = expires[0] + expires[1] + expires[2] 
+            modList = modlist.addModlist({
+                'CI': [data.get('ci').encode('utf-8')],
+                'cn': [name.encode('utf-8')],
+                'sn':[last_name.encode('utf-8')],
+                'correo':[email.encode('utf-8')],
+                'fechadecreacion':[ str(created_at).encode('utf-8') ],
+                'fechadebaja':[str(expires).encode('utf-8')],
+                'tienecorreo': [b'TRUE'],
+                'tieneinternet': [b'TRUE'],
+                'tienechat': [b'TRUE'],
+                'description':[b'comments'],
+                'userpassword':[password.encode('utf-8')],
+                'uid':email.encode('utf-8'),
+                'objectClass':[b'Externo']
+            })
+            ldap_server.add_s(dn,modList)
+        except Exception as e:
+            return {'error':str(e)}
+
+        result = {'extern_data':'success' }
+        return jsonify(result)
+
 
 class Extern(Resource):
     def get(self, extern_id):
@@ -217,8 +297,30 @@ class Extern(Resource):
         return jsonify(result)
 
 
+
 class Accounts(Resource):
     def patch(self, account_type, account_id, action):
         # Actions = 'activate' : 'deactivate'
         result = {'action_response': []}
         return jsonify(result)
+
+
+def __map_area_to_email_domain__(area):
+    # THIS SHOULD BE DOMAIN FOR DDI
+    return "@iris.uh.cu"
+
+def __translate_byte_types__(instance):
+    instance_json = json.dumps(instance, cls=utils.MyEncoder)
+    return json.loads(instance_json)
+
+
+
+def __sha512_crypt__(password, rounds=5000):
+    rand = random.SystemRandom()
+    salt = ''.join([rand.choice(string.ascii_letters + string.digits)
+                    for _ in range(16)])
+
+    prefix = '$6$'
+    rounds = max(1000, min(999999999, rounds))
+    prefix += 'rounds={0}$'.format(rounds)
+    return crypt.crypt(password, prefix + 'abcdefghijklmnop')
