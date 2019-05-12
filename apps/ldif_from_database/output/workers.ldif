@@ -66,3 +66,105 @@ homeDirectory: : ---------
 uid: : 5003
 correo: : ---------
 
+# Entry 5: 
+area: CENTRO DE ESTUDIOS TURISTICOS
+cargo: TECNICO "D"  EN GESTION UNIVERSITARIA
+ci: 00040366810    
+cn: ELIZABETH
+sexo: F
+sn: MOLINA CRIADO
+dn: : Trabajador
+objectclass: : Trabajador
+objectclass: : posixAccount
+objectclass: : shadowAccount
+uidNumber: : 5004
+gidNumber: : 10000
+homeDirectory: : ---------
+uid: : 5004
+correo: : ---------
+
+# Entry 6: 
+area: INVESTIGACION CIENTIFICA DIRECCION DE INFORMACION CIENT TECNICA  DPTO SERV INFOR  GPO CONSUL Y REFER
+cargo: OFICINISTA
+ci: 00041367453    
+cn: MARIAM
+sexo: F
+sn: RIVERON PALMERO
+dn: : Trabajador
+objectclass: : Trabajador
+objectclass: : posixAccount
+objectclass: : shadowAccount
+uidNumber: : 5005
+gidNumber: : 10000
+homeDirectory: : ---------
+uid: : 5005
+correo: : ---------
+
+# Entry 7: 
+area: CENTO DE GASTOS DE  DOCENCIA
+cargo: TECNICO " B" EN GESTION ECONOMICA
+ci: 00041968495    
+cn: SHEILA
+sexo: F
+sn: GASAMANES CALVO
+dn: : Trabajador
+objectclass: : Trabajador
+objectclass: : posixAccount
+objectclass: : shadowAccount
+uidNumber: : 5006
+gidNumber: : 10000
+homeDirectory: : ---------
+uid: : 5006
+correo: : ---------
+
+# Entry 8: 
+area: SECRETARIA DE FACULTAD
+cargo: TECNICO "D"  EN GESTION UNIVERSITARIA
+ci: 00060365850    
+cn: CYNTHIA
+sexo: F
+sn: GONZALEZ RODRIGUEZ
+dn: : Trabajador
+objectclass: : Trabajador
+objectclass: : posixAccount
+objectclass: : shadowAccount
+uidNumber: : 5007
+gidNumber: : 10000
+homeDirectory: : ---------
+uid: : 5007
+correo: : ---------
+
+# Entry 9: 
+area: DERECHO    
+cargo: OFICINISTA
+ci: 00062068496    
+cn: SUILANG  DAIDEE
+sexo: F
+sn: MARTIN SANCHEZ
+dn: : Trabajador
+objectclass: : Trabajador
+objectclass: : posixAccount
+objectclass: : shadowAccount
+uidNumber: : 5008
+gidNumber: : 10000
+homeDirectory: : ---------
+uid: : 5008
+correo: : ---------
+
+# Entry 10: 
+area: VICERECTORIA  DE ECONOMIA
+cargo: TECNICO "C" EN GESTION UNIVERSITARIA
+ci: 00081068031    
+cn: ELENA DE LA CARIDAD
+sexo: F
+sn: ORTUBE BOMBARLE
+dn: : Trabajador
+objectclass: : Trabajador
+objectclass: : posixAccount
+objectclass: : shadowAccount
+uidNumber: : 5009
+gidNumber: : 10000
+homeDirectory: : ---------
+uid: : 5009
+correo: : ---------
+

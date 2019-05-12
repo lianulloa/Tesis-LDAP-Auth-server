@@ -87,4 +87,4 @@ def perror(msg, exit_status=1):
 
 if __name__ == "__main__":
     handler = LDIFFromSQLServer("config.yml")
-    handler.generate_first_time_population(number_of_rows=4)
+    handler.generate_first_time_population(number_of_rows=10, restore=True)

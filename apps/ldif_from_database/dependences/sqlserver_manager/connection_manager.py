@@ -1,7 +1,8 @@
 import sys
 import pyodbc
 import yaml
-
+import ftplib
+from tqdm import tqdm
 from time import sleep
 
 class ConnectionManager:
@@ -34,9 +35,26 @@ class ConnectionManager:
 
     def restore(self):
         """Restore .bak file to sql server"""
-
         try:
             bak_source = self._config_obj['sql_server']['restore_query']['bak_source'][0]
+            path = 'Assets/'
+            filename = 'Nomina.bak'
+
+            ftp = ftplib.FTP("10.6.34.138") 
+            ftp.login(user="dirunico", passwd="d1run1c0*") 
+            ftp.cwd(path)
+            total=ftp.size(filename)
+            pbar=tqdm(total=total)
+            def progress(data):
+                with open(bak_source, 'wb').write as fp:
+                    fp.write(data)
+                    pbar.update(len(data))
+            ftp.retrbinary("RETR " + filename, open(bak_source, 'wb').write, callback)
+            ftp.quit()
+        except Exception:
+            perror('Error while fetching database from ftp!')
+
+        try:
             data_destination = self._config_obj['sql_server']['restore_query']['data_destination'][0]
             logs_destination = self._config_obj['sql_server']['restore_query']['logs_destination'][0]
 

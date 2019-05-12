@@ -210,8 +210,6 @@ class Externs(Resource):
 
         return {'externs': externs_account}
 
-        # return {'externs': []}
-
 
 class Extern(Resource):
     def get(self, extern_id):
