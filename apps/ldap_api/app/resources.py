@@ -206,6 +206,7 @@ class Externs(Resource):
                 "name":x[1]['cn'], 
                 "last_name":x[1]['sn'],
                 "ci":x[1]['CI'],
+                "id":x[1]['CI']
 
             }  for x in externs_account]
         externs_account_json = json.dumps(externs_account, cls=utils.MyEncoder)
