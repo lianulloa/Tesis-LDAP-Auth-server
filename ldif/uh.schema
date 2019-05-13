@@ -158,6 +158,8 @@ attributetype (	1.3.6.1.4.1.53027.1.3.17.16
 	NAME 'FechaDeCreacion'
 	DESC 'Fecha de Creacion en Base de datos'
 	SYNTAX 1.3.6.1.4.1.1466.115.121.1.36
+	EQUALITY numericStringMatch
+	ORDERING numericStringOrderingMatch
 	SINGLE-VALUE
 	)
 
