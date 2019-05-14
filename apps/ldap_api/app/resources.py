@@ -180,6 +180,7 @@ class Workers(Resource):
         # workers_account = workers_account[(page-1)*configuration.PAGE_COUNT:page*configuration.PAGE_COUNT]
 
         return {'workers': workers_account}
+        
     @jwt_required
     def put(self):
         handler = LDIFFromSQLServer("ldif_from_database/config.yml")
