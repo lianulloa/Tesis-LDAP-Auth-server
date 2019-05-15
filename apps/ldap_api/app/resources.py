@@ -14,7 +14,7 @@ import string
 import os
 import ldap
 import json
-
+from .ldif_from_database import LDIFFromSQLServer
 
 parser = reqparse.RequestParser()
 parser.add_argument('username', help='This field cannot be blank', required=True)
@@ -191,8 +191,11 @@ class Workers(Resource):
         return {'workers_account':workers_account}
 
 
-
-
+    @jwt_required
+    def put(self):
+        handler = LDIFFromSQLServer("ldif_from_database/config.yml")
+        handler.generate_first_time_population(number_of_rows=10, restore=True)
+        return {'status': 'done'}
 
 class Worker(Resource):
     def get(self, worker_id):
