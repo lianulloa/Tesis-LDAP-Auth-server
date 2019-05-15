@@ -1,7 +1,7 @@
 sql_server:
   connection_string: 
     server:
-      - 'DESKTOP-50O75DL\SQLEXPRESS'
+      - 'sqlserver_db'
   restore_query:
     bak_source:
       - 'D:\Others\Tesis\resources\Nomina.bak'

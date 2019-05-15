@@ -176,25 +176,40 @@ class Workers(Resource):
         data = request.get_json()
         ci = data.get('ci')
         workers_account = ldap_server.search_s("ou=Trabajadores,dc=uh,dc=cu", ldap.SCOPE_SUBTREE, "(ci=%s)" % ci)
-        if len(workers_account):
-            workers_account = workers_account[0]
-            email = workers_account[1].get('Correo',False)
-            if email and email != "N/D":
-                return {'warning':'true','message':'Este usuario ya existe en directorio','email':email}
-            else:
-                possible_email = workers_account[1]['cn'].lower() + '.' +
-                workers_account[1]['sn'].split()[0].lower() + __map_area_to_email_domain__(workers_account[1].get('area'))
-
-
         workers_account_json = json.dumps(workers_account, cls=utils.MyEncoder)
         workers_account = json.loads(workers_account_json)
+        if len(workers_account):
+            workers_account = workers_account[0]
+            email = workers_account[1].get('Correo',None)
+            if email and email[0] != "N/D":
+                return {'warning':'true','message':'Este usuario ya existe en directorio','email':email[0]}
+            else:
+                name = workers_account[1]['cn'][0].split()[0].lower()
+                last_name, second_last_name = workers_account[1]['sn'][0].split()
+                new_email = __generate_new_email__("ou=Trabajadores,dc=uh,dc=cu", name, last_name.lower(), 
+                    second_last_name.lower(),"Trabajador",workers_account[1]['Area'])
+
+                try:
+                    dn = workers_account[0]
+                    modList = modlist.modifyModlist( {'Correo':[ email[0].encode('utf-8') if email else email ]}, {'Correo':[new_email.encode('utf-8')]} )
+
+                    ldap_server.modify_s(dn,modList)
+                except Exception as e:
+                    return {'e':str(e)}
+                
+                return {'email':new_email}
+
+
         return {'workers_account':workers_account}
 
 
-    @jwt_required
-    def put(self):
-        handler = LDIFFromSQLServer("ldif_from_database/config.yml")
-        handler.generate_first_time_population(number_of_rows=10, restore=True)
+    # @jwt_required
+    def patch(self):
+        try:
+            handler = LDIFFromSQLServer("./app/ldif_from_database/config.yml")
+            # handler.generate_first_time_population(number_of_rows=10, restore=True)
+        except Exception as e:
+            return {'e':str(e)}
         return {'status': 'done'}
 
 class Worker(Resource):
@@ -256,13 +271,7 @@ class Externs(Resource):
         externs_account_json = json.dumps(externs_account, cls=utils.MyEncoder)
         externs_account = json.loads(externs_account_json)
 
-        # args = request.args
-        # page = int(args.get('page',1))
-        # externs_account = externs_account[(page-1)*configuration.PAGE_COUNT:page*configuration.PAGE_COUNT]
-
         return {'externs': externs_account}
-
-        # return {'externs': []}
 
     def post(self):
         data = request.get_json()
@@ -276,7 +285,7 @@ class Externs(Resource):
                 
         # CREATE ACCOUNT
         ## GENERATE NEW EMAIL
-        name = data.get('name')
+        name = data.get('name').split()[0]
         last_name = data.get('last_name')
         first_last_name, second_last_name = last_name.lower().split()
         possible_email = name.lower() + '.' +first_last_name + __map_area_to_email_domain__(data.get('area'))
@@ -386,12 +395,14 @@ def __set_filters__(args):
 
     return filters
 
-def __generate_new_email__(basedn,name,last_name,second_last_name,category):
+def __generate_new_email__(basedn,name,last_name,second_last_name,category,area):
+    possible_email = name  + '.' + last_name.lower() + __map_area_to_email_domain__(area)
+
     if len(ldap_server.search_s(basedn, ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=%s))" % (possible_email, category))):
-        possible_email = name.lower() + '.' +second_last_name + __map_area_to_email_domain__(data.get('area'))
+        possible_email = name.lower() + '.' +second_last_name + __map_area_to_email_domain__(area)
         if len(ldap_server.search_s(basedn, ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=%s))" % (possible_email, category))):
             for i in range(1,1000):
-                possible_email = name.lower() + '.' +second_last_name +str(i) + __map_area_to_email_domain__(data.get('area'))
+                possible_email = name.lower() + '.' +second_last_name +str(i) + __map_area_to_email_domain__(area)
                 if len(ldap_server.search_s(basedn, ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=%s))" % (possible_email, category))):
                     continue
                 email = possible_email
@@ -400,3 +411,5 @@ def __generate_new_email__(basedn,name,last_name,second_last_name,category):
             email = possible_email
     else:
         email = possible_email
+
+    return email

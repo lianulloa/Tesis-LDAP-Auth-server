@@ -1,5 +1,5 @@
 import yaml
-from dependences.sqlserver_manager import ConnectionManager
+from .dependences.sqlserver_manager import ConnectionManager
 
 
 class LDIFFromSQLServer:
