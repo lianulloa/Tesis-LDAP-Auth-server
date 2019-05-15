@@ -110,20 +110,16 @@ class Users(Resource):
     def get(self):
         filters = "(|(objectclass=Trabajador)(objectclass=Estudiante)(objectclass=Estudiante))"
         args = request.args
-        if args.get('correo',False):
-            filters += ("(correo=*%s*)" % args.get('correo'))
-        if args.get('fechaInicio',False):
-            filters += ("(fechadecreacion>=%s)" % args.get('fechaInicio'))
-        if args.get('fechaFin',False):
-            filters += ("(fechadecreacion<=%s)" % args.get('fechaFin'))
+        filters += __set_filters__(args)
+
         users_account = ldap_server.search_s("dc=uh,dc=cu", ldap.SCOPE_SUBTREE, "(&%s)" % filters)
         users_account = [ 
             { 
                 "name":x[1]['cn'], 
                 "last_name":x[1]['sn'],
-                "ci":x[1]['CI'],
-                "id":x[0]
-
+                "ci":x[1].get('CI','-'),
+                "id":x[0],
+                "correo": x[1].get('Correo','N/D') 
 
             }  for x in users_account]
         users_account_json = json.dumps(users_account, cls=utils.MyEncoder)
@@ -133,7 +129,7 @@ class Users(Resource):
         # page = int(args.get('page',1))
         # users_account = users_account[(page-1)*configuration.PAGE_COUNT:page*configuration.PAGE_COUNT]
 
-        return {'workers': users_account}
+        return {'usuarios': users_account}
 
 class User(Resource):
     def get(self, user_id):
@@ -154,23 +150,18 @@ class Workers(Resource):
     def get(self):
         filters = "(objectclass=Trabajador)"
         args = request.args
-        if args.get('correo',False):
-            filters += ("(correo=*%s*)" % args.get('correo'))
-        if args.get('fechaInicio',False):
-            filters += ("(fechadecreacion>=%s)" % args.get('fechaInicio'))
-        if args.get('fechaFin',False):
-            filters += ("(fechadecreacion<=%s)" % args.get('fechaFin'))
+        filters += __set_filters__(args)
+
         workers_account = ldap_server.search_s("ou=Trabajadores,dc=uh,dc=cu", ldap.SCOPE_SUBTREE, "(&%s)" % filters)
         workers_account = [ 
             { 
                 "name":x[1]['cn'], 
                 "last_name":x[1]['sn'],
-                "ci":x[1]['CI'],
+                "ci":x[1].get('CI','-'),
                 "area":x[1]['Area'],
                 "ocupation":x[1]['Cargo'],
-                "id":x[0]
-
-
+                "id":x[0],
+                "correo": x[1].get('Correo','N/D') 
             }  for x in workers_account]
         workers_account_json = json.dumps(workers_account, cls=utils.MyEncoder)
         workers_account = json.loads(workers_account_json)
@@ -180,6 +171,27 @@ class Workers(Resource):
         # workers_account = workers_account[(page-1)*configuration.PAGE_COUNT:page*configuration.PAGE_COUNT]
 
         return {'workers': workers_account}
+
+    def post(self):
+        data = request.get_json()
+        ci = data.get('ci')
+        workers_account = ldap_server.search_s("ou=Trabajadores,dc=uh,dc=cu", ldap.SCOPE_SUBTREE, "(ci=%s)" % ci)
+        if len(workers_account):
+            workers_account = workers_account[0]
+            email = workers_account[1].get('Correo',False)
+            if email and email != "N/D":
+                return {'warning':'true','message':'Este usuario ya existe en directorio','email':email}
+            else:
+                possible_email = workers_account[1]['cn'].lower() + '.' +
+                workers_account[1]['sn'].split()[0].lower() + __map_area_to_email_domain__(workers_account[1].get('area'))
+
+
+        workers_account_json = json.dumps(workers_account, cls=utils.MyEncoder)
+        workers_account = json.loads(workers_account_json)
+        return {'workers_account':workers_account}
+
+
+
 
 
 class Worker(Resource):
@@ -192,12 +204,7 @@ class Students(Resource):
     def get(self):
         filters = "(objectclass=Estudiante)"
         args = request.args
-        if args.get('correo',False):
-            filters += ("(correo=*%s*)" % args.get('correo'))
-        if args.get('fechaInicio',False):
-            filters += ("(fechadecreacion>=%s)" % args.get('fechaInicio'))
-        if args.get('fechaFin',False):
-            filters += ("(fechadecreacion<=%s)" % args.get('fechaFin'))
+        filters += __set_filters__(args)
 
         # return {'a':filters}
         students_account = ldap_server.search_s("ou=Estudiantes,dc=uh,dc=cu", ldap.SCOPE_SUBTREE,"(&%s)" % filters)
@@ -205,9 +212,9 @@ class Students(Resource):
             { 
                 "name":x[1]['cn'], 
                 "last_name":x[1]['sn'],
-                "ci":x[1]['CI'],
-                "id":x[0]
-
+                "ci":x[1].get('CI','-'),
+                "id":x[0],
+                "correo": x[1].get('Correo','N/D') 
 
             }  for x in students_account]
         students_account_json = json.dumps(students_account, cls=utils.MyEncoder)
@@ -231,24 +238,16 @@ class Externs(Resource):
     def get(self):
         filters = "(objectclass=Externo)"
         args = request.args
-        if args.get('nombre',False):
-            filters += ("(cn=*%s*)" % args.get('nombre'))
-        if args.get('correo',False):
-            filters += ("(correo=*%s*)" % args.get('correo'))
-        if args.get('apellidos',False):
-            filters += ("(sn=*%s*)" % args.get('apellidos'))
-        if args.get('fechaInicio',False):
-            filters += ("(fechadecreacion>=%s)" % args.get('fechaInicio'))
-        if args.get('fechaFin',False):
-            filters += ("(fechadecreacion<=%s)" % args.get('fechaFin'))
+        filters += __set_filters__(args)
 
         externs_account = ldap_server.search_s("ou=Externos,dc=uh,dc=cu", ldap.SCOPE_SUBTREE, "(&%s)" % filters)
         externs_account = [ 
             { 
                 "name":x[1]['cn'][0], 
                 "last_name":x[1]['sn'][0],
-                "ci":x[1]['CI'],
-                "id":x[0]
+                "ci":x[1].get('CI','-'),
+                "id":x[0],
+                "correo": x[1].get('Correo','N/D') 
 
             }  for x in externs_account]
         externs_account_json = json.dumps(externs_account, cls=utils.MyEncoder)
@@ -368,3 +367,33 @@ def __sha512_crypt__(password, rounds=5000):
     rounds = max(1000, min(999999999, rounds))
     prefix += 'rounds={0}$'.format(rounds)
     return crypt.crypt(password, prefix + 'abcdefghijklmnop')
+
+def __set_filters__(args):
+    filters = ""
+    if args.get('nombre',False):
+        filters += ("(cn=*%s*)" % args.get('nombre'))
+    if args.get('correo',False):
+        filters += ("(correo=*%s*)" % args.get('correo'))
+    if args.get('apellidos',False):
+        filters += ("(sn=*%s*)" % args.get('apellidos'))
+    if args.get('fechaInicio',False):
+        filters += ("(fechadecreacion>=%s)" % args.get('fechaInicio'))
+    if args.get('fechaFin',False):
+        filters += ("(fechadecreacion<=%s)" % args.get('fechaFin'))
+
+    return filters
+
+def __generate_new_email__(basedn,name,last_name,second_last_name,category):
+    if len(ldap_server.search_s(basedn, ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=%s))" % (possible_email, category))):
+        possible_email = name.lower() + '.' +second_last_name + __map_area_to_email_domain__(data.get('area'))
+        if len(ldap_server.search_s(basedn, ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=%s))" % (possible_email, category))):
+            for i in range(1,1000):
+                possible_email = name.lower() + '.' +second_last_name +str(i) + __map_area_to_email_domain__(data.get('area'))
+                if len(ldap_server.search_s(basedn, ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=%s))" % (possible_email, category))):
+                    continue
+                email = possible_email
+                break
+        else:
+            email = possible_email
+    else:
+        email = possible_email
