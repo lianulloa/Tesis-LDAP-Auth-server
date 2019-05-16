@@ -105,10 +105,9 @@ class AllUsers(Resource):
     def delete(self):
         return UserModel.delete_all()
 
-
 class Users(Resource):
     def get(self):
-        filters = "(|(objectclass=Trabajador)(objectclass=Estudiante)(objectclass=Estudiante))"
+        filters = "(|(objectclass=Trabajador)(objectclass=Externo)(objectclass=Estudiante))"
         args = request.args
         filters += __set_filters__(args)
 
@@ -143,7 +142,6 @@ class User(Resource):
     def post(self, user_id):
         result = {'user_data': []}
         return jsonify(result)
-
 
 class Workers(Resource):
     @jwt_required
@@ -324,19 +322,19 @@ class Externs(Resource):
             expires = data.get('expires').encode('utf-8')
             expires = expires[0] + expires[1] + expires[2] 
             modList = modlist.addModlist({
-                'CI': [data.get('ci').encode('utf-8')],
-                'cn': [name.encode('utf-8')],
-                'sn':[last_name.encode('utf-8')],
-                'correo':[email.encode('utf-8')],
-                'fechadecreacion':[ str(created_at).encode('utf-8') ],
-                'fechadebaja':[str(expires).encode('utf-8')],
-                'tienecorreo': [b'TRUE'],
-                'tieneinternet': [b'TRUE'],
-                'tienechat': [b'TRUE'],
-                'description':[b'comments'],
-                'userpassword':[password.encode('utf-8')],
-                'uid':email.encode('utf-8'),
-                'objectClass':[b'Externo']
+                'CI':                   [data.get('ci').encode('utf-8')],
+                'cn':                   [name.encode('utf-8')],
+                'sn':                   [last_name.encode('utf-8')],
+            	'correo':               [email.encode('utf-8')],
+                'fechadecreacion':      [ str(created_at).encode('utf-8') ],
+                'fechadebaja':          [str(expires).encode('utf-8')],
+                'tienecorreo':          [data.get('email').encode('utf-8')],
+                'tieneinternet':        [data.get('internet').encode('utf-8')],
+                'tienechat':            [data.get('chat').encode('utf-8')],
+                'description':          [data.get('comments').encode('utf-8')],
+                'userpassword':         [password.encode('utf-8')],
+                'uid':                  email.encode('utf-8'),
+                'objectClass':          [b'Externo']
             })
             ldap_server.add_s(dn,modList)
         except Exception as e:
@@ -359,6 +357,42 @@ class Accounts(Resource):
         result = {'action_response': []}
         return jsonify(result)
 
+class SecurityQuestions(Resource):
+	def get(self,user_id):
+		users_account = ldap_server.search_s("dc=uh,dc=cu", ldap.SCOPE_SUBTREE, 
+			"(&(|(objectclass=Trabajador)(objectclass=Externo)(objectclass=Estudiante))(uid=%s))" % user_id)
+		if len(users_account):
+			users_account = users_account[0]
+			users_account_json = json.dumps(users_account, cls=utils.MyEncoder)
+			users_account = json.loads(users_account_json)
+
+			questions = users_account[1].get('QuestionSec',None)
+			if questions:
+				return {'preguntas': questions  }
+			else:
+				return {'warning':'No tiene preguntas de seguridad'}
+		else:
+			return {'error':'Id de usuario incorrecto'}
+
+	def post(self,user_id):
+		users_account = ldap_server.search_s("dc=uh,dc=cu", ldap.SCOPE_SUBTREE, 
+			"(&(|(objectclass=Trabajador)(objectclass=Externo)(objectclass=Estudiante))(uid=%s))" % user_id)
+		if len(users_account):
+			users_account = users_account[0]
+			users_account_json = json.dumps(users_account, cls=utils.MyEncoder)
+			users_account = json.loads(users_account_json)
+
+			answers = users_account[1].get('AnswerSec',None)
+			if answers:
+				possible_answers = request.get_json().get('answers')
+				for i in range(len(answers)):
+					if answers[i] != possible_answers[i]:
+						return {'check':'false'} 
+				return {'check': 'true'  }
+			else:
+				return {'warning':'No tiene respuestas de seguridad'}
+		else:
+			return {'error':'Id de usuario incorrecto'}
 
 def __map_area_to_email_domain__(area):
     # THIS SHOULD BE DOMAIN FOR DDI
