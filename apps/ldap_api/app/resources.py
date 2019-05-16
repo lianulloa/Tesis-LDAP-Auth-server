@@ -394,6 +394,35 @@ class SecurityQuestions(Resource):
 		else:
 			return {'error':'Id de usuario incorrecto'}
 
+	def put(self,user_id):
+		users_account = ldap_server.search_s("dc=uh,dc=cu", ldap.SCOPE_SUBTREE, 
+			"(&(|(objectclass=Trabajador)(objectclass=Externo)(objectclass=Estudiante))(uid=%s))" % user_id)
+		if len(users_account):
+			users_account = users_account[0]
+			users_account_json = json.dumps(users_account, cls=utils.MyEncoder)
+			users_account = json.loads(users_account_json)
+
+			data = request.get_json()
+			questions = map(lambda s: s.encode('utf-8'), data.get('questions'))
+			answers = map(lambda s: s.encode('utf-8'), data.get('answers'))
+
+			try:
+				dn = users_account[0]
+				modList = modlist.modifyModlist( {'QuestionSec': [None],'AnswerSec':[None]}, 
+												{'QuestionSec': questions,'AnswerSec':answers } )
+
+				ldap_server.modify_s(dn,modList)
+			except Exception as e:
+				return {'error':str(e)}
+
+			return {'success':'Preguntas y respuestas añadidas'}
+		else:
+			return {'error':'Id de usuario incorrecto'}
+
+
+
+
+
 def __map_area_to_email_domain__(area):
     # THIS SHOULD BE DOMAIN FOR DDI
     return "@iris.uh.cu"
