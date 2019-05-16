@@ -36,14 +36,12 @@ class SecretResource(Resource):
             'answer': 42
         }
 
-
 class TokenRefresh(Resource):
     @jwt_refresh_token_required
     def post(self):
         current_user = get_jwt_identity()
         access_token = create_access_token(identity = current_user)
         return {'access_token': access_token}
-
 
 class UserRegistration(Resource):
     def post(self):
@@ -68,7 +66,6 @@ class UserRegistration(Resource):
             return resp
         except:
             return {'message': 'Something went wrong'}, 500
-
 
 class UserLogin(Resource):
     def post(self):
@@ -97,7 +94,6 @@ class UserLogout(Resource):
         resp.status_code = 200
         return resp
 
-
 class AllUsers(Resource):
     def get(self):
         return UserModel.return_all()
@@ -123,10 +119,6 @@ class Users(Resource):
             }  for x in users_account]
         users_account_json = json.dumps(users_account, cls=utils.MyEncoder)
         users_account = json.loads(users_account_json)
-
-        # args = request.args
-        # page = int(args.get('page',1))
-        # users_account = users_account[(page-1)*configuration.PAGE_COUNT:page*configuration.PAGE_COUNT]
 
         return {'usuarios': users_account}
 
@@ -215,14 +207,12 @@ class Worker(Resource):
         result = {'worker_data': []}
         return jsonify(result)
 
-
 class Students(Resource):
     def get(self):
         filters = "(objectclass=Estudiante)"
         args = request.args
         filters += __set_filters__(args)
 
-        # return {'a':filters}
         students_account = ldap_server.search_s("ou=Estudiantes,dc=uh,dc=cu", ldap.SCOPE_SUBTREE,"(&%s)" % filters)
         students_account = [ 
             { 
@@ -236,18 +226,12 @@ class Students(Resource):
         students_account_json = json.dumps(students_account, cls=utils.MyEncoder)
         students_account = json.loads(students_account_json)
 
-        # args = request.args
-        # page = int(args.get('page',1))
-        # students_account = students_account[(page-1)*configuration.PAGE_COUNT:page*configuration.PAGE_COUNT]
-
         return {'students': students_account}
-
 
 class Student(Resource):
     def get(self, student_id):
         result = {'student_data': []}
         return jsonify(result)
-
 
 class Externs(Resource):
     @jwt_required
@@ -343,13 +327,10 @@ class Externs(Resource):
         result = {'extern_data':'success' }
         return jsonify(result)
 
-
 class Extern(Resource):
     def get(self, extern_id):
         result = {'extern_data': []}
         return jsonify(result)
-
-
 
 class Accounts(Resource):
     def patch(self, account_type, account_id, action):
@@ -419,8 +400,32 @@ class SecurityQuestions(Resource):
 		else:
 			return {'error':'Id de usuario incorrecto'}
 
+class ChangePassword(Resource):
+	def post(self,user_id):
+		users_account = ldap_server.search_s("dc=uh,dc=cu", ldap.SCOPE_SUBTREE, 
+			"(&(|(objectclass=Trabajador)(objectclass=Externo)(objectclass=Estudiante))(uid=%s))" % user_id)
+		if len(users_account):
+			users_account = users_account[0]
+			users_account_json = json.dumps(users_account, cls=utils.MyEncoder)
+			users_account = json.loads(users_account_json)
 
+			data = request.get_json()
+			new_password = '{CRYPT}' + __sha512_crypt__(data.get('password'),500000)
 
+			old_password = map(lambda s: s.encode('utf-8'), users_account[1].get('userPassword'))
+
+			try:
+				dn = users_account[0]
+				modList = modlist.modifyModlist( {'userPassword': old_password}, 
+												{'userPassword': [new_password.encode('utf-8')] } )
+
+				ldap_server.modify_s(dn,modList)
+			except Exception as e:
+				return {'error':str(e)}
+
+			return {'success':'Contraseña cambiado exitosamente'}
+		else:
+			return {'error':'Id de usuario incorrecto'}
 
 
 def __map_area_to_email_domain__(area):
