@@ -19,19 +19,19 @@ class ConnectionManager:
     def __connect(self):
         """Get sql server connection from config file"""
 
-        try:
-            server_addr = self._config_obj['sql_server']['connection_string']['server'][0]
+        # try:
+        server_addr = self._config_obj['sql_server']['connection_string']['server'][0]
 
-            if server_addr == "":
-                perror('Invalid server address in config file!')
+        if server_addr == "":
+            perror('Invalid server address in config file!')
 
-            self._connection = pyodbc.connect('Driver={SQL Server};'
-                                              'Server={'+server_addr+'};'
-                                              'Trusted_Connection=yes;',
-                                              autocommit=True)
-            self._cursor = self._connection.cursor()
-        except Exception:
-            perror('Error while connecting to the sql server!')
+        self._connection = pyodbc.connect('Driver={ODBC Driver 13 for SQL Server};'
+                                            'Server={'+server_addr+'};'
+                                            'Trusted_Connection=yes;',
+                                            autocommit=True)
+        self._cursor = self._connection.cursor()
+        # except Exception:
+        #     perror('Error while connecting to the sql server!')
 
     def restore(self):
         """Restore .bak file to sql server"""

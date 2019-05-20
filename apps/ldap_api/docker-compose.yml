@@ -13,6 +13,12 @@ services:
     - "11211:11211"
     restart: always
     command: memcached -u root
+  db:
+    image: "mcr.microsoft.com/mssql/server"
+    container_name: sqlserver_db
+    environment:
+      SA_PASSWORD: "P@ssw0rd"
+      ACCEPT_EULA: "Y"
   api:
     build: .
     image: flask_restful
@@ -31,6 +37,8 @@ services:
     command: python run.py
     depends_on: 
       - memcached
+      - db
+  
 
 networks: 
   default:

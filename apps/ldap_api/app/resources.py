@@ -36,14 +36,12 @@ class SecretResource(Resource):
             'answer': 42
         }
 
-
 class TokenRefresh(Resource):
     @jwt_refresh_token_required
     def post(self):
         current_user = get_jwt_identity()
         access_token = create_access_token(identity = current_user)
         return {'access_token': access_token}
-
 
 class UserRegistration(Resource):
     def post(self):
@@ -68,7 +66,6 @@ class UserRegistration(Resource):
             return resp
         except:
             return {'message': 'Something went wrong'}, 500
-
 
 class UserLogin(Resource):
     def post(self):
@@ -97,7 +94,6 @@ class UserLogout(Resource):
         resp.status_code = 200
         return resp
 
-
 class AllUsers(Resource):
     def get(self):
         return UserModel.return_all()
@@ -105,10 +101,9 @@ class AllUsers(Resource):
     def delete(self):
         return UserModel.delete_all()
 
-
 class Users(Resource):
     def get(self):
-        filters = "(|(objectclass=Trabajador)(objectclass=Estudiante)(objectclass=Estudiante))"
+        filters = "(|(objectclass=Trabajador)(objectclass=Externo)(objectclass=Estudiante))"
         args = request.args
         filters += __set_filters__(args)
 
@@ -125,10 +120,6 @@ class Users(Resource):
         users_account_json = json.dumps(users_account, cls=utils.MyEncoder)
         users_account = json.loads(users_account_json)
 
-        # args = request.args
-        # page = int(args.get('page',1))
-        # users_account = users_account[(page-1)*configuration.PAGE_COUNT:page*configuration.PAGE_COUNT]
-
         return {'usuarios': users_account}
 
 class User(Resource):
@@ -143,7 +134,6 @@ class User(Resource):
     def post(self, user_id):
         result = {'user_data': []}
         return jsonify(result)
-
 
 class Workers(Resource):
     @jwt_required
@@ -176,25 +166,40 @@ class Workers(Resource):
         data = request.get_json()
         ci = data.get('ci')
         workers_account = ldap_server.search_s("ou=Trabajadores,dc=uh,dc=cu", ldap.SCOPE_SUBTREE, "(ci=%s)" % ci)
-        if len(workers_account):
-            workers_account = workers_account[0]
-            email = workers_account[1].get('Correo',False)
-            if email and email != "N/D":
-                return {'warning':'true','message':'Este usuario ya existe en directorio','email':email}
-            else:
-                possible_email = workers_account[1]['cn'].lower() + '.' +
-                workers_account[1]['sn'].split()[0].lower() + __map_area_to_email_domain__(workers_account[1].get('area'))
-
-
         workers_account_json = json.dumps(workers_account, cls=utils.MyEncoder)
         workers_account = json.loads(workers_account_json)
+        if len(workers_account):
+            workers_account = workers_account[0]
+            email = workers_account[1].get('Correo',None)
+            if email and email[0] != "N/D":
+                return {'warning':'true','message':'Este usuario ya existe en directorio','email':email[0]}
+            else:
+                name = workers_account[1]['cn'][0].split()[0].lower()
+                last_name, second_last_name = workers_account[1]['sn'][0].split()
+                new_email = __generate_new_email__("ou=Trabajadores,dc=uh,dc=cu", name, last_name.lower(), 
+                    second_last_name.lower(),"Trabajador",workers_account[1]['Area'])
+
+                try:
+                    dn = workers_account[0]
+                    modList = modlist.modifyModlist( {'Correo':[ email[0].encode('utf-8') if email else email ]}, {'Correo':[new_email.encode('utf-8')]} )
+
+                    ldap_server.modify_s(dn,modList)
+                except Exception as e:
+                    return {'e':str(e)}
+                
+                return {'email':new_email}
+
+
         return {'workers_account':workers_account}
 
 
-    @jwt_required
-    def put(self):
-        handler = LDIFFromSQLServer("ldif_from_database/config.yml")
-        handler.generate_first_time_population(number_of_rows=10, restore=True)
+    # @jwt_required
+    def patch(self):
+        try:
+            handler = LDIFFromSQLServer("./app/ldif_from_database/config.yml")
+            # handler.generate_first_time_population(number_of_rows=10, restore=True)
+        except Exception as e:
+            return {'e':str(e)}
         return {'status': 'done'}
 
 class Worker(Resource):
@@ -202,14 +207,12 @@ class Worker(Resource):
         result = {'worker_data': []}
         return jsonify(result)
 
-
 class Students(Resource):
     def get(self):
         filters = "(objectclass=Estudiante)"
         args = request.args
         filters += __set_filters__(args)
 
-        # return {'a':filters}
         students_account = ldap_server.search_s("ou=Estudiantes,dc=uh,dc=cu", ldap.SCOPE_SUBTREE,"(&%s)" % filters)
         students_account = [ 
             { 
@@ -223,18 +226,12 @@ class Students(Resource):
         students_account_json = json.dumps(students_account, cls=utils.MyEncoder)
         students_account = json.loads(students_account_json)
 
-        # args = request.args
-        # page = int(args.get('page',1))
-        # students_account = students_account[(page-1)*configuration.PAGE_COUNT:page*configuration.PAGE_COUNT]
-
         return {'students': students_account}
-
 
 class Student(Resource):
     def get(self, student_id):
         result = {'student_data': []}
         return jsonify(result)
-
 
 class Externs(Resource):
     @jwt_required
@@ -256,13 +253,7 @@ class Externs(Resource):
         externs_account_json = json.dumps(externs_account, cls=utils.MyEncoder)
         externs_account = json.loads(externs_account_json)
 
-        # args = request.args
-        # page = int(args.get('page',1))
-        # externs_account = externs_account[(page-1)*configuration.PAGE_COUNT:page*configuration.PAGE_COUNT]
-
         return {'externs': externs_account}
-
-        # return {'externs': []}
 
     def post(self):
         data = request.get_json()
@@ -276,7 +267,7 @@ class Externs(Resource):
                 
         # CREATE ACCOUNT
         ## GENERATE NEW EMAIL
-        name = data.get('name')
+        name = data.get('name').split()[0]
         last_name = data.get('last_name')
         first_last_name, second_last_name = last_name.lower().split()
         possible_email = name.lower() + '.' +first_last_name + __map_area_to_email_domain__(data.get('area'))
@@ -315,19 +306,19 @@ class Externs(Resource):
             expires = data.get('expires').encode('utf-8')
             expires = expires[0] + expires[1] + expires[2] 
             modList = modlist.addModlist({
-                'CI': [data.get('ci').encode('utf-8')],
-                'cn': [name.encode('utf-8')],
-                'sn':[last_name.encode('utf-8')],
-                'correo':[email.encode('utf-8')],
-                'fechadecreacion':[ str(created_at).encode('utf-8') ],
-                'fechadebaja':[str(expires).encode('utf-8')],
-                'tienecorreo': [b'TRUE'],
-                'tieneinternet': [b'TRUE'],
-                'tienechat': [b'TRUE'],
-                'description':[b'comments'],
-                'userpassword':[password.encode('utf-8')],
-                'uid':email.encode('utf-8'),
-                'objectClass':[b'Externo']
+                'CI':                   [data.get('ci').encode('utf-8')],
+                'cn':                   [name.encode('utf-8')],
+                'sn':                   [last_name.encode('utf-8')],
+            	'correo':               [email.encode('utf-8')],
+                'fechadecreacion':      [ str(created_at).encode('utf-8') ],
+                'fechadebaja':          [str(expires).encode('utf-8')],
+                'tienecorreo':          [data.get('email').encode('utf-8')],
+                'tieneinternet':        [data.get('internet').encode('utf-8')],
+                'tienechat':            [data.get('chat').encode('utf-8')],
+                'description':          [data.get('comments').encode('utf-8')],
+                'userpassword':         [password.encode('utf-8')],
+                'uid':                  email.encode('utf-8'),
+                'objectClass':          [b'Externo']
             })
             ldap_server.add_s(dn,modList)
         except Exception as e:
@@ -336,19 +327,105 @@ class Externs(Resource):
         result = {'extern_data':'success' }
         return jsonify(result)
 
-
 class Extern(Resource):
     def get(self, extern_id):
         result = {'extern_data': []}
         return jsonify(result)
-
-
 
 class Accounts(Resource):
     def patch(self, account_type, account_id, action):
         # Actions = 'activate' : 'deactivate'
         result = {'action_response': []}
         return jsonify(result)
+
+class SecurityQuestions(Resource):
+	def get(self,user_id):
+		users_account = ldap_server.search_s("dc=uh,dc=cu", ldap.SCOPE_SUBTREE, 
+			"(&(|(objectclass=Trabajador)(objectclass=Externo)(objectclass=Estudiante))(uid=%s))" % user_id)
+		if len(users_account):
+			users_account = users_account[0]
+			users_account_json = json.dumps(users_account, cls=utils.MyEncoder)
+			users_account = json.loads(users_account_json)
+
+			questions = users_account[1].get('QuestionSec',None)
+			if questions:
+				return {'preguntas': questions  }
+			else:
+				return {'warning':'No tiene preguntas de seguridad'}
+		else:
+			return {'error':'Id de usuario incorrecto'}
+
+	def post(self,user_id):
+		users_account = ldap_server.search_s("dc=uh,dc=cu", ldap.SCOPE_SUBTREE, 
+			"(&(|(objectclass=Trabajador)(objectclass=Externo)(objectclass=Estudiante))(uid=%s))" % user_id)
+		if len(users_account):
+			users_account = users_account[0]
+			users_account_json = json.dumps(users_account, cls=utils.MyEncoder)
+			users_account = json.loads(users_account_json)
+
+			answers = users_account[1].get('AnswerSec',None)
+			if answers:
+				possible_answers = request.get_json().get('answers')
+				for i in range(len(answers)):
+					if answers[i] != possible_answers[i]:
+						return {'check':'false'} 
+				return {'check': 'true'  }
+			else:
+				return {'warning':'No tiene respuestas de seguridad'}
+		else:
+			return {'error':'Id de usuario incorrecto'}
+
+	def put(self,user_id):
+		users_account = ldap_server.search_s("dc=uh,dc=cu", ldap.SCOPE_SUBTREE, 
+			"(&(|(objectclass=Trabajador)(objectclass=Externo)(objectclass=Estudiante))(uid=%s))" % user_id)
+		if len(users_account):
+			users_account = users_account[0]
+			users_account_json = json.dumps(users_account, cls=utils.MyEncoder)
+			users_account = json.loads(users_account_json)
+
+			data = request.get_json()
+			questions = map(lambda s: s.encode('utf-8'), data.get('questions'))
+			answers = map(lambda s: s.encode('utf-8'), data.get('answers'))
+
+			try:
+				dn = users_account[0]
+				modList = modlist.modifyModlist( {'QuestionSec': [None],'AnswerSec':[None]}, 
+												{'QuestionSec': questions,'AnswerSec':answers } )
+
+				ldap_server.modify_s(dn,modList)
+			except Exception as e:
+				return {'error':str(e)}
+
+			return {'success':'Preguntas y respuestas añadidas'}
+		else:
+			return {'error':'Id de usuario incorrecto'}
+
+class ChangePassword(Resource):
+	def post(self,user_id):
+		users_account = ldap_server.search_s("dc=uh,dc=cu", ldap.SCOPE_SUBTREE, 
+			"(&(|(objectclass=Trabajador)(objectclass=Externo)(objectclass=Estudiante))(uid=%s))" % user_id)
+		if len(users_account):
+			users_account = users_account[0]
+			users_account_json = json.dumps(users_account, cls=utils.MyEncoder)
+			users_account = json.loads(users_account_json)
+
+			data = request.get_json()
+			new_password = '{CRYPT}' + __sha512_crypt__(data.get('password'),500000)
+
+			old_password = map(lambda s: s.encode('utf-8'), users_account[1].get('userPassword'))
+
+			try:
+				dn = users_account[0]
+				modList = modlist.modifyModlist( {'userPassword': old_password}, 
+												{'userPassword': [new_password.encode('utf-8')] } )
+
+				ldap_server.modify_s(dn,modList)
+			except Exception as e:
+				return {'error':str(e)}
+
+			return {'success':'Contraseña cambiado exitosamente'}
+		else:
+			return {'error':'Id de usuario incorrecto'}
 
 
 def __map_area_to_email_domain__(area):
@@ -386,12 +463,14 @@ def __set_filters__(args):
 
     return filters
 
-def __generate_new_email__(basedn,name,last_name,second_last_name,category):
+def __generate_new_email__(basedn,name,last_name,second_last_name,category,area):
+    possible_email = name  + '.' + last_name.lower() + __map_area_to_email_domain__(area)
+
     if len(ldap_server.search_s(basedn, ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=%s))" % (possible_email, category))):
-        possible_email = name.lower() + '.' +second_last_name + __map_area_to_email_domain__(data.get('area'))
+        possible_email = name.lower() + '.' +second_last_name + __map_area_to_email_domain__(area)
         if len(ldap_server.search_s(basedn, ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=%s))" % (possible_email, category))):
             for i in range(1,1000):
-                possible_email = name.lower() + '.' +second_last_name +str(i) + __map_area_to_email_domain__(data.get('area'))
+                possible_email = name.lower() + '.' +second_last_name +str(i) + __map_area_to_email_domain__(area)
                 if len(ldap_server.search_s(basedn, ldap.SCOPE_ONELEVEL, "(&(correo=%s)(objectclass=%s))" % (possible_email, category))):
                     continue
                 email = possible_email
@@ -400,3 +479,5 @@ def __generate_new_email__(basedn,name,last_name,second_last_name,category):
             email = possible_email
     else:
         email = possible_email
+
+    return email
