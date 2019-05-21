@@ -1,8 +1,5 @@
 \chapter{Estado del arte}
-\todo[inline, color=yellow]{Esta nota es de conexion entre el capitulo anterior y este. Se necesita una idea lógica para conectar los dos capítulos. Al final del capítulo anterior se describió la situación del directorio único en la UH y de pronto en este capítulo caemos en el análisis de las herramientas para dar la solución ... falta algo: nunca se habló de cual iba a ser la propuesta de solución (no cuenta la breve descripción dentro de la introducción). 
-Es necesario destinar un epígrafe al final del capítulo anterior proponiendo la idea de la solución a implementar utilizando un protocolo de acceso a directorios. En este capítulo se discuten las herramientas con las que se puede llevar a cabo: LDAP y active directory como candidatos del protocolo de acceso a directorios; python y adversarios como lenguajes de base para la implementacion del api; django vs flask como frameworks alternativos para la implementacion del api. Así, cuando concluya este capítulo le debe quedar claro al lector cuales son las herramientas que se van a utilizar para orquestar la solucion al igual que los conceptos fundamentales de dichas herramientas. 
-OJO-nota: en el párrafo de arriba utilicé oraciones impropias para una tesis, son tan largas que la idea se pierde. Son suficientes para transmitirles una idea de manera informal a Uds como estudiantes, pero sirven para hacer llegar el mensaje de manera formal a un tribunal científico.
-Finalmente, el capitulo 3 es la implementación en detalle de la solución.}
+
 \section{LDAP}
 \subsection{¿Qué es el protocolo LDAP?}
 LDAP (Lightweight Directory Access Protocol) es un protocolo perteneciente a la capa de 
@@ -118,20 +115,103 @@ consultas rápidas y administración centralizada de la información almacenada 
 que utilizan la red. El mismo combina el protocolo LDAP en su version número 3 con el eficiente
 funcionamiento, escalabilidad y robustez de una base de datos de Oracle \footnote{ 
 \url{https://docs.oracle.com/cd/B14099\_19/idmanage.1012/b14082/intro.htm\#i1001669}}.
+
+\newpage
+
+
 \subsubsection{OpenLDAP}
-Esta es la implementaci\'on que estaremos\todo[inline]{que utilizaremos ... pero esto no se pone aun, aca solo estas hablando de las alternativas y de las diferencias entre ellas .... y hay que demostrar conocimiento. .} , principalmente debido a que es totalmente gratis y se integra f\'acilmente al entorno de sistemas basados en Linux, el cual es la base de la mayor\'ia de los servidores de la Universidad.
+OpenLDAP es la alternativa de software libre que implementa el protocolo LDAP. Como la mayoría de
+las implementaciones de servicios asociados a la ideología del software libre, esta variante se
+ejecuta sobre sistemas basados en el kernel de Linux \footnote{\url{poner referencia a definición
+de linux como sistema o algo de eso}}. Esto facilita su despliegue en el ecosistema de la red
+universitaria, ya que la mayoría de los servidores, ejecutan sistemas basados en dicho kernel.
+Además esta implementación se encuentra disponible en los repositorios de las distribuciones más
+populares entre la comunidad de software libre, lo cual facilita la elección de uno u otro 
+sistema base en dependencia de las necesidades.
+
+Junto al programa de instalación, se encuentran predefinidas varios tipos de atributos y 
+clases de objetos. Estos  pretenden suplir las necesidades más comunes de aquellos que 
+necesitan utilizar un servicio de directorio. Podemos destacar:
+
+\begin{enumerate}
+	\item Asignar grupos a los usuarios registrados y de esta manera controlar su rango de acceso.
+	\item Estructurar la información almacenada de manera que simule las áreas y departamentos
+	que componen a la Universidad.
+	\item Definir, sin mucho esfuerzo, aquellos atributos que se suelen almacenar sobre una persona
+	como recurso humano o como internauta o directivo, etc.
+	\item Facilitar la integración con distintos sistemas de autenticación a través de las clases
+	predefinidas.
+\end{enumerate}
+
+Además de incluir estos esquemas por defecto, es fácilmente extensible. Brinda, dentro de sus
+funcionalidades, la capacidad de definir nuevos tipos de atributos y de clases de objetos. Incluso
+es posible extender los ya existentes a través de mecanismos simples de herencia de clases, así como
+definir campos obligatorios u opcionales.
+
+Con respecto al apartado de seguridad, OpenLDAP permite la encriptación de la información
+almacenada a través de distintos métodos. Para algunos brinda soporte de manera nativa, para 
+otros realiza el proceso de encriptación a través de la libreria CRYPT \footnote{poner referencia}.
+
+\newpage
+
+El soporte nativo lo brinda para:
+
+\begin{enumerate}
+	\item {\bf MD5:} Codificación basada en el algoritmo MD5
+	\item {\bf SMD5:} Codificación basada en el algoritmo MD5 con un secuencia aleatoria de 
+		caracteres conocida como salt \footnote{ poner referencia a definicion de md5 y smd5}
+	\item {\bf SHA:} Codificación basada en el algoritmo SHA-1
+	\item {\bf SSHA:} Codificación basada en el algoritmo SHA-1 con un secuencia aleatoria de 
+		caracteres conocida como salt \footnote{ poner referencia a definicion de sha-1 y ssha-1}
+\end{enumerate}
+
+A través de CRYPT y el formato PHC string \footnote{ \url{https://github.com/P-H-C/phc-string-format}}
+brinda soporte para:
+
+\begin{enumerate}
+	\item {\bf MD5:} Codificación basada en el algoritmo MD5
+	\item {\bf 	Blowfish / bcrypt:} 
+	\item {\bf NTHASH:} 
+	\item {\bf SHA-256:} 
+	\item {\bf SHA-512:} 
+	\item {\bf Solaris MD5:} 
+	\item {\bf PBKDF1 with SHA-1:} 
+\end{enumerate}
+
+Existe además, una interfaz web ya implementada conocida PhpLDAPAdmin \footnote{ poner referencia}
+que permite administrar de manera básica, el contenido del servidor LDAP. La misma permite listar
+los datos almacenados, modificarlos, añadir nuevas entradas, etc. En resumen, permite realizar
+las operaciones usuales sobre un conjunto de datos.
 
 \subsection{Modos de empleo usuales}
 \subsubsection{DNS}
-LDAP es usualmente utilizado con una estructura de DNS. Las clases de objetos que existen por defecto en el esquema de OpenLDAP, permite simular la estructura de que presentan los DNS\todo[inline]{no solo vale decir la estructura que presentan los DNS ... una estructura de delegación de zonas, arborea, similar a la del DNS... sería una variante mas acorde para describir la relación} . Esto da la oportunidad de brindar las mismas funcionalidades de servicio de nombres de dominios y a la vez utilizar las ventajas de b\'usqueda y modificaci\'on de los LDAP.
+LDAP es usualmente utilizado con una estructura de DNS. Las clases de objetos que existen por 
+defecto en el esquema de OpenLDAP, permite simular una estructura de delegación de zonas, 
+arborea, similar a la del DNS. Esto da la oportunidad de brindar las mismas funcionalidades 
+de servicio de nombres de dominios y a la vez utilizar las ventajas de búsqueda y modificación 
+de los LDAP.
 
-\subsubsection{Sistema de Autenticaci\'on}
-Esta implementaci\'on tambi\'en brinda ventajas a la hora de implementar un sistema de autenticaci\'on de usuarios. Esto se debe principalmente al amplio soporte que tiene el protocolo LDAP para varios servicios. La posibilidad de agrupar a los usuario mediante unidades organizativas (Organizational Unit [OU]) y de representar su pertenencia a determinados grupos, permite f\'acilmente administrar el acceso que cada uno debe tener a los servicios ofrecidos por la universidad. Este modo de organizar la informaci\'on de los usuarios se asemeja bastante a la manera en que se asigna permisos a un usuario en los sistemas operativos basados en Linux, de hecho, una de las funcionalidades implementadas para este protocolo permite autenticar un usuario en una m\'aquina, ya sea virtual o f\'isica, siempre y cuando este exista en el servidor LDAP.
+\subsubsection{Sistema de Autenticación}
+Esta implementación también brinda ventajas a la hora de implementar un sistema de 
+autenticación de usuarios. Esto se debe principalmente al amplio soporte que tiene el protocolo 
+LDAP para varios servicios. La posibilidad de agrupar a los usuario mediante unidades 
+organizativas (Organizational Unit [OU]) y de representar su pertenencia a determinados 
+grupos, permite administrar fácilmente el acceso que cada uno de los usuarios 
+debe tener a los servicios ofrecidos por la universidad. Este modo de organizar la información 
+de los usuarios se asemeja bastante a la manera en que se asigna permisos a un usuario en los 
+sistemas operativos basados en Linux. De hecho, una de las funcionalidades implementadas 
+como cliente de este protocolo, permite autenticar un usuario en una máquina, ya sea virtual o 
+física, a pesar de que realmente no exista en el sistema. Basta con que el usuario exista en el 
+servidor LDAP. En el caso específico de OpenLDAP, cuenta con dos clases de objetos que permiten
+este comportamiento. Se trata de la clase PosixAccount y ShadowAccount. Entre ellas guardan 
+información referente a los atributos de un usuario en un sistema basado en linux. Las principales
+son: el directorio "home" del usuario, el número que lo identifica en el sistema, el grupo al que 
+pertenece, etc. \todo[inline]{buscar si esto no pertenece a PosixGroup}
 
-\todo[inline]{TODO:
-	Revisar la longitud y ajuste al tema de las oraciones. Argumentar con ejemplos, idealmente con imagenes también. Argumentar la selección de la herramienta OpenLDAP. Abordar el análisis del lenguaje para la implementación del API. Argumentar cual es el framework utilizado para implementar el API. Descripción completa de la selección de herramientas para implementar la solución.} 
 
 \section{Docker}
+\todo[inline]{TODO:
+	Revisar la longitud y ajuste al tema de las oraciones. Argumentar con ejemplos, idealmente con imagenes también. Argumentar la selección de la herramienta OpenLDAP. Abordar el análisis del lenguaje para la implementación del API. Argumentar cual es el framework utilizado para implementar el API. Descripción completa de la selección de herramientas para implementar la solución.} 
 \section{EA3}
 \section{EA4}
 \section{EA5}
