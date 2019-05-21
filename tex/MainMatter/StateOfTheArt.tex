@@ -98,7 +98,7 @@ Este servicio implementa las especificaciones de Internet Engineering Task Force
 V3. Permite la comunicación con clientes basados en IETF LDAP V3. Esta alternativa presenta 
 una amplia variedad de funcionalidades que facilitarían la integración con el sistema de la 
 Universidad , pero esta herramienta es de pago, por lo que no podemos utilizarla
-\footnote{ \url{https://www.ibm.com/support/knowledgecenter/en/SSVJJU_6.3.1/com.ibm.IBMDS.doc_6.3.1/admin_gd13.htm} }.
+\footnote{ \url{https://www.ibm.com/support/knowledgecenter/en/SSVJJU_6.3.1/com.ibm.IBMDS.doc_6.3.1/admin_gd13.htm}}.
 
 \subsubsection{Active Directory}
 Esta es la implementación que brinda Microsoft\footnote{\url{https://support.microsoft.com/es-es/help/196464}}
@@ -122,8 +122,7 @@ funcionamiento, escalabilidad y robustez de una base de datos de Oracle \footnot
 \subsubsection{OpenLDAP}
 OpenLDAP es la alternativa de software libre que implementa el protocolo LDAP. Como la mayoría de
 las implementaciones de servicios asociados a la ideología del software libre, esta variante se
-ejecuta sobre sistemas basados en el kernel de Linux \footnote{\url{poner referencia a definición
-de linux como sistema o algo de eso}}. Esto facilita su despliegue en el ecosistema de la red
+ejecuta sobre sistemas basados en el kernel de Linux \footnote{ \url{https://es.wikipedia.org/wiki/Núcleo_Linux}}. Esto facilita su despliegue en el ecosistema de la red
 universitaria, ya que la mayoría de los servidores, ejecutan sistemas basados en dicho kernel.
 Además esta implementación se encuentra disponible en los repositorios de las distribuciones más
 populares entre la comunidad de software libre, lo cual facilita la elección de uno u otro 
@@ -150,19 +149,22 @@ definir campos obligatorios u opcionales.
 
 Con respecto al apartado de seguridad, OpenLDAP permite la encriptación de la información
 almacenada a través de distintos métodos. Para algunos brinda soporte de manera nativa, para 
-otros realiza el proceso de encriptación a través de la libreria CRYPT \footnote{poner referencia}.
+otros realiza el proceso de encriptación a través de la libreria CRYPT \footnote{ 
+\url{https://ftp.gnu.org/old-gnu/Manuals/glibc-2.2.3/html_node/libc_650.html}}.
 
 \newpage
 
 El soporte nativo lo brinda para:
 
 \begin{enumerate}
-	\item {\bf MD5:} Codificación basada en el algoritmo MD5
+	\item {\bf MD5\footnote{\url{https://www.ietf.org/rfc/rfc1321.txt}} :} Codificación basada 
+		en el algoritmo MD5
 	\item {\bf SMD5:} Codificación basada en el algoritmo MD5 con un secuencia aleatoria de 
-		caracteres conocida como salt \footnote{ poner referencia a definicion de md5 y smd5}
-	\item {\bf SHA:} Codificación basada en el algoritmo SHA-1
+		caracteres conocida como salt
+	\item {\bf SHA\footnote{\url{https://www.ietf.org/rfc/rfc3174.txt}}:} Codificación basada 
+		en el algoritmo SHA-1
 	\item {\bf SSHA:} Codificación basada en el algoritmo SHA-1 con un secuencia aleatoria de 
-		caracteres conocida como salt \footnote{ poner referencia a definicion de sha-1 y ssha-1}
+		caracteres conocida como salt 
 \end{enumerate}
 
 A través de CRYPT y el formato PHC string \footnote{ \url{https://github.com/P-H-C/phc-string-format}}
@@ -178,10 +180,11 @@ brinda soporte para:
 	\item {\bf PBKDF1 with SHA-1:} 
 \end{enumerate}
 
-Existe además, una interfaz web ya implementada conocida PhpLDAPAdmin \footnote{ poner referencia}
-que permite administrar de manera básica, el contenido del servidor LDAP. La misma permite listar
-los datos almacenados, modificarlos, añadir nuevas entradas, etc. En resumen, permite realizar
-las operaciones usuales sobre un conjunto de datos.
+Existe además, una interfaz web ya implementada conocida phpLDAPadmin \footnote{ 
+\url{http://phpldapadmin.sourceforge.net/wiki/index.php/Main_Page}} que permite administrar 
+de manera básica, el contenido del servidor LDAP. La misma permite listar los datos 
+almacenados, modificarlos, añadir nuevas entradas, etc. En resumen, permite realizar las 
+operaciones usuales sobre un conjunto de datos.
 
 \subsection{Modos de empleo usuales}
 \subsubsection{DNS}
@@ -203,10 +206,10 @@ sistemas operativos basados en Linux. De hecho, una de las funcionalidades imple
 como cliente de este protocolo, permite autenticar un usuario en una máquina, ya sea virtual o 
 física, a pesar de que realmente no exista en el sistema. Basta con que el usuario exista en el 
 servidor LDAP. En el caso específico de OpenLDAP, cuenta con dos clases de objetos que permiten
-este comportamiento. Se trata de la clase PosixAccount y ShadowAccount. Entre ellas guardan 
+este comportamiento. Se trata de la clase posixAccount y shadowAccount. Entre ellas guardan 
 información referente a los atributos de un usuario en un sistema basado en linux. Las principales
 son: el directorio "home" del usuario, el número que lo identifica en el sistema, el grupo al que 
-pertenece, etc. \todo[inline]{buscar si esto no pertenece a PosixGroup}
+pertenece.
 
 
 \section{Docker}
