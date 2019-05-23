@@ -213,6 +213,40 @@ pertenece.
 
 
 \section{Docker}
+
+\subsection{¿Qué es Docker?}
+Docker es una plataforma de software libre que permite crear, desplegar y administrar 
+contenedores de aplicaciones virtualizadas, sobre un mismo sistema operativo. Facilita la 
+integración de distintas aplicaciones independientemente del sistema que estas necesiten para
+funcionar. Hasta el momento de escritura de la presente tesis, Docker es capaz de crear 
+contenedores basados en cualquier sistema Unix-Like \footnote{ Sistemas que utilizan el kernel de
+Linux} y en Windows. Todavía no existe forma de hacerlo basado en macOS \footnote{ 
+\url{https://www.apple.com/la/macos/what-is/}}.
+
+Docker es sumamente útil en el proceso de despliegue de aplicaciones. A través de esta tecnología
+es posible planificar todo el proceso de despliegue de un sistema, plasmarlo en una secuencia de
+pasos lógicos y luego simplemente ejecutarlo. De esta manera se reduce el tiempo necesario para
+este proceso evitando errores frecuentes y acciones repetitivas.
+
+\subsection{¿Qué es un contenedor de docker?}
+
+Como parte fundamental de Docker se encuentran los contenedores. Estos, según los propios
+desarrolladores, \textit{son unidades de software estandarizadas} \footnote{
+\url{https://www.docker.com/resources/what-container}}. Se encargan de empaquetar
+el código y las dependencias de la aplicacion de manera que pueda ser ejecutado en cualquier 
+entorno capaz de ejecutar Docker. Para ejecutar un contenedor, se necesita una imagen de Docker 
+base. Una imagen de Docker no es más que un paquete que contiene todas las dependencias y 
+configuraciones necesarias para ejecutar un contenedor a partir de esta. Los contenedores aíslan
+al software del entorno en que son ejecutados y aseguran el correcto funcionamiento 
+independientemente de las posibles diferencias entre un entorno u otro. Sin embargo, dicho
+aislamiento no impide la comunicación entre varios contenedores. Existen mecanismos que permiten
+interactuar a través de servicios de red. Incluso es posible crear una red privada que incluya
+ciertos contenedores. Con esta facilidad, se puede diseñar soluciones estructuradas en módulos
+atómicos que se integren como sistema.
+
+
+
+
 \todo[inline]{TODO:
 	Revisar la longitud y ajuste al tema de las oraciones. Argumentar con ejemplos, idealmente con imagenes también. Argumentar la selección de la herramienta OpenLDAP. Abordar el análisis del lenguaje para la implementación del API. Argumentar cual es el framework utilizado para implementar el API. Descripción completa de la selección de herramientas para implementar la solución.} 
 \section{EA3}
