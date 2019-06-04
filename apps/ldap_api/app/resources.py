@@ -312,17 +312,17 @@ class Externs(Resource):
             	'correo':               [email.encode('utf-8')],
                 'fechadecreacion':      [ str(created_at).encode('utf-8') ],
                 'fechadebaja':          [str(expires).encode('utf-8')],
-                'tienecorreo':          [data.get('email').encode('utf-8')],
-                'tieneinternet':        [data.get('internet').encode('utf-8')],
-                'tienechat':            [data.get('chat').encode('utf-8')],
-                'description':          [data.get('comments').encode('utf-8')],
+                'tienecorreo':          [b'TRUE' if data.get('email') else b'FALSE'],
+                'tieneinternet':        [b'TRUE' if data.get('internet') else b'FALSE'],
+                'tienechat':            [b'TRUE' if data.get('chat') else b'FALSE' ],
+                'description':          [data.get('comments').encode('utf-8') if data.get('comments') != "" else b"N/D"],
                 'userpassword':         [password.encode('utf-8')],
                 'uid':                  email.encode('utf-8'),
                 'objectClass':          [b'Externo']
             })
             ldap_server.add_s(dn,modList)
         except Exception as e:
-            return {'error':str(e)}
+            return {'error':str(e),'aqui':'error'}
 
         result = {'extern_data':'success' }
         return jsonify(result)
