@@ -158,28 +158,78 @@ las operaciones de búsqueda. Además posee facilidades para la organización de
 asociándolos a entidades, grupos y cualquier otra unidad organizacional en la que se necesiten
 agrupar a los datos. Dichos datos serán consumidos directamente de las mismas fuentes de las
 que se alimenta Directorio Único. Existirá, para esto, un capa de software intermedio capaz de
-transformar los datos a un formato compatible con el protocolo LDAP. Y en caso de que se
-necesite guardar alguna información que no este incluida en las fuente, es en esta capa donde
-será generada.
+transformar los datos a un formato compatible con el protocolo LDAP, específicamente el formato 
+LDIF. Dicho formato propone la declaración de los atributos, que componen la información de un 
+usuario, a través de pares de llaves y valores. A continuación se puede observar, como ejemplo,
+una entrada del servidor LDAP expresada en este formato. La misma representa la información
+comúnmente almacenada con respecto a un usuario que no está directamente asociado a la Universidad.
+
+\begin{verbatim}
+	dn: uid=labf@fq.uh.cu,ou=Externo,dc=uh,dc=cu
+	area: N/D
+	assets: 1
+	cargo: JEFE DE DEPARTAMENTO (ADM FACULTAD)
+	categoriadocenteinvestigativa: N/D
+	centrodegraduacion: N/D
+	ci: 38081015203
+	ciudadania: N/D
+	cn: Luis Enrique
+	correo: labf@fq.uh.cu
+	cuotainternet: 0
+	dependencia: UH: FACULTAD DE QUIMICA
+	direccion: N/D
+	direcciondelcentro: N/D
+	edad: 23
+	esbaja: FALSE
+	escuadro: TRUE
+	fechadecreacion: 1486962000
+	fechadebaja: 2145889787
+	fechaderegistro: 1484542800
+	gradocientifico: N/D
+	lugardenacimiento: N/D
+	municipio: N/D
+	objectclass: Externo
+	objectclass: top
+	provincia: N/D
+	raza: Blanca
+	sexo: M
+	sn: brahin Fuente
+	tienechat: TRUE
+	tienecorreo: TRUE
+	tieneinternet: TRUE
+	uid: luis.enrique.brahin.fuente_182711
+	ujc: FALSE
+	userpassword: {SSHA}n9+lgnpEQv63Ky7smvxyISK1Gb3dq
+\end{verbatim}
+
+En caso de ser necesario guardar alguna información que no este incluida en las fuente, es en 
+esta capa donde será generada.
 
 Actualmente existe muchos servicios que saben como comunicarse directamente con el protocolo
-LDAP. Pero no todos incluyen esta funcionalidad. Es debido a esto, que es necesario implementar
+LDAP. Pero no todos incluyen esta funcionalidad. Por esta razón, es necesario implementar
 una interfaz, una capa de abstracción entre LDAP y el resto de los servicios, que permita su
 comunicación. El protocolo de comunicación más común entre servicios web es el de HTTP. Por eso
 pretendemos implementar una RESTFUL Api para garantizar la interacción de nuestro sistema, con
-todos los servicios que puedan necesitar consumir la información que almacenaremos. Los servicios
+todos los servicios que necesiten consumir la información que almacenaremos. Los servicios
 que brindara dicha Api son los siguiente:
 
 \begin{enumerate}
-	\item Consultar la información acerca de cualquiera de las usuario almacenados en el sistema,
-	siempre y cuando cuente con el permiso necesario.
-	\item Introducir y actualizar la información de los usuarios, tanto de estudiantes, como de 
+	\item Consultar la información acerca de cualquiera de las usuario almacenados en el sistema.
+	\item Agregar la información nuevos usuarios, así como asignarles una cuota de internet y un
+		usuarion de correo.
+	\item Actualizar la información de los usuarios, tanto de estudiantes, como de 
 	trabajadores y externos.
+	\item Definir preguntas de seguridad para cada usuario, que le permitan al mismo recuperar
+		sus credenciales.
 	\todo[inline, color=yellow]{no se si las puse muy genericas? se me queda algo fuera?}
 \end{enumerate}
 
-El capítulo siguiente presentaremos las tecnologías usadas como base para la implementación del
-sistema.
+Realizar cualquiera de estas acciones, requiere pasar el proceso de autenticación de dicha API
+y poseer los permisos necesarios para la funcionalidad correspondiente.
+
+Antes de decidir el enfoque a seguir para la implementación de la solución propuesta, se tuvo en
+cuenta varias tecnologías. A continuación las presentamos y argumentamos nuestra elección.
+
 
 
 

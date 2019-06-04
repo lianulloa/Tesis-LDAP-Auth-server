@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef96cb5-53d5-4123-9ab7-6042cf02b43d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/resources.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ldif_from_database/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ldif_from_database/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ldif_from_database/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ldif_from_database/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ldif_from_database/output/workers.ldif" beforeDir="false" afterPath="$PROJECT_DIR$/../ldif_from_database/output/workers.ldif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,72 +13,149 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Microsoft SQL Server@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Microsoft SQL Server@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="Nomina_UH: database" type="ccb7ac2a:MsImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Microsoft SQL Server@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="Nomina_UH: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Microsoft SQL Server@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="Nomina_UH: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Conversion_Plazas">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true">
+                <filter text="" />
+              </filtering>
+              <column-attributes>
+                <column name="%%physloc%%" enabled="false" />
+              </column-attributes>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+        <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Plantilla">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" text="facul">
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Parametros">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true">
+                <filter text="" />
+              </filtering>
+              <column-attributes>
+                <column name="%%physloc%%" enabled="false" />
+              </column-attributes>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Plantilla_Detalles">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true">
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
+        <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/Empleados_Gral">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true">
+                <filter text="" />
+                <filter text="Id_Direccion" />
+                <filter text="Id_Cargo = 4" />
+                <filter text="Id_Cargo" />
+              </filtering>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Area_Trabajo_Actual">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true">
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/resources.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="36" column="74" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
+        <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/InfoCorporativa_RRHH_Xml">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true">
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/parser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
+        <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Colectivos">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true">
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Contratos_Tipos">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true">
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
@@ -106,17 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/ldap_api.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-20" />
     <option name="y" value="50" />
     <option name="width" value="1750" />
@@ -127,29 +189,15 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ldap_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ldap_api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ldap_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ldap_api" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/run.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -193,18 +241,24 @@
       <workItem from="1557120759196" duration="1796000" />
       <workItem from="1557122636983" duration="377000" />
       <workItem from="1557123042354" duration="75000" />
+      <workItem from="1557865158361" duration="836000" />
+      <workItem from="1557866009189" duration="170000" />
+      <workItem from="1557866190155" duration="1149000" />
+      <workItem from="1557867422105" duration="1945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2248000" />
+    <option name="totallyTimeSpent" value="6348000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="40" width="1400" height="784" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25707898" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23793566" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="DB Browser" order="3" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32956153" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32924962" />
@@ -214,16 +268,43 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32924962" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32924962" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3026874" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3281471" />
+      <window_info anchor="bottom" id="DB Execution Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297587" />
+      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.20375335" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23793566" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="DB Browser" order="3" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32956153" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32924962" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3026874" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3281471" />
+      <window_info anchor="bottom" id="DB Execution Console" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297587" />
+      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.20375335" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -237,23 +318,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="561">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="323">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
@@ -264,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/resources.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="36" column="74" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
+        <state relative-caret-position="1088">
+          <caret line="80" column="74" selection-start-line="80" selection-start-column="74" selection-end-line="80" selection-end-column="74" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
@@ -279,13 +357,1225 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/master/schema/dbo/table/spt_monitor">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6ed9469b-15ee-4a90-81ad-3c582020b634/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Inicio">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Municipios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Plantilla_Plazas">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Ubicacion_Defensa">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Profesiones">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_MSTurnosTrabajo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_MSGruposTrabajadores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Grupo_Escala">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Grados_Cientificos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_GrpEvaluativos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Expedientes_Deducciones">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_ESTADISTICAS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Especialidad_Graduado">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Deducciones">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Cuadre_SubM">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_CSS_IIP_Saldos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Control">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Contratos_Tipos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Colectivos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Area_Trabajo_Actual">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/InfoCorporativa_RRHH_Xml">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Conversion_Plazas">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Plantilla">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" text="facul">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Parametros">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/RH_Plantilla_Detalles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/6ed9469b-15ee-4a90-81ad-3c582020b634.DATABASE:Nomina_UH">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>6ed9469b-15ee-4a90-81ad-3c582020b634.DATABASE:Nomina_UH</OriginalElement>
+          <nodes>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysextsources</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_partition_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysfgfrag</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.syscolumns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sql_dependencies</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.message_type_xml_schema_collection_usages</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_spinlock_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_PreNomina_Aus</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Calendarios_Irregulares_Gen</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_hadr_availability_replica_cluster_states</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_io_cluster_shared_drives</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_tran_session_transactions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_xe_session_event_actions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Regularidades_ValeSalida</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.syslnklgns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.systypes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Historico_Empleados_Altas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_server_audit_status</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.syssingleobjrefs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_AjustesSubmayorRetenciones</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.FzImport_SDBTables</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Clasificacion_P2</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_tran_database_transactions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Nominillas_Ret_Rpt</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.service_contract_usages</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Regularidades_Factura</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Util_Tool_Clasif</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_dispatchers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.system_components_surface_area_configuration</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.fulltext_index_columns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_AjustesSubmayorVacaciones</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_qn_subscriptions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.queue_messages_1489036686</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Otros_Pagos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Jornadas_Laborales</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.database_query_store_options</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Contratos_Tipos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_MSEstimuloCargosEconom</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_Tarifa_Horaria</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_function_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.RH_Corporativo_Defensa</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.masked_columns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.RH_Onei_5202_01_1</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysxlgns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_tran_version_store_space_usage</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Calendarios_Feriados</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_tran_global_transactions_enlistments</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_mirroring_auto_page_repair</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.syssqlguides</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.key_constraints</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysallocunits</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.configurations</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.query_store_runtime_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysobjvalues</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_DesglosePagoEfectivoBanco</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_tran_global_transactions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.database_credentials</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Estimulacion</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Plantilla_Detalles</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Clasificacion_producto</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_tran_active_transactions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.FzTables</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.query_store_query_text</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.column_store_row_groups</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sqlagent_job_history</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.availability_group_listeners</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_xe_map_values</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysclsobjs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_tran_global_recovery_transactions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Cedulas_Movimientos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Cargos_RMPH</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_repl_articles</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.CH_Fondos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysbinsubobjs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Historico_Subsidio</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Fundamentacion_Altas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Nominillas_Rpt</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.servers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Calendarios_Irregulares_Det</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_cached_plans</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysftproperties</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_event_sessions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysaudacts</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.xml_schema_wildcard_namespaces</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Area_Trabajo_Actual</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_MS_PM</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_ESTADISTICAS</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_xtp_checkpoint_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.RH_Corporativo_Plantilla_Cargos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_hadr_instance_node_map</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Caracterizacion_Entidad</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_trigger_events</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.FzImport_Cmd</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Historico_Inicio</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.parameter_xml_schema_collection_usages</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.column_store_dictionaries</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.symmetric_keys</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.FzImport_Source_Tables</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Tipo_Analisis_Regularidades</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_tran_global_transactions_log</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysmembers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.DOMAINS</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.query_store_wait_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysdbfiles</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Util_Tool_Clasif_Entradas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_file_audits</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysconstraints</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_memory_clerks</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.COLUMN_PRIVILEGES</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_memory_brokers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_query_memory_grants</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_xtp_gc_cycle_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sql_logins</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_tran_transactions_snapshot</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.parameters</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.linked_logins</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.external_library_files</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_events</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_external_work</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Tmp_Contabilizacion_Salarios_Vinculados</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Subsidios</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.function_order_columns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.soap_endpoints</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Clasificacion_Facturas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_memory_broker_clerks</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.resource_governor_external_resource_pools</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.trace_subclass_values</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Unidades_Organizativas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_audit_class_type_map</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.xml_schema_facets</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.backup_devices</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.routes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Tmp_Contabilizacion_Deducc_Nominillas_Vacation</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Bank_Dbf_Merge_Tmp</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_filestream_non_transacted_handles</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysforeignkeys</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Inicio</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.xml_schema_components</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.conversation_priorities</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_worker_local_storage</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Detalle_Comprobante</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Activo_Fijo_Tipos_Salidas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.CRM_Cliente_Productos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_xtp_gc_queue_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Tmp_Contabilizacion_Nominillas_Salario</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Historico_Submayor_Subsidios</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_hadr_name_id_map</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Afectados_Pago_Divisa</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysfos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Categorias_Docente_Invest</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_xtp_table_memory_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Calendarios_Tipos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.CONSTRAINT_TABLE_USAGE</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_GrpEvaluativos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Provincias</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.syslanguages</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.availability_databases_cluster</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Especialidad_Graduado</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysrts</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Organismo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Plantilla_Plazas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Acceso</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_session_space_usage</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Versat_Config</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.availability_groups_cluster</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Subsidios_Ret</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_Afectados_Pago_Divisa</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysmultiobjvalues</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_MSIncidenciasMS</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Subcategorias_Ocupacionales</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Temporal_Vacaciones</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_ZeroDayAjt</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_tuning_recommendations</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Comprobante</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.databases</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysprotects</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_memory_cache_clock_hands</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.syscscontainers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_external_script_requests</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.CH_Regularidades</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sqlagent_jobsteps</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.RH_Corporativo_InfoCorporativa</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.xml_schema_model_groups</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.syscursorcolumns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.transmission_queue</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.InfoCorporativa_RRHH</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalle_Devolucion</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.SysFiles_dm</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.remote_data_archive_databases</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Pago_Comedor</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Regularidades_Recepcion</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysftsemanticsdb</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_xe_session_targets</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_Nominillas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysendpts</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Bank_Dbf_Merge</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Detalle_Devolucion</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysdesend</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysconvgroup</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_Ausencias</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.partition_range_values</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysperfinfo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_xe_object_columns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysusermsgs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Deducciones</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_procedure_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Tmp_Contabilizacion_Reintegros</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Clasificacion_Recepciones</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_tran_version_store</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.queue_messages_1553036914</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_resource_governor_resource_pool_volumes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysopentapes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.numbered_procedures</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Historico_Otros_Pagos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.systypedsubobjs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_windows_info</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.syschildinsts</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_task_space_usage</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Organizaciones_Masas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysremsvcbinds</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.dtproperties</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sql_expression_dependencies</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Equipo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.xml_schema_types</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_filestream_file_io_requests</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysxmitbody</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_threads</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.database_mirroring_witnesses</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.xml_schema_wildcards</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.KEY_COLUMN_USAGE</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Cz_Module_Active</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Centro_Pago</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Tmp_Contabilizacion_Deducc_Nominillas_Subsidios</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.system_objects</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysdepends</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.CRM_Cliente_Contactos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.resource_governor_resource_pool_affinity</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.external_data_sources</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Historico_Nomina_Vinculados</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Subsidios_Adelantados</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_xtp_transaction_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysrscols</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Historico_CSS_IIP</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_host_info</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Temporal_Nominilla</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Historico_Vacaciones</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.TABLE_CONSTRAINTS</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.filetables</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.SysIndexesSys</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Claves_Tarjeta</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysusers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Empleados_Idiomas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.events</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_valid_use_hints</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_requests</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Empleados_Cambio_Pago</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_event_session_actions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Profesiones_General</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.destination_data_spaces</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.plan_guides</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Empleados_Rpt_Gral</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_hadr_cluster_members</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_missing_index_groups</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.assembly_files</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Nominillas_Ret_Mov</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_tran_top_version_generators</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.fulltext_catalogs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.fulltext_stopwords</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_background_job_queue_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.all_parameters</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.syscscolsegments</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysfulltextcatalogs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Historico_Nomina_FeriadosVC</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.conversation_groups</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Tipo_Partida_Regularidades</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_memory_node_access_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysowners</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.System_Users</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.syscursortables</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.remote_logins</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Tipo_SubAnalisis_Regularidades</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Vinculacion_RCG</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.fulltext_system_stopwords</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysmultiobjrefs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Opciones_Sistema</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.schemas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Comprobante_Export</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.types</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_mirroring_connections</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_process_memory</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.database_mirroring</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.trace_xe_event_map</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Nivel_Agrupacion</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_PreNomina_Imp</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Empleados_Gral_Externa</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Caracterizacion_Finanzas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.filetable_system_defined_objects</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_ring_buffers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_resource_governor_external_resource_pool_affinity</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.RH_Corporativo_Prom_Trabaj</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_fts_index_population</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Opciones_Sistema_Clasif</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_MSClasifEmpleadosEstimulacion</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.syscursors</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.plan_persist_plan</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.syscommittab</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalle_Comprobante_Posteos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_dms_workers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Reintegros_Slr</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.SCHEMATA</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysnsobjs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Categoria</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Activo_Fijo_Tipos_Movim</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_event_session_fields</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.service_contracts</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_AjustesCSS</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_log_space_usage</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.memory_optimized_tables_internal_attributes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysxsrvs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Tmp_Vacaciones_Sobregiradas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.spatial_index_tessellations</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Nominillas_Xls_Err</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.plan_persist_runtime_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.objects</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Estimulacion_Puntos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_Estimulacion</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Idoneidad_Movil</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Resumen_de_Cobros</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_query_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.RH_Corporativo_DirectosIndirectos_Aprob</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysguidrefs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Devolucion</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.service_broker_endpoints</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_MS_EE</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Formas_Pago</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.TABLE_PRIVILEGES</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_fts_semantic_similarity_population</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Ubicacion_Defensa</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Historico_Nomina_FeriadosSF</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Util_Tool_Clasif_Salidas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.xml_schema_elements</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_server_registry</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysfiles1</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.fulltext_semantic_language_statistics_database</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.database_role_members</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_principal_credentials</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.query_store_plan</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_buffer_descriptors</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Cuenta</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_MSGruposTrabajadores</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_cdc_errors</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_assembly_modules</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.all_sql_modules</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Control_ActivoFijo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.periods</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.all_views</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysfiles</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Regularidades_Nomina</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_xtp_gc_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Cz_Module_Lc</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_hadr_automatic_seeding</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_repl_schemas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_query_optimizer_memory_gateways</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_memory_cache_hash_tables</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_column_store_row_group_operational_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.database_files</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_session_wait_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.assembly_types</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.column_encryption_key_values</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Tipo_SubCuentas_Regularidades</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_audit_specification_details</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_hadr_cluster</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.trigger_events</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Colectivos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Empleado_Accesos_Cancel</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_xe_session_events</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.table_types</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_Ajustes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.internal_partitions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_connections</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_memory_allocations</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.syscsdictionaries</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Empleados_Movimientos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_distributed_request_steps</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Tarifa_Horaria</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_DesglosePagoEfectivoBancoRD</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Control</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.security_policies</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_uncontained_entities</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_latch_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_resource_governor_external_resource_pools</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Causas_Bajas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.master_key_passwords</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.syssoftobjrefs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.messages</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.ParametrosCom</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_persisted_sku_features</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_repl_traninfo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Niveles_Escolaridad_Clasif</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_missing_index_group_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Variaciones_Plantilla_Detalles</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_tran_active_snapshot_database_transactions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Historico_Nominilla</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.master_files</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_hadr_database_replica_states</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.all_columns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysexttables</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.column_store_segments</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_missing_index_details</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.service_queues</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_fts_fdhosts</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.fulltext_index_catalog_usages</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.external_file_formats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.spatial_reference_systems</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysobjkeycrypts</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.time_zone_info</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Expedientes_Movimientos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Temporal_CSS_IIP_Expedientes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_memory_pools</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysxmlcomponent</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.openkeys</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.plan_persist_context_settings</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysfoqueues</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysphfg</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.triggers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.cryptographic_providers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_clr_properties</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.endpoints</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Rutas_Distribucion</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.index_resumable_operations</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_DesglosePagoEfectivoBancoPorcientos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.VIEW_COLUMN_USAGE</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Productos_Historia</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_sys_info</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.SysObjectsSys</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Tmp_Contabilizacion_Deducc_Nominillas_Reintegros</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysxmlplacement</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.RH_Corporativo_CargosDirectivos_Detallado</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_tran_commit_table</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_broker_connections</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Ausencias</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_hadr_auto_page_repair</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_child_instances</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Temporal_Estimulacion_Puntos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_nodes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.plan_persist_query_hints</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Conversion_Plazas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Cuadre_SubM</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_sql_modules</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.indexes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Cz_Module_Active_Bck</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Centro_Costo_Grupos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_fts_memory_pools</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Turnos_Nocturnos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Tarjeta_SNC225</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Activo_Fijo_Tipos_Entradas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.DOMAIN_CONSTRAINTS</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Causas_Ajuste_Inventario</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.Factura_Def</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Empleados_Otros_Pagos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.traces</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_xtp_object_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Empleados_Nomina</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.partition_schemes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Tmp_Contabilizacion_Deducc_Nominillas_Salario</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.filegroups</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.syscolpars</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_database_encryption_keys</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.procedures</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.trace_events</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_xe_packages</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.xml_schema_attributes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.fulltext_stoplists</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Temporal_General</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.InfoCorporativa_RRHH_Xml</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.database_audit_specifications</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Categorias_Ocupacionales</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_Subsidios</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_xtp_transaction_recent_rows</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.registered_search_properties</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.securable_classes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysextfileformats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.trace_columns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_fts_memory_buffers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Regularidades_Utiles</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Tipos_Reg_Values</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_CLA</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysoledbusers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Empleado</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Nominillas_Mov_Imp</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Util_Tool_Clasif_Traslados</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Factura</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_audit_actions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_background_job_queue</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysprufiles</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Calendarios</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.trace_event_bindings</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Caracterizacion_Contabilidad</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_Horas_Extra</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.foreign_keys</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.filestream_tombstone_1585037028</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.user_token</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_tcp_listener_states</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.syslogins</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.conversation_endpoints</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_sys_memory</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.syscursorrefs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Temporal_CSS_IIP</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_xtp_system_memory_consumers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.availability_group_listener_ip_addresses</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.type_assembly_usages</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.system_views</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_xtp_nonclustered_index_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_xtp_memory_consumers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_file_space_usage</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_clr_appdomains</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Actividades_Normadas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_MSTurnosTrabajo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Reintegros_Sbs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysasymkeys</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysremotelogins</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Subclasificacion_Contable</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_resource_governor_workload_groups</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Expedientes_Deducciones</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysfilegroups</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysobjects</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_sublatches</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.fulltext_semantic_languages</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_distributed_sql_requests</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.system_internals_partitions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Divisa_Xls_Err</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.ROUTINES</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_MSAntiguedad</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Regularidades_Pagos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Temporal_Subsidio</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.partition_functions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.event_notification_event_types</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Historico_Empleados_Bajas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_query_transformation_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Cliente</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_mirroring_past_actions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Temporal_Nomina_FeriadosVC</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.wpr_bucket_table</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.system_columns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.all_objects</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.database_automatic_tuning_options</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Historico_Nomina_Sueldo_Fijo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_xe_sessions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Clasificacion_No_Facturar</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.resource_governor_external_resource_pool_affinity</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_xe_objects</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Variaciones_Plantilla</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.partition_parameters</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Profesiones</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysclones</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_Vinculacion</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.numbered_procedure_parameters</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_compute_node_errors</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Vinculacion_RCD</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_xtp_transactions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.endpoint_webmethods</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Producto</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysprivs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Temporal_Otros_Pagos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_xe_session_object_columns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_xtp_hash_index_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_Idoneidad_Movil</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.plan_persist_query_template_parameterization</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_fts_index_physical_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.system_parameters</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Temporal_Submayor_Deducciones</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.resource_governor_resource_pools</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Reloj_Marcajes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Impuesto_CSS</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysscalartypes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Temporal_Nomina_Sueldo_Fijo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_hadr_availability_replica_states</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.database_scoped_configurations</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_audits</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Impunt</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_AjustesIIP</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_principals</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Sg0001</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.RH_Corporativo_Grupos_Categorias</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Calendarios_Inicio</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Cargos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.availability_groups</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_trigger_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.CH_Conceptos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Tmp_Contabilizacion_Nominillas_Subsidios</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Nominillas_Mov</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_role_members</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Nivel_Corporativo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Regularidades_FN</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Claves_Subsidios</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.xml_indexes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Reloj_Altas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_logpool_hashentries</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_event_notifications</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_io_pending_io_requests</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.identity_columns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_fts_population_ranges</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_event_session_events</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.syscomments</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysindexes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_io_backup_tapes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.query_store_runtime_stats_interval</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Temporal_Nomina_FeriadosSF</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Capacitacion</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_permissions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_triggers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysindexkeys</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Moneda</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sqlagent_jobs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.queue_messages_1521036800</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.database_filestream_options</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysreferences</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.data_spaces</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Claves_Impuntualidades</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_MS</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.VIEW_TABLE_USAGE</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Reloj_Nodos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Areas_Responsabilidad</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Parametros</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.column_xml_schema_collection_usages</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysiscols</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Orden_Trabajo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Control_Contabilidad</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.Errores_Recibo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.resource_governor_configuration</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysdatabases</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_hadr_cluster_networks</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.syscharsets</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.query_context_settings</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.plan_persist_runtime_stats_interval</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_dms_services</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_hadr_physical_seeding_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_Reintegros</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Especificacion_Insumo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Tipo_Epigrafe_Regularidades</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Devolucion</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.tcp_endpoints</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.change_tracking_tables</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_compute_node_status</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysservers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.credentials</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Historico_Empleados_Datos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalle_Comprobante</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.column_encryption_keys</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.PARAMETERS</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.database_scoped_credentials</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_fts_outstanding_batches</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.database_mirroring_endpoints</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Vacaciones</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Tmp_Contabilizacion_Deducc_Vacation</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sql_modules</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.computed_columns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.external_libraries</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.asymmetric_keys</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysrowsetrefs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysprocesses</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.service_contract_message_usages</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_resource_governor_resource_pools</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.syswebmethods</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.System_Trace_L2_Detail</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_waiting_tasks</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Almacen</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.assembly_modules</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Clasificacion_Nominillas_MS</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_memory_objects</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Tmp_Contabilizacion_Nominillas_Reintegros</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Control_System_Trace_L2</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_resource_governor_configuration</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Claves_Ausencias</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Grupo_Escala</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.syscacheobjects</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_resource_governor_resource_pool_affinity</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Vinculacion_DI</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Promedio_Subsidio</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Tmp_Contabilizacion_Deducc_Subsidios</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Jornadas_Irregulares</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.persistent_version_store</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.database_recovery_status</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Factura</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.crypt_properties</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Idiomas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_memory_cache_entries</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.FzImport_Data</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_xtp_checkpoint_files</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_cluster_properties</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Tmp_Contabilizacion_Salarios</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.fulltext_languages</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Countries</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.syscompfragments</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_audit_specifications</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_workers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.xml_schema_namespaces</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_rda_migration_status</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Tablas_Comm</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.system_internals_allocation_units</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.server_event_session_targets</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysdevices</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_cdc_log_scan_sessions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_server_services</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_PreNomina</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.service_message_types</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.xml_schema_collections</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysrowsets</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysrmtlgns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.system_sql_modules</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.plan_persist_query</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Formato_XXL</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_Otros_Pagos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.views</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.extended_properties</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_column_store_object_pool</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysbinobjs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.fulltext_indexes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysbrickfiles</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.hash_indexes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_query_parallel_workers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_distributed_requests</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.tables</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.syspru</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_query_resource_semaphores</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Plantilla</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_virtual_address_dump</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.service_queue_usages</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.ROUTINE_COLUMNS</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.columns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_Descuento_Comedor</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.RH_Onei_5205_01_2</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.filetable_updates_742150285</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Unidades_Medida</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.availability_read_only_routing_lists</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Detalle_Factura</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_index_usage_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysqnames</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.SEQUENCES</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_clr_tasks</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysmessages</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysxprops</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Regularidades_Ajuste</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.syscurconfigs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sqlagent_jobsteps_logs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Especificacion_ActivoFijo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.registered_search_property_lists</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysftinds</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.trace_categories</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Divisa</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.syspermissions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_cluster_nodes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Tmp_Contabilizacion_Deducc_Salarios</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_MSIncidenciasEstimulo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysftstops</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Descuento_Comedor_Xls_Err</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Centro_Costo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_Impuesto_CSS</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysxmlfacet</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Tabla_NCF</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.services</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysdbreg</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_AjustesTarjetaSNC_225</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_enumerate_fixed_drives</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysaltfiles</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_tasks</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.trace_xe_action_map</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_Estimulacion_Puntos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_query_optimizer_info</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.syscsrowgroups</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.CHECK_CONSTRAINTS</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.persistent_version_store_long_term</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.security_predicates</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_rda_schema_update_status</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_Vacaciones</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Vacaciones_Ret</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_external_script_execution_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Cliente_Puntos_Entrega</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.index_columns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.plan_persist_wait_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Obras</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_compute_nodes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Empleados_Organizaciones_Masas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_stacks</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.VIEWS</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Horas_Extra</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.TABLES</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Tmp_Contabilizacion_Nominillas_Vacation</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_CSS_IIP_Saldos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_hadr_availability_replica_cluster_nodes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_external_operations</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.change_tracking_databases</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_repl_tranhash</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.query_store_query</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_CLA</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.COLUMN_DOMAIN_USAGE</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Regularidades_ActivoFijo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_hadr_database_replica_cluster_states</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.fulltext_document_types</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_schedulers</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_MSIncidenciasEstimuloCargosEconom</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_DescuentosMasivos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.remote_data_archive_tables</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.http_endpoints</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysschobjs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.trigger_event_types</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Nominillas_Xls_Tmp</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.column_master_keys</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.xml_schema_component_placements</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.RH_Corporativo_DirectosIndirectos_Cub</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_server_diagnostics_log_configurations</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Municipios</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_io_cluster_valid_path_names</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Niveles_Escolaridad</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_performance_counters</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_broker_activated_tasks</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.check_constraints</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.database_audit_specification_details</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.foreign_key_columns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.System_Trace_L2</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.database_principals</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.parameter_type_usages</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.partitions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.login_token</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.syspriorities</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_broker_queue_monitors</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.database_automatic_tuning_mode</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_wait_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_tran_current_transaction</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sequences</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_hosts</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.spatial_indexes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_AjustesSubmayorSubsidios</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.module_assembly_usages</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Reintegros</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.resource_governor_workload_groups</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.event_notifications</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_sessions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.assemblies</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Clasificacion_Cliente</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Historico_Submayor_Deducciones</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysxmitqueue</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysdercv</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_clr_loaded_assemblies</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.RH_Onei_5205_01_1</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.syscerts</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_loaded_modules</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.RH_Estimulacion_Puntos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.key_encryptions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysseobjvalues</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_memory_cache_counters</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_dispatcher_pools</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Concepto</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Reloj_Bajas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.System_Trace</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.INFORMATION_SCHEMA.COLUMNS</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Salarios_Adicionales</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_script_level</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Canales_Distribucion</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.fulltext_index_fragments</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Empleados_Centro_Costo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.syslockinfo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Empleados_Capacitacion</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.database_permissions</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Descuento_Comedor</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Regularidades_Cobros</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_Pago_Comedor</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_MSAntiguedad_GS_CO</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Otros_Pagos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_column_store_row_group_physical_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.trusted_assemblies</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.extended_procedures</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Historico_Estimulacion_Puntos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_cryptographic_provider_properties</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Generales_Reporte_Divisa</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.assembly_references</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_broker_forwarded_messages</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Temporal_Salario</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalle_Factura</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.internal_tables</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.plan_persist_query_text</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Causas_Altas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Vinculacion_OT_AN</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.certificates</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.Empleados_Gral</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_tran_current_snapshot</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_exec_query_profiles</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_GrpSendRec</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_filestream_file_io_handles</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_server_memory_dumps</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_xtp_index_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.synonyms</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Nivel_Grupo</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.default_constraints</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_db_xtp_checkpoint_internals</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_logpool_stats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_fts_active_catalogs</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.system_internals_partition_columns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.SysFiles_dml</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysidxstats</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Estimulacion_Xls_Err</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_xtp_threads</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_MS_ET</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_memory_nodes</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Historico_Submayor_Vacaciones</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.remote_service_bindings</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_os_buffer_pool_extension_configuration</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Assets_Licencia</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_tran_locks</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Control_Inventario</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.dm_hadr_availability_group_states</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Detalles_Reporte_Nominillas_Mov_Aus</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Causas_Movimientos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.dbo.Areas_Geograficas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.stats_columns</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Reporte_Dias_Feriados</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.column_type_usages</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Grados_Cientificos</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.allocation_units</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Comprobante</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.availability_replicas</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.via_endpoints</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Temporal_Nomina_Vinculados</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.sys.sysdbfrag</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.TABLE:Nomina_UH.dbo.RH_Actividades</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.sysconfigures</node>
+            <node x="" y="">6ed9469b-15ee-4a90-81ad-3c582020b634.VIEW:Nomina_UH.sys.external_tables</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.05823346648912561" x="5779.0" y="5873.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6ed9469b-15ee-4a90-81ad-3c582020b634/database/Nomina_UH/schema/dbo/table/Empleados_Gral">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+            <filter text="Id_Direccion" />
+            <filter text="Id_Cargo = 4" />
+            <filter text="Id_Cargo" />
+          </filtering>
         </state>
       </provider>
     </entry>

@@ -26,3 +26,4 @@ apps/ldap_api/client_db.dir
 apps/ldap_api/config.py
 apps/ldap_api/cp_keys/
 apps/ldap_api/static/
+.idea/
