@@ -69,4 +69,8 @@ echo "If everything is ok then you can send emails with command line client"
 echo "WHEN TESTING, PLEASE REMEMBER TO CREATE USER HOME LOGIN HIM"
 
 
+# GIVE PERMISSION SO POSTFIX CAN MODIFY /HOME
+chown root:groupIX /home
+chmod 775 /home
+
 /bin/bash
