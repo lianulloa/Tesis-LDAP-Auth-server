@@ -1,0 +1,6 @@
+server_host = ldap://172.17.0.3
+search_base = dc=uh,dc=cu
+version = 3
+scope = sub
+query_filter = (correo=%s)
+result_attribute = uid

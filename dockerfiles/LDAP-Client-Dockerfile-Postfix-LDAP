@@ -2,22 +2,22 @@ FROM m_l/postfix_dovecot
 MAINTAINER Lian Ulloa l.ulloa@estudiantes.matcom.uh.cu
 
 # COPY /mail/virtual /etc/postfix/
-COPY /mail/mysql-virtual-alias-maps.cf /etc/postfix/mysql-virtual-alias-maps.cf
+COPY /mail/ldap-virtual-alias-maps.cf /etc/postfix/ldap-virtual-alias-maps.cf
 COPY /scripts/configure-ldap-client-using-expect.sh /root/
-COPY /scripts/install-mysql-server.sh /root/
-COPY /scripts/configure-mysql.sh /root/
-COPY /scripts/create-mail-database.sh /root/
-COPY /scripts/configure-phpmyadmin.sh /root/
-COPY /scripts/start-postfix.sh /root/
+# COPY /scripts/install-mysql-server.sh /root/
+# COPY /scripts/configure-mysql.sh /root/
+# COPY /scripts/create-mail-database.sh /root/
+# COPY /scripts/configure-phpmyadmin.sh /root/
+COPY /scripts/start-postfix-ldap.sh /root/
 COPY /scripts/.bashrc /etc/skel/
 # COPY /scripts/exit.sh /root/
 
 RUN chmod +x /root/configure-ldap-client-using-expect.sh
-RUN chmod +x /root/install-mysql-server.sh
-RUN chmod +x /root/configure-mysql.sh
-RUN chmod +x /root/create-mail-database.sh
-RUN chmod +x /root/configure-phpmyadmin.sh
-RUN chmod +x /root/start-postfix.sh
+# RUN chmod +x /root/install-mysql-server.sh
+# RUN chmod +x /root/configure-mysql.sh
+# RUN chmod +x /root/create-mail-database.sh
+# RUN chmod +x /root/configure-phpmyadmin.sh
+RUN chmod +x /root/start-postfix-ldap.sh
 # RUN chmod +x /root/exit.sh
 
 
@@ -30,7 +30,7 @@ COPY /scripts/start-dovecot.sh /root/
 RUN chmod +x /root/start-dovecot.sh
 
 
-ENTRYPOINT [ "/root/start-postfix.sh" ]
+ENTRYPOINT [ "/root/start-postfix-ldap.sh" ]
 
 # TENER EN CUENTA QUE HAY QUE AGREGAR LOS NUEVOS USUARIOS AL ARCHIVO VIRTUAL DE POSTFIX
 # Y CREAR EL HOME DE CADA USUARIO DE MANERA AUTOMATICA LOGUEANDO EL USUARIO
