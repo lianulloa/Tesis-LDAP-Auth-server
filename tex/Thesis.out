@@ -16,21 +16,23 @@
 \BOOKMARK [1][-]{section.2.2}{Docker}{chapter.2}% 16
 \BOOKMARK [2][-]{subsection.2.2.1}{\277Qu\351 es Docker?}{section.2.2}% 17
 \BOOKMARK [2][-]{subsection.2.2.2}{\277Qu\351 es un contenedor de docker?}{section.2.2}% 18
-\BOOKMARK [1][-]{section.2.3}{EA3}{chapter.2}% 19
-\BOOKMARK [1][-]{section.2.4}{EA4}{chapter.2}% 20
-\BOOKMARK [1][-]{section.2.5}{EA5}{chapter.2}% 21
-\BOOKMARK [0][-]{chapter.3}{Implementaci\363n del sistema}{}% 22
-\BOOKMARK [1][-]{section.3.1}{Consideraciones previas}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.2}{SI2}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.3}{SI3}{chapter.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.1}{SI3.1}{section.3.3}% 26
-\BOOKMARK [2][-]{subsection.3.3.2}{SI3.2}{section.3.3}% 27
-\BOOKMARK [2][-]{subsection.3.3.3}{SI3.3}{section.3.3}% 28
-\BOOKMARK [1][-]{section.3.4}{Desarrollo de la soluci\363n}{chapter.3}% 29
-\BOOKMARK [0][-]{chapter.4}{Experimentaci\363n y Resultados}{}% 30
-\BOOKMARK [1][-]{section.4.1}{Configuraci\363n}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.2}{Experimentaci\363n}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.3}{Metodolog\355a para medir rendimiento de Squid}{chapter.4}% 33
-\BOOKMARK [0][-]{section*.39}{Recomendaciones}{}% 34
-\BOOKMARK [0][-]{section*.41}{Conclusiones}{}% 35
-\BOOKMARK [0][-]{chapter*.43}{Bibliograf\355a}{}% 36
+\BOOKMARK [1][-]{section.2.3}{Squid}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.4}{Postfix y Dovecot}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.5}{EA3}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.6}{EA4}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.7}{EA5}{chapter.2}% 23
+\BOOKMARK [0][-]{chapter.3}{Implementaci\363n del sistema}{}% 24
+\BOOKMARK [1][-]{section.3.1}{Consideraciones previas}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.2}{SI2}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.3}{SI3}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.1}{SI3.1}{section.3.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.2}{SI3.2}{section.3.3}% 29
+\BOOKMARK [2][-]{subsection.3.3.3}{SI3.3}{section.3.3}% 30
+\BOOKMARK [1][-]{section.3.4}{Desarrollo de la soluci\363n}{chapter.3}% 31
+\BOOKMARK [0][-]{chapter.4}{Experimentaci\363n y Resultados}{}% 32
+\BOOKMARK [1][-]{section.4.1}{Configuraci\363n}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.2}{Experimentaci\363n}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.3}{Metodolog\355a para medir rendimiento de Squid}{chapter.4}% 35
+\BOOKMARK [0][-]{section*.39}{Recomendaciones}{}% 36
+\BOOKMARK [0][-]{section*.41}{Conclusiones}{}% 37
+\BOOKMARK [0][-]{chapter*.43}{Bibliograf\355a}{}% 38
