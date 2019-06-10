@@ -22,6 +22,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -48,8 +50,6 @@ ciudadania: N/D
 cn: user1
 uidNumber: 5001
 gidNumber: 10000
-objectClass: posixAccount
-objectClass: shadowAccount
 homeDirectory: /home/user1
 correo: amartínez@estudiantes.fbio.uh.cu
 cuotainternet: 0
@@ -67,6 +67,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -107,6 +109,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -147,6 +151,8 @@ lugardenacimiento: N/D
 municipio: Marianao
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -187,6 +193,8 @@ lugardenacimiento: N/D
 municipio: Cotorro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -227,6 +235,8 @@ lugardenacimiento: N/D
 municipio: La Lisa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -267,6 +277,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -307,6 +319,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -347,6 +361,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -387,6 +403,8 @@ lugardenacimiento: N/D
 municipio: La Habana Vieja
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -427,6 +445,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -467,6 +487,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -507,6 +529,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -547,6 +571,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -587,6 +613,8 @@ lugardenacimiento: N/D
 municipio: Cerro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -627,6 +655,8 @@ lugardenacimiento: N/D
 municipio: Regla
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -667,6 +697,8 @@ lugardenacimiento: N/D
 municipio: Cerro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -707,6 +739,8 @@ lugardenacimiento: N/D
 municipio: Cerro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -747,6 +781,8 @@ lugardenacimiento: N/D
 municipio: Cerro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -787,6 +823,8 @@ lugardenacimiento: N/D
 municipio: Cerro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -827,6 +865,8 @@ lugardenacimiento: N/D
 municipio: Cerro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -867,6 +907,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -907,6 +949,8 @@ lugardenacimiento: N/D
 municipio: Cerro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -947,6 +991,8 @@ lugardenacimiento: N/D
 municipio: Cerro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -987,6 +1033,8 @@ lugardenacimiento: N/D
 municipio: San Miguel Del Padron
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1027,6 +1075,8 @@ lugardenacimiento: N/D
 municipio: Cerro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1067,6 +1117,8 @@ lugardenacimiento: N/D
 municipio: Cerro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1107,6 +1159,8 @@ lugardenacimiento: N/D
 municipio: Cerro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1147,6 +1201,8 @@ lugardenacimiento: N/D
 municipio: La Habana Vieja
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1187,6 +1243,8 @@ lugardenacimiento: N/D
 municipio: La Habana Vieja
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1227,6 +1285,8 @@ lugardenacimiento: N/D
 municipio: Centro Habana
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1267,6 +1327,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1307,6 +1369,8 @@ lugardenacimiento: N/D
 municipio: Regla
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1347,6 +1411,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1387,6 +1453,8 @@ lugardenacimiento: N/D
 municipio: Centro Habana
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1427,6 +1495,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1467,6 +1537,8 @@ lugardenacimiento: N/D
 municipio: Guanabacoa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1507,6 +1579,8 @@ lugardenacimiento: N/D
 municipio: La Habana Vieja
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1547,6 +1621,8 @@ lugardenacimiento: N/D
 municipio: Guanabacoa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1587,6 +1663,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1627,6 +1705,8 @@ lugardenacimiento: N/D
 municipio: Guanabacoa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1667,6 +1747,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1707,6 +1789,8 @@ lugardenacimiento: N/D
 municipio: Guanabacoa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: TRUE
 provincia: La Habana
@@ -1747,6 +1831,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1787,6 +1873,8 @@ lugardenacimiento: N/D
 municipio: Guanabacoa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1827,6 +1915,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1867,6 +1957,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: TRUE
 provincia: La Habana
@@ -1907,6 +1999,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1947,6 +2041,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1987,6 +2083,8 @@ lugardenacimiento: N/D
 municipio: Cotorro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2027,6 +2125,8 @@ lugardenacimiento: N/D
 municipio: San Miguel Del Padron
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2067,6 +2167,8 @@ lugardenacimiento: N/D
 municipio: San Miguel Del Padron
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2107,6 +2209,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2147,6 +2251,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2187,6 +2293,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2227,6 +2335,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2267,6 +2377,8 @@ lugardenacimiento: N/D
 municipio: Boyeros
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2307,6 +2419,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2347,6 +2461,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2387,6 +2503,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2427,6 +2545,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2467,6 +2587,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2507,6 +2629,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2547,6 +2671,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2587,6 +2713,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: TRUE
 provincia: La Habana
@@ -2627,6 +2755,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2667,6 +2797,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2707,6 +2839,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: TRUE
 provincia: La Habana
@@ -2747,6 +2881,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2787,6 +2923,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2827,6 +2965,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2867,6 +3007,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2907,6 +3049,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2947,6 +3091,8 @@ lugardenacimiento: N/D
 municipio: Boyeros
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2987,6 +3133,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3027,6 +3175,8 @@ lugardenacimiento: N/D
 municipio: San Miguel Del Padron
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3067,6 +3217,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3107,6 +3259,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3147,6 +3301,8 @@ lugardenacimiento: N/D
 municipio: Cumanayagua
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: Cienfuegos
@@ -3187,6 +3343,8 @@ lugardenacimiento: N/D
 municipio: Marianao
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3227,6 +3385,8 @@ lugardenacimiento: N/D
 municipio: Playa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: TRUE
 provincia: La Habana
@@ -3267,6 +3427,8 @@ lugardenacimiento: N/D
 municipio: Marianao
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3307,6 +3469,8 @@ lugardenacimiento: N/D
 municipio: Marianao
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3347,6 +3511,8 @@ lugardenacimiento: N/D
 municipio: Playa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3387,6 +3553,8 @@ lugardenacimiento: N/D
 municipio: La Lisa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3427,6 +3595,8 @@ lugardenacimiento: N/D
 municipio: Bahia Honda
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: Artemisa
@@ -3467,6 +3637,8 @@ lugardenacimiento: N/D
 municipio: Playa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3507,6 +3679,8 @@ lugardenacimiento: N/D
 municipio: Playa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3547,6 +3721,8 @@ lugardenacimiento: N/D
 municipio: Playa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3587,6 +3763,8 @@ lugardenacimiento: N/D
 municipio: La Lisa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3627,6 +3805,8 @@ lugardenacimiento: N/D
 municipio: Marianao
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3667,6 +3847,8 @@ lugardenacimiento: N/D
 municipio: La Lisa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3707,6 +3889,8 @@ lugardenacimiento: N/D
 municipio: Playa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3747,6 +3931,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3787,6 +3973,8 @@ lugardenacimiento: N/D
 municipio: Playa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3827,6 +4015,8 @@ lugardenacimiento: N/D
 municipio: Centro Habana
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3867,6 +4057,8 @@ lugardenacimiento: N/D
 municipio: Guanabacoa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3893,8 +4085,6 @@ ciudadania: N/D
 cn: Analay
 uidNumber: 5002
 gidNumber: 10000
-objectClass: posixAccount
-objectClass: shadowAccount
 homeDirectory: /home/user2
 correo: acruz@fcf.uh.cu
 cuotainternet: 0
@@ -3912,6 +4102,8 @@ lugardenacimiento: N/D
 municipio: Boyeros
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3952,6 +4144,8 @@ lugardenacimiento: N/D
 municipio: Playa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3992,6 +4186,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4032,6 +4228,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4072,6 +4270,8 @@ lugardenacimiento: N/D
 municipio: Boyeros
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4112,6 +4312,8 @@ lugardenacimiento: N/D
 municipio: La Lisa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4152,6 +4354,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4192,6 +4396,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4232,6 +4438,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4272,6 +4480,8 @@ lugardenacimiento: N/D
 municipio: Regla
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4312,6 +4522,8 @@ lugardenacimiento: N/D
 municipio: Guanabacoa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4352,6 +4564,8 @@ lugardenacimiento: N/D
 municipio: Guanabacoa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4392,6 +4606,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4432,6 +4648,8 @@ lugardenacimiento: N/D
 municipio: Marianao
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4472,6 +4690,8 @@ lugardenacimiento: N/D
 municipio: Cerro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4512,6 +4732,8 @@ lugardenacimiento: N/D
 municipio: Cerro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4552,6 +4774,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4592,6 +4816,8 @@ lugardenacimiento: N/D
 municipio: Playa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4632,6 +4858,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4672,6 +4900,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4712,6 +4942,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4752,6 +4984,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4792,6 +5026,8 @@ lugardenacimiento: N/D
 municipio: Cotorro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4832,6 +5068,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4872,6 +5110,8 @@ lugardenacimiento: N/D
 municipio: Cerro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4912,6 +5152,8 @@ lugardenacimiento: N/D
 municipio: Centro Habana
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4952,6 +5194,8 @@ lugardenacimiento: N/D
 municipio: San Miguel Del Padron
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4992,6 +5236,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5032,6 +5278,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5072,6 +5320,8 @@ lugardenacimiento: N/D
 municipio: Centro Habana
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5112,6 +5362,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5152,6 +5404,8 @@ lugardenacimiento: N/D
 municipio: Playa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5192,6 +5446,8 @@ lugardenacimiento: N/D
 municipio: La Habana Vieja
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5232,6 +5488,8 @@ lugardenacimiento: N/D
 municipio: La Lisa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5272,6 +5530,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5312,6 +5572,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5352,6 +5614,8 @@ lugardenacimiento: N/D
 municipio: Playa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5392,6 +5656,8 @@ lugardenacimiento: N/D
 municipio: San Miguel Del Padron
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5432,6 +5698,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5472,6 +5740,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5512,6 +5782,8 @@ lugardenacimiento: N/D
 municipio: Boyeros
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5552,6 +5824,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5592,6 +5866,8 @@ lugardenacimiento: N/D
 municipio: Boyeros
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5632,6 +5908,8 @@ lugardenacimiento: N/D
 municipio: Centro Habana
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5672,6 +5950,8 @@ lugardenacimiento: N/D
 municipio: Regla
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5712,6 +5992,8 @@ lugardenacimiento: N/D
 municipio: Cerro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5752,6 +6034,8 @@ lugardenacimiento: N/D
 municipio: Centro Habana
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5792,6 +6076,8 @@ lugardenacimiento: N/D
 municipio: San Antonio De Los Baños
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: Artemisa
@@ -5832,6 +6118,8 @@ lugardenacimiento: N/D
 municipio: La Lisa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5872,6 +6160,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5912,6 +6202,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5952,6 +6244,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5992,6 +6286,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6032,6 +6328,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6072,6 +6370,8 @@ lugardenacimiento: N/D
 municipio: Playa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6112,6 +6412,8 @@ lugardenacimiento: N/D
 municipio: La Lisa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6152,6 +6454,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6192,6 +6496,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6232,6 +6538,8 @@ lugardenacimiento: N/D
 municipio: Centro Habana
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6272,6 +6580,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6312,6 +6622,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6352,6 +6664,8 @@ lugardenacimiento: N/D
 municipio: Marianao
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6392,6 +6706,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6432,6 +6748,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6472,6 +6790,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6512,6 +6832,8 @@ lugardenacimiento: N/D
 municipio: Cerro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6552,6 +6874,8 @@ lugardenacimiento: N/D
 municipio: La Lisa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6592,6 +6916,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6632,6 +6958,8 @@ lugardenacimiento: N/D
 municipio: Boyeros
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6672,6 +7000,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6712,6 +7042,8 @@ lugardenacimiento: N/D
 municipio: Centro Habana
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6752,6 +7084,8 @@ lugardenacimiento: N/D
 municipio: Centro Habana
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6792,6 +7126,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6832,6 +7168,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6872,6 +7210,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6912,6 +7252,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6952,6 +7294,8 @@ lugardenacimiento: N/D
 municipio: Guanabacoa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6992,6 +7336,8 @@ lugardenacimiento: N/D
 municipio: Arroyo Naranjo
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7032,6 +7378,8 @@ lugardenacimiento: N/D
 municipio: Playa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7072,6 +7420,8 @@ lugardenacimiento: N/D
 municipio: La Lisa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7112,6 +7462,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7152,6 +7504,8 @@ lugardenacimiento: N/D
 municipio: Playa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7192,6 +7546,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7232,6 +7588,8 @@ lugardenacimiento: N/D
 municipio: San Miguel Del Padron
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7272,6 +7630,8 @@ lugardenacimiento: N/D
 municipio: Playa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7312,6 +7672,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7352,6 +7714,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7392,6 +7756,8 @@ lugardenacimiento: N/D
 municipio: Centro Habana
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7432,6 +7798,8 @@ lugardenacimiento: N/D
 municipio: Playa
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7472,6 +7840,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7512,6 +7882,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7552,6 +7924,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7592,6 +7966,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7632,6 +8008,8 @@ lugardenacimiento: N/D
 municipio: San Miguel Del Padron
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7672,6 +8050,8 @@ lugardenacimiento: N/D
 municipio: Diez De Octubre
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7712,6 +8092,8 @@ lugardenacimiento: N/D
 municipio: Plaza De La Revolucion
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7752,6 +8134,8 @@ lugardenacimiento: N/D
 municipio: Centro Habana
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7792,6 +8176,8 @@ lugardenacimiento: N/D
 municipio: La Habana Del Este
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7832,6 +8218,8 @@ lugardenacimiento: N/D
 municipio: San Miguel Del Padron
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7872,6 +8260,8 @@ lugardenacimiento: N/D
 municipio: Cotorro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7912,6 +8302,8 @@ lugardenacimiento: N/D
 municipio: Cerro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7952,6 +8344,8 @@ lugardenacimiento: N/D
 municipio: Cerro
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7992,6 +8386,8 @@ lugardenacimiento: N/D
 municipio: Centro Habana
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -8032,6 +8428,8 @@ lugardenacimiento: N/D
 municipio: Centro Habana
 objectclass: Estudiante
 objectclass: top
+objectClass: posixAccount
+objectClass: shadowAccount
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
