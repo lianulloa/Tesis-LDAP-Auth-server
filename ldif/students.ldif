@@ -1,12 +1,12 @@
 
 # Entry 1: uid=amartínez@estudiantes.fbio.uh.cu,ou=Estudiantes,dc=uh,dc=cu
-dn: uid=amartínez@estudiantes.matcom.grs.uh.cu,ou=Estudiantes,dc=uh,dc=cu
+dn: uid=amartinez@estudiantes.matcom.grs.uh.cu,ou=Estudiantes,dc=uh,dc=cu
 becado: Externo
 carrera: Contabilidad y Finanzas
 ci: 91012429059
 ciudadania: N/D
 cn: Anisley
-correo: amartínez@estudiantes.matcom.grs.uh.cu
+correo: amartinez@estudiantes.matcom.grs.uh.cu
 cuotainternet: 0
 direccion: N/D
 edad: 28
@@ -41,7 +41,7 @@ tieneinternet: TRUE
 tipodecurso: Curso por Encuentros
 uid: amartínez@estudiantes.matcom.grs.uh.cu
 ujc: TRUE
-userpassword: {SSHA}Lup1u+byEBjsrVWVW5xeU/1uToZmRDVP
+userpassword: 12345678
 idsigenu: -34204687:1322f330ab7:-7f21
 
 # Entry 1: uid=amartínez@estudiantes.fbio.uh.cu,ou=Estudiantes,dc=uh,dc=cu
@@ -90,13 +90,13 @@ userPassword: 12345678
 idsigenu: -34204687:1322f330ab7:-7f21
 
 # Entry 2: uid=imartinez@estudiantes.fcf.uh.cu,ou=Estudiantes,dc=uh,dc=cu
-dn: uid=imartinez@estudiantes.fcf.uh.cu,ou=Estudiantes,dc=uh,dc=cu
+dn: uid=i.martinez,ou=Estudiantes,dc=uh,dc=cu
 becado: Externo
 carrera: Contabilidad y Finanzas
 ci: 93122404814
 ciudadania: N/D
 cn: Ivis
-correo: imartinez@estudiantes.fcf.uh.cu
+correo: i.martinez@estudiantes.matcom.grs.uh.cu
 cuotainternet: 0
 direccion: N/D
 edad: 25
@@ -116,7 +116,7 @@ objectClass: posixAccount
 objectClass: shadowAccount
 uidNumber: 5002
 gidNumber: 10000
-homeDirectory: /home/user2
+homeDirectory: /home/i.martinez
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -129,9 +129,9 @@ tienechat: TRUE
 tienecorreo: TRUE
 tieneinternet: TRUE
 tipodecurso: Curso Regular Diurno
-uid: ivis.martinez.pena_-193e3cf1131dd50c418-559f
+uid: i.martinez
 ujc: FALSE
-userpassword: {SSHA}2NGFx0iWw1zcvTO/6mGOgZ7WJF9vWm5O
+userpassword: 12345678
 idsigenu: -193e3cf1:131dd50c418:-559f
 
 # Entry 3: uid=ycala@estudiante.fcf.uh.cu,ou=Estudiantes,dc=uh,dc=cu
