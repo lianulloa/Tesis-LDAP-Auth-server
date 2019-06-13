@@ -27,7 +27,7 @@ COPY /mail/dovecot.conf /etc/dovecot/
 COPY /mail/mail.key /etc/ssl/private/mail.key
 COPY /mail/mailcert.pem /etc/ssl/certs/mailcert.pem
 COPY /scripts/start-dovecot.sh /root/
-RUN chmod +x /root/start-dovecot.sh
+# RUN chmod +x /root/start-dovecot.sh
 
 
 ENTRYPOINT [ "/root/start-postfix-ldap.sh" ]

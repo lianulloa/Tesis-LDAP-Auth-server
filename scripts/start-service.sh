@@ -38,6 +38,8 @@ sed -i -re 's/passwd:         compat/passwd:         compat ldap/' /etc/nsswitch
 sed -i -re 's/group:          compat/group:          compat ldap/' /etc/nsswitch.conf
 sed -i -re 's/shadow:         compat/shadow:         compat ldap/' /etc/nsswitch.conf
 
+# UNCOMMENT THIS TO AUTOMATICALLY CREATE HOME DIRECTORY
+# echo "session required        pam_mkhomedir.so skel=/etc/skel umask=0022"  >> /etc/pam.d/common-session
 
 service slapd start
 service apache2 start

@@ -1,12 +1,12 @@
 
 # Entry 1: uid=amartínez@estudiantes.fbio.uh.cu,ou=Estudiantes,dc=uh,dc=cu
-dn: uid=amartínez@estudiantes.fbio.uh.cu,ou=Estudiantes,dc=uh,dc=cu
+dn: uid=amartínez@estudiantes.matcom.grs.uh.cu,ou=Estudiantes,dc=uh,dc=cu
 becado: Externo
 carrera: Contabilidad y Finanzas
 ci: 91012429059
 ciudadania: N/D
 cn: Anisley
-correo: amartínez@estudiantes.fbio.uh.cu
+correo: amartínez@estudiantes.matcom.grs.uh.cu
 cuotainternet: 0
 direccion: N/D
 edad: 28
@@ -24,6 +24,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5000
+gidNumber: 10000
+homeDirectory: /home/amartínez
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -36,7 +39,7 @@ tienechat: TRUE
 tienecorreo: TRUE
 tieneinternet: TRUE
 tipodecurso: Curso por Encuentros
-uid: anisley.martinez.domenech_-342046871322f330ab7-7f21
+uid: amartínez@estudiantes.matcom.grs.uh.cu
 ujc: TRUE
 userpassword: {SSHA}Lup1u+byEBjsrVWVW5xeU/1uToZmRDVP
 idsigenu: -34204687:1322f330ab7:-7f21
@@ -51,7 +54,7 @@ cn: user1
 uidNumber: 5001
 gidNumber: 10000
 homeDirectory: /home/user1
-correo: amartínez@estudiantes.fbio.uh.cu
+correo: user1@estudiantes.matcom.grs.uh.cu
 cuotainternet: 0
 direccion: N/D
 edad: 28
@@ -111,6 +114,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5002
+gidNumber: 10000
+homeDirectory: /home/user2
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -153,6 +159,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5003
+gidNumber: 10000
+homeDirectory: /home/user3
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -195,6 +204,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5004
+gidNumber: 10000
+homeDirectory: /home/user4
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -237,6 +249,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5005
+gidNumber: 10000
+homeDirectory: /home/user5
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -279,6 +294,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5006
+gidNumber: 10000
+homeDirectory: /home/user6
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -321,6 +339,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5007
+gidNumber: 10000
+homeDirectory: /home/user7
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -363,6 +384,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -405,6 +429,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -447,6 +474,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -489,6 +519,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -531,6 +564,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -573,6 +609,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -615,6 +654,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -657,6 +699,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -699,6 +744,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -741,6 +789,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -783,6 +834,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -825,6 +879,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -867,6 +924,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -909,6 +969,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -951,6 +1014,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -993,6 +1059,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1035,6 +1104,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1077,6 +1149,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1119,6 +1194,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1161,6 +1239,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1203,6 +1284,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1245,6 +1329,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1287,6 +1374,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1329,6 +1419,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1371,6 +1464,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1413,6 +1509,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1455,6 +1554,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1497,6 +1599,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1539,6 +1644,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1581,6 +1689,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1623,6 +1734,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1665,6 +1779,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1707,6 +1824,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1749,6 +1869,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1791,6 +1914,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: TRUE
 provincia: La Habana
@@ -1833,6 +1959,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1875,6 +2004,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1917,6 +2049,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -1959,6 +2094,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: TRUE
 provincia: La Habana
@@ -2001,6 +2139,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2043,6 +2184,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2085,6 +2229,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2127,6 +2274,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2169,6 +2319,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2211,6 +2364,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2253,6 +2409,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2295,6 +2454,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2337,6 +2499,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2379,6 +2544,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2421,6 +2589,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2463,6 +2634,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2505,6 +2679,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2547,6 +2724,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2589,6 +2769,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2631,6 +2814,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2673,6 +2859,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2715,6 +2904,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: TRUE
 provincia: La Habana
@@ -2757,6 +2949,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2799,6 +2994,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2841,6 +3039,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: TRUE
 provincia: La Habana
@@ -2883,6 +3084,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2925,6 +3129,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -2967,6 +3174,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3009,6 +3219,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3051,6 +3264,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3093,6 +3309,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3135,6 +3354,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3177,6 +3399,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3219,6 +3444,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3261,6 +3489,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3303,6 +3534,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: Cienfuegos
@@ -3345,6 +3579,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3387,6 +3624,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: TRUE
 provincia: La Habana
@@ -3429,6 +3669,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3471,6 +3714,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3513,6 +3759,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3555,6 +3804,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3597,6 +3849,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: Artemisa
@@ -3639,6 +3894,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3681,6 +3939,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3723,6 +3984,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3765,6 +4029,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3807,6 +4074,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3849,6 +4119,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3891,6 +4164,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3933,6 +4209,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -3975,6 +4254,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4017,6 +4299,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4059,6 +4344,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4083,9 +4371,6 @@ carrera: Contabilidad y Finanzas
 ci: 94102730414
 ciudadania: N/D
 cn: Analay
-uidNumber: 5002
-gidNumber: 10000
-homeDirectory: /home/user2
 correo: acruz@fcf.uh.cu
 cuotainternet: 0
 direccion: N/D
@@ -4104,6 +4389,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4146,6 +4434,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4188,6 +4479,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4230,6 +4524,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4272,6 +4569,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4314,6 +4614,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4356,6 +4659,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4398,6 +4704,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4440,6 +4749,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4482,6 +4794,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4524,6 +4839,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4566,6 +4884,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4608,6 +4929,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4650,6 +4974,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4692,6 +5019,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4734,6 +5064,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4776,6 +5109,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4818,6 +5154,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4860,6 +5199,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4902,6 +5244,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4944,6 +5289,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -4986,6 +5334,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5028,6 +5379,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5070,6 +5424,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5112,6 +5469,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5154,6 +5514,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5196,6 +5559,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5238,6 +5604,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5280,6 +5649,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5322,6 +5694,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5364,6 +5739,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5406,6 +5784,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5448,6 +5829,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5490,6 +5874,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5532,6 +5919,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5574,6 +5964,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5616,6 +6009,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5658,6 +6054,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5700,6 +6099,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5742,6 +6144,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5784,6 +6189,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5826,6 +6234,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5868,6 +6279,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5910,6 +6324,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5952,6 +6369,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -5994,6 +6414,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6036,6 +6459,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6078,6 +6504,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: Artemisa
@@ -6120,6 +6549,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6162,6 +6594,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6204,6 +6639,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6246,6 +6684,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6288,6 +6729,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6330,6 +6774,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6372,6 +6819,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6414,6 +6864,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6456,6 +6909,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6498,6 +6954,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6540,6 +6999,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6582,6 +7044,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6624,6 +7089,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6666,6 +7134,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6708,6 +7179,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6750,6 +7224,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6792,6 +7269,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6834,6 +7314,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6876,6 +7359,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6918,6 +7404,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -6960,6 +7449,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7002,6 +7494,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7044,6 +7539,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7086,6 +7584,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7128,6 +7629,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7170,6 +7674,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7212,6 +7719,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7254,6 +7764,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7296,6 +7809,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7338,6 +7854,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7380,6 +7899,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7422,6 +7944,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7464,6 +7989,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7506,6 +8034,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7548,6 +8079,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7590,6 +8124,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7632,6 +8169,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7674,6 +8214,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7716,6 +8259,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7758,6 +8304,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7800,6 +8349,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7842,6 +8394,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7884,6 +8439,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7926,6 +8484,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -7968,6 +8529,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -8010,6 +8574,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -8052,6 +8619,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -8094,6 +8664,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -8136,6 +8709,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -8178,6 +8754,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -8220,6 +8799,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -8262,6 +8844,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -8304,6 +8889,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -8346,6 +8934,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -8388,6 +8979,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana
@@ -8430,6 +9024,9 @@ objectclass: Estudiante
 objectclass: top
 objectClass: posixAccount
 objectClass: shadowAccount
+uidNumber: 5001
+gidNumber: 10000
+homeDirectory: /home/user1
 pais: Cuba
 pcc: FALSE
 provincia: La Habana

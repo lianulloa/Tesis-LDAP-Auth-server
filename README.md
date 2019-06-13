@@ -37,7 +37,7 @@
 
 ## Run image
 
-`$ docker run --rm -it -p 8000:80 m-l/ldap`
+`$ docker run --name=ldap_server -i  -d -p 8000:80 -p 389:389 m-l/ldap`
 
 ## Build image
 

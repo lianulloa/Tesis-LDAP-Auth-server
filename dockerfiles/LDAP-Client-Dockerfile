@@ -19,6 +19,9 @@ RUN chmod +x /root/ldap/configure-ldap-client-using-expect.sh
 RUN mv /etc/apt/sources.list.d/online.list /etc/apt/sources.list.d/online.list.disabled
 COPY /resources/uh.list /etc/apt/sources.list.d/
 
+# NEEDED TO BE ABLE TO WRITE LATIN ACCENT ON COMMAND LINE
+RUN locale-gen es_CU
+ENV LANG='es_CU' LANGUAGE='es_CU:es' LC_ALL='es_CU'
 
 ENTRYPOINT [ "/root/ldap/start-service.sh" ]
 
